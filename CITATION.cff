@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or the item-to-domain assignments, please cite the paper below."
+title: "From Composite to Components: code and data products for domain-differentiated scoring of the Bayley-III cognition scale"
+authors:
+  - family-names: "Zaggia"
+    given-names: "Leonardo"
+    affiliation: "Psychological Methods and Statistics, Department of Psychology, School of Medicine and Health Sciences, Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany"
+    email: "leonardo.zaggia@uol.de"
+repository-code: "https://github.com/leonardozaggia/embedded_pub"
+url: "https://leonardozaggia.github.io/bayley-cognitive-map/"
+license: MIT
+type: software
+preferred-citation:
+  type: article
+  title: "From Composite to Components: Evaluating the Impact of Domain Differentiation on Bayley-III Cognitive Diagnostic Precision"
+  authors:
+    - family-names: "Zaggia"
+      given-names: "Leonardo"
+      affiliation: "Psychological Methods and Statistics, Department of Psychology, School of Medicine and Health Sciences, Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany"
+    - family-names: "Diederich"
+      given-names: "Adele"
+    - family-names: "Hilgendorff"
+      given-names: "Anne"
+    - family-names: "Heep"
+      given-names: "Axel"
+    - family-names: "Hildebrandt"
+      given-names: "Andrea"
+      affiliation: "Psychological Methods and Statistics, Department of Psychology, School of Medicine and Health Sciences, Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany"
+  year: 2026
+  notes: "Submitted to The Lancet Child & Adolescent Health; volume, pages and DOI to be added on publication."

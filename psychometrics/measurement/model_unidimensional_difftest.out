@@ -1,0 +1,1378 @@
+Mplus VERSION 8.6
+MUTHEN & MUTHEN
+09/08/2026   4:55 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+    Dimensionality DIFFTEST, step 2 of 2: the MORE restrictive model (H0)
+    1-factor CFA: COG (single general cognitive dimension); 23 dichotomous
+    items, WLSMV. Identical specification to
+    psychometrics/measurement/model_unidimensional.inp (df = 230), minus the
+    factor-score SAVEDATA.
+    The unidimensional model is nested in the 3-factor model (it is the
+    3-factor model with all three factor correlations fixed at 1), so the
+    WLSMV chi-square difference test (Mplus DIFFTEST; Asparouhov & Muthen,
+    2006) is valid: 3 df.
+
+  DATA:
+    FILE = "../../psychometrics/combined.dat";
+
+  VARIABLE:
+    NAMES ARE
+      COG034 COG035 COG036 COG037 COG038 COG039 COG040 COG041
+      COG042 COG043 COG044 COG045 COG046 COG047 COG048 COG049 COG050
+      COG051 COG052 COG053 COG054 COG055 COG056 COG057 COG058
+      COG060 COG061 COG062 COG063 COG064 COG065 COG066 COG067 COG068
+      GA BirthWt Sex HdCirc IUGR GDiab PrEcl AntCor_P AntCor_C
+      MomAge MomEdu DadEdu EthSAsian EthBlack EthMixed EthOther
+      MomEng EPDSTot StimEnv PrLax PrOvr PrVrb PrSty
+      CBInt CBExt CBTot CBAnx CBWth CBSom CBSlp CBAtt CBAgg
+      ECSur ECNeg ECEff BayMot BayLan QchatTot CBEmR;
+
+    USEVARIABLES ARE
+      COG040 COG041
+      COG043 COG044 COG045 COG046 COG048 COG049 COG050
+      COG051 COG052 COG053 COG054 COG055 COG056 COG057 COG058
+      COG060 COG061 COG062 COG063 COG064 COG066;
+
+    CATEGORICAL ARE
+      COG040 COG041
+      COG043 COG044 COG045 COG046 COG048 COG049 COG050
+      COG051 COG052 COG053 COG054 COG055 COG056 COG057 COG058
+      COG060 COG061 COG062 COG063 COG064 COG066;
+
+    MISSING ARE ALL (-999);
+
+  ANALYSIS:
+    ESTIMATOR = WLSMV;
+    DIFFTEST = "difftest_3factor.dat";
+
+  MODEL:
+    COG BY
+      COG040 COG045 COG050 COG064
+      COG041 COG043 COG044 COG046
+      COG048 COG052 COG053 COG057
+      COG049 COG051 COG054 COG055 COG056
+      COG058 COG060 COG061 COG062 COG063 COG066;
+
+  OUTPUT:
+    STANDARDIZED;
+    SAMPSTAT;
+    TECH1;
+    TECH4;
+    CINTERVAL;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+Dimensionality DIFFTEST, step 2 of 2: the MORE restrictive model (H0)
+1-factor CFA: COG (single general cognitive dimension); 23 dichotomous
+items, WLSMV. Identical specification to
+psychometrics/measurement/model_unidimensional.inp (df = 230), minus the
+factor-score SAVEDATA.
+The unidimensional model is nested in the 3-factor model (it is the
+3-factor model with all three factor correlations fixed at 1), so the
+WLSMV chi-square difference test (Mplus DIFFTEST; Asparouhov & Muthen,
+2006) is valid: 3 df.
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                         739
+
+Number of dependent variables                                   23
+Number of independent variables                                  0
+Number of continuous latent variables                            1
+
+Observed dependent variables
+
+  Binary and ordered categorical (ordinal)
+   COG040      COG041      COG043      COG044      COG045      COG046
+   COG048      COG049      COG050      COG051      COG052      COG053
+   COG054      COG055      COG056      COG057      COG058      COG060
+   COG061      COG062      COG063      COG064      COG066
+
+Continuous latent variables
+   COG
+
+
+Estimator                                                    WLSMV
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+Parameterization                                             DELTA
+Link                                                        PROBIT
+
+Input data file(s)
+  ../../psychometrics/combined.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns             1
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.100
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              COG040        COG041        COG043        COG044        COG045
+              ________      ________      ________      ________      ________
+ COG040         1.000
+ COG041         1.000         1.000
+ COG043         1.000         1.000         1.000
+ COG044         1.000         1.000         1.000         1.000
+ COG045         1.000         1.000         1.000         1.000         1.000
+ COG046         1.000         1.000         1.000         1.000         1.000
+ COG048         1.000         1.000         1.000         1.000         1.000
+ COG049         1.000         1.000         1.000         1.000         1.000
+ COG050         1.000         1.000         1.000         1.000         1.000
+ COG051         1.000         1.000         1.000         1.000         1.000
+ COG052         1.000         1.000         1.000         1.000         1.000
+ COG053         1.000         1.000         1.000         1.000         1.000
+ COG054         1.000         1.000         1.000         1.000         1.000
+ COG055         1.000         1.000         1.000         1.000         1.000
+ COG056         1.000         1.000         1.000         1.000         1.000
+ COG057         1.000         1.000         1.000         1.000         1.000
+ COG058         1.000         1.000         1.000         1.000         1.000
+ COG060         1.000         1.000         1.000         1.000         1.000
+ COG061         1.000         1.000         1.000         1.000         1.000
+ COG062         1.000         1.000         1.000         1.000         1.000
+ COG063         1.000         1.000         1.000         1.000         1.000
+ COG064         1.000         1.000         1.000         1.000         1.000
+ COG066         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              COG046        COG048        COG049        COG050        COG051
+              ________      ________      ________      ________      ________
+ COG046         1.000
+ COG048         1.000         1.000
+ COG049         1.000         1.000         1.000
+ COG050         1.000         1.000         1.000         1.000
+ COG051         1.000         1.000         1.000         1.000         1.000
+ COG052         1.000         1.000         1.000         1.000         1.000
+ COG053         1.000         1.000         1.000         1.000         1.000
+ COG054         1.000         1.000         1.000         1.000         1.000
+ COG055         1.000         1.000         1.000         1.000         1.000
+ COG056         1.000         1.000         1.000         1.000         1.000
+ COG057         1.000         1.000         1.000         1.000         1.000
+ COG058         1.000         1.000         1.000         1.000         1.000
+ COG060         1.000         1.000         1.000         1.000         1.000
+ COG061         1.000         1.000         1.000         1.000         1.000
+ COG062         1.000         1.000         1.000         1.000         1.000
+ COG063         1.000         1.000         1.000         1.000         1.000
+ COG064         1.000         1.000         1.000         1.000         1.000
+ COG066         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              COG052        COG053        COG054        COG055        COG056
+              ________      ________      ________      ________      ________
+ COG052         1.000
+ COG053         1.000         1.000
+ COG054         1.000         1.000         1.000
+ COG055         1.000         1.000         1.000         1.000
+ COG056         1.000         1.000         1.000         1.000         1.000
+ COG057         1.000         1.000         1.000         1.000         1.000
+ COG058         1.000         1.000         1.000         1.000         1.000
+ COG060         1.000         1.000         1.000         1.000         1.000
+ COG061         1.000         1.000         1.000         1.000         1.000
+ COG062         1.000         1.000         1.000         1.000         1.000
+ COG063         1.000         1.000         1.000         1.000         1.000
+ COG064         1.000         1.000         1.000         1.000         1.000
+ COG066         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              COG057        COG058        COG060        COG061        COG062
+              ________      ________      ________      ________      ________
+ COG057         1.000
+ COG058         1.000         1.000
+ COG060         1.000         1.000         1.000
+ COG061         1.000         1.000         1.000         1.000
+ COG062         1.000         1.000         1.000         1.000         1.000
+ COG063         1.000         1.000         1.000         1.000         1.000
+ COG064         1.000         1.000         1.000         1.000         1.000
+ COG066         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              COG063        COG064        COG066
+              ________      ________      ________
+ COG063         1.000
+ COG064         1.000         1.000
+ COG066         1.000         1.000         1.000
+
+
+UNIVARIATE PROPORTIONS AND COUNTS FOR CATEGORICAL VARIABLES
+
+    COG040
+      Category 1    0.127           94.000
+      Category 2    0.873          645.000
+    COG041
+      Category 1    0.280          207.000
+      Category 2    0.720          532.000
+    COG043
+      Category 1    0.143          106.000
+      Category 2    0.857          633.000
+    COG044
+      Category 1    0.112           83.000
+      Category 2    0.888          656.000
+    COG045
+      Category 1    0.372          275.000
+      Category 2    0.628          464.000
+    COG046
+      Category 1    0.513          379.000
+      Category 2    0.487          360.000
+    COG048
+      Category 1    0.108           80.000
+      Category 2    0.892          659.000
+    COG049
+      Category 1    0.156          115.000
+      Category 2    0.844          624.000
+    COG050
+      Category 1    0.273          202.000
+      Category 2    0.727          537.000
+    COG051
+      Category 1    0.120           89.000
+      Category 2    0.880          650.000
+    COG052
+      Category 1    0.317          234.000
+      Category 2    0.683          505.000
+    COG053
+      Category 1    0.334          247.000
+      Category 2    0.666          492.000
+    COG054
+      Category 1    0.332          245.000
+      Category 2    0.668          494.000
+    COG055
+      Category 1    0.122           90.000
+      Category 2    0.878          649.000
+    COG056
+      Category 1    0.441          326.000
+      Category 2    0.559          413.000
+    COG057
+      Category 1    0.816          603.000
+      Category 2    0.184          136.000
+    COG058
+      Category 1    0.434          321.000
+      Category 2    0.566          418.000
+    COG060
+      Category 1    0.612          452.000
+      Category 2    0.388          287.000
+    COG061
+      Category 1    0.759          561.000
+      Category 2    0.241          178.000
+    COG062
+      Category 1    0.850          628.000
+      Category 2    0.150          111.000
+    COG063
+      Category 1    0.886          655.000
+      Category 2    0.114           84.000
+    COG064
+      Category 1    0.763          564.000
+      Category 2    0.237          175.000
+    COG066
+      Category 1    0.824          609.000
+      Category 2    0.176          130.000
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           MEANS/INTERCEPTS/THRESHOLDS
+              COG040$1      COG041$1      COG043$1      COG044$1      COG045$1
+              ________      ________      ________      ________      ________
+               -1.140        -0.583        -1.065        -1.214        -0.326
+
+
+           MEANS/INTERCEPTS/THRESHOLDS
+              COG046$1      COG048$1      COG049$1      COG050$1      COG051$1
+              ________      ________      ________      ________      ________
+                0.032        -1.236        -1.013        -0.603        -1.173
+
+
+           MEANS/INTERCEPTS/THRESHOLDS
+              COG052$1      COG053$1      COG054$1      COG055$1      COG056$1
+              ________      ________      ________      ________      ________
+               -0.477        -0.428        -0.436        -1.166        -0.148
+
+
+           MEANS/INTERCEPTS/THRESHOLDS
+              COG057$1      COG058$1      COG060$1      COG061$1      COG062$1
+              ________      ________      ________      ________      ________
+                0.900        -0.165         0.284         0.704         1.036
+
+
+           MEANS/INTERCEPTS/THRESHOLDS
+              COG063$1      COG064$1      COG066$1
+              ________      ________      ________
+                1.207         0.717         0.931
+
+
+           CORRELATION MATRIX (WITH VARIANCES ON THE DIAGONAL)
+              COG040        COG041        COG043        COG044        COG045
+              ________      ________      ________      ________      ________
+ COG040
+ COG041         0.088
+ COG043         0.095         0.221
+ COG044         0.340         0.318         0.291
+ COG045         0.534         0.217         0.265         0.304
+ COG046         0.193         0.179         0.160         0.241         0.214
+ COG048         0.123         0.213         0.261         0.357         0.154
+ COG049         0.307         0.188         0.310         0.301         0.315
+ COG050         0.487         0.247         0.310         0.330         0.573
+ COG051         0.265         0.293         0.283         0.339         0.335
+ COG052         0.128         0.202         0.572         0.272         0.206
+ COG053         0.080         0.160         0.152         0.329         0.231
+ COG054         0.169         0.166         0.320         0.230         0.192
+ COG055         0.187         0.319         0.438         0.334         0.262
+ COG056         0.235         0.168         0.286         0.324         0.247
+ COG057         0.084         0.315         0.107         0.063         0.104
+ COG058         0.133         0.192         0.267         0.246         0.238
+ COG060         0.202         0.249         0.351         0.322         0.297
+ COG061         0.056         0.256         0.402         0.228         0.155
+ COG062         0.230         0.351         0.447         0.230         0.314
+ COG063         0.180         0.322         0.264         0.244         0.179
+ COG064         0.325         0.276         0.396         0.313         0.300
+ COG066         0.151         0.333         0.398         0.372         0.235
+
+
+           CORRELATION MATRIX (WITH VARIANCES ON THE DIAGONAL)
+              COG046        COG048        COG049        COG050        COG051
+              ________      ________      ________      ________      ________
+ COG048         0.221
+ COG049         0.229         0.204
+ COG050         0.126         0.262         0.400
+ COG051         0.228         0.354         0.686         0.402
+ COG052         0.000         0.242         0.277         0.273         0.343
+ COG053         0.133         0.909         0.188         0.242         0.266
+ COG054         0.087         0.218         0.249         0.289         0.335
+ COG055         0.269         0.326         0.628         0.411         0.713
+ COG056         0.229         0.086         0.904         0.311         0.723
+ COG057         0.124         0.174         0.272         0.113         0.245
+ COG058         0.226         0.151         0.564         0.276         0.897
+ COG060         0.256         0.178         0.711         0.352         0.682
+ COG061         0.284         0.079         0.489         0.317         0.534
+ COG062         0.361         0.137         0.469         0.253         0.466
+ COG063         0.302         0.129         0.550         0.371         0.397
+ COG064         0.248         0.371         0.423         0.323         0.483
+ COG066         0.386         0.230         0.697         0.302         0.651
+
+
+           CORRELATION MATRIX (WITH VARIANCES ON THE DIAGONAL)
+              COG052        COG053        COG054        COG055        COG056
+              ________      ________      ________      ________      ________
+ COG053         0.260
+ COG054         0.380         0.211
+ COG055         0.474         0.307         0.405
+ COG056         0.281         0.168         0.223         0.688
+ COG057         0.210         0.136         0.252         0.460         0.249
+ COG058         0.231         0.082         0.310         0.732         0.791
+ COG060         0.320         0.156         0.345         0.619         0.899
+ COG061         0.354         0.140         0.340         0.662         0.641
+ COG062         0.284         0.167         0.198         0.623         0.461
+ COG063         0.347         0.206         0.293         0.571         0.650
+ COG064         0.372         0.362         0.440         0.658         0.633
+ COG066         0.320         0.201         0.431         0.653         0.805
+
+
+           CORRELATION MATRIX (WITH VARIANCES ON THE DIAGONAL)
+              COG057        COG058        COG060        COG061        COG062
+              ________      ________      ________      ________      ________
+ COG058         0.332
+ COG060         0.332         0.800
+ COG061         0.392         0.609         0.647
+ COG062         0.280         0.503         0.504         0.563
+ COG063         0.344         0.644         0.701         0.838         0.536
+ COG064         0.337         0.590         0.636         0.615         0.521
+ COG066         0.328         0.886         0.838         0.822         0.680
+
+
+           CORRELATION MATRIX (WITH VARIANCES ON THE DIAGONAL)
+              COG063        COG064        COG066
+              ________      ________      ________
+ COG064         0.620
+ COG066         0.754         0.757
+
+     WARNING:  THE BIVARIATE TABLE OF COG058 AND COG051 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG062 AND COG055 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG063 AND COG055 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG066 AND COG049 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG066 AND COG051 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG066 AND COG055 HAS AN EMPTY CELL.
+
+     WARNING:  THE BIVARIATE TABLE OF COG066 AND COG058 HAS AN EMPTY CELL.
+
+
+     THIS ANALYSIS MAY HAVE MULTIPLE SOLUTIONS.  EXPLORE THIS USING RANDOM STARTS,
+     FOR EXAMPLE, STARTS = 20.  USE A LARGE ENOUGH NUMBER OF STARTS SO THAT THE
+     BEST FIT FUNCTION VALUE IS REPLICATED SEVERAL TIMES.
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       46
+
+Chi-Square Test of Model Fit
+
+          Value                           1193.599*
+          Degrees of Freedom                   230
+          P-Value                           0.0000
+
+Chi-Square Test for Difference Testing
+
+          Value                            246.109*
+          Degrees of Freedom                     3
+          P-Value                           0.0000
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.  The DIFFTEST
+    option assumes the models are nested.  The NESTED option can be used to verify
+    that the models are nested.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.075
+          90 Percent C.I.                    0.071  0.080
+          Probability RMSEA <= .05           0.000
+
+CFI/TLI
+
+          CFI                                0.885
+          TLI                                0.874
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                           8664.939
+          Degrees of Freedom                   253
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.113
+
+Optimum Function Value for Weighted Least-Squares Estimator
+
+          Value                     0.83267064D+00
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ COG      BY
+    COG040             1.000      0.000    999.000    999.000
+    COG045             1.222      0.215      5.697      0.000
+    COG050             1.472      0.259      5.689      0.000
+    COG064             2.282      0.406      5.626      0.000
+    COG041             1.068      0.224      4.761      0.000
+    COG043             1.448      0.299      4.842      0.000
+    COG044             1.328      0.263      5.049      0.000
+    COG046             1.003      0.210      4.771      0.000
+    COG048             1.680      0.317      5.300      0.000
+    COG052             1.363      0.263      5.189      0.000
+    COG053             1.416      0.272      5.202      0.000
+    COG057             1.179      0.250      4.714      0.000
+    COG049             2.470      0.438      5.635      0.000
+    COG051             2.366      0.426      5.558      0.000
+    COG054             1.309      0.255      5.135      0.000
+    COG055             2.498      0.444      5.627      0.000
+    COG056             2.805      0.494      5.682      0.000
+    COG058             2.436      0.435      5.605      0.000
+    COG060             2.749      0.483      5.686      0.000
+    COG061             2.449      0.439      5.577      0.000
+    COG062             1.946      0.354      5.496      0.000
+    COG063             2.506      0.447      5.613      0.000
+    COG066             2.844      0.502      5.660      0.000
+
+ Thresholds
+    COG040$1          -1.140      0.059    -19.376      0.000
+    COG041$1          -0.583      0.049    -11.873      0.000
+    COG043$1          -1.065      0.057    -18.689      0.000
+    COG044$1          -1.214      0.061    -19.954      0.000
+    COG045$1          -0.326      0.047     -6.940      0.000
+    COG046$1           0.032      0.046      0.699      0.485
+    COG048$1          -1.236      0.061    -20.100      0.000
+    COG049$1          -1.013      0.056    -18.143      0.000
+    COG050$1          -0.603      0.049    -12.231      0.000
+    COG051$1          -1.173      0.060    -19.646      0.000
+    COG052$1          -0.477      0.048     -9.927      0.000
+    COG053$1          -0.428      0.048     -8.983      0.000
+    COG054$1          -0.436      0.048     -9.128      0.000
+    COG055$1          -1.166      0.060    -19.593      0.000
+    COG056$1          -0.148      0.046     -3.199      0.001
+    COG057$1           0.900      0.054     16.800      0.000
+    COG058$1          -0.165      0.046     -3.567      0.000
+    COG060$1           0.284      0.047      6.062      0.000
+    COG061$1           0.704      0.050     13.931      0.000
+    COG062$1           1.036      0.056     18.388      0.000
+    COG063$1           1.207      0.061     19.904      0.000
+    COG064$1           0.717      0.051     14.141      0.000
+    COG066$1           0.931      0.054     17.192      0.000
+
+ Variances
+    COG                0.108      0.038      2.841      0.004
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.190E-05
+       (ratio of smallest to largest eigenvalue)
+
+
+IRT PARAMETERIZATION
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ Item Discriminations
+
+ COG      BY
+    COG040             0.347      0.068      5.071      0.000
+    COG045             0.438      0.054      8.070      0.000
+    COG050             0.551      0.062      8.909      0.000
+    COG064             1.129      0.101     11.190      0.000
+    COG041             0.374      0.055      6.805      0.000
+    COG043             0.540      0.078      6.965      0.000
+    COG044             0.484      0.079      6.125      0.000
+    COG046             0.348      0.051      6.840      0.000
+    COG048             0.661      0.093      7.067      0.000
+    COG052             0.500      0.057      8.755      0.000
+    COG053             0.525      0.056      9.397      0.000
+    COG057             0.419      0.063      6.619      0.000
+    COG049             1.382      0.150      9.233      0.000
+    COG051             1.232      0.162      7.581      0.000
+    COG054             0.475      0.057      8.307      0.000
+    COG055             1.429      0.194      7.358      0.000
+    COG056             2.350      0.249      9.451      0.000
+    COG058             1.329      0.100     13.243      0.000
+    COG060             2.086      0.187     11.169      0.000
+    COG061             1.349      0.118     11.400      0.000
+    COG062             0.830      0.090      9.186      0.000
+    COG063             1.444      0.167      8.647      0.000
+    COG066             2.591      0.401      6.459      0.000
+
+ Item Difficulties
+    COG040$1          -3.474      0.649     -5.351      0.000
+    COG041$1          -1.663      0.262     -6.343      0.000
+    COG043$1          -2.242      0.285     -7.853      0.000
+    COG044$1          -2.788      0.407     -6.857      0.000
+    COG045$1          -0.814      0.146     -5.582      0.000
+    COG046$1           0.098      0.141      0.696      0.486
+    COG048$1          -2.242      0.254     -8.838      0.000
+    COG049$1          -1.250      0.087    -14.354      0.000
+    COG050$1          -1.248      0.152     -8.217      0.000
+    COG051$1          -1.511      0.115    -13.104      0.000
+    COG052$1          -1.067      0.148     -7.222      0.000
+    COG053$1          -0.922      0.129     -7.134      0.000
+    COG054$1          -1.015      0.152     -6.678      0.000
+    COG055$1          -1.423      0.101    -14.079      0.000
+    COG056$1          -0.161      0.050     -3.190      0.001
+    COG057$1           2.327      0.339      6.869      0.000
+    COG058$1          -0.207      0.058     -3.541      0.000
+    COG060$1           0.314      0.052      6.020      0.000
+    COG061$1           0.876      0.071     12.343      0.000
+    COG062$1           1.622      0.146     11.137      0.000
+    COG063$1           1.468      0.099     14.762      0.000
+    COG064$1           0.957      0.081     11.867      0.000
+    COG066$1           0.998      0.063     15.928      0.000
+
+ Variances
+    COG                1.000      0.000      0.000      1.000
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ COG      BY
+    COG040             0.328      0.058      5.683      0.000
+    COG045             0.401      0.042      9.616      0.000
+    COG050             0.483      0.042     11.617      0.000
+    COG064             0.749      0.029     25.455      0.000
+    COG041             0.350      0.045      7.758      0.000
+    COG043             0.475      0.053      8.996      0.000
+    COG044             0.436      0.058      7.559      0.000
+    COG046             0.329      0.043      7.670      0.000
+    COG048             0.551      0.054     10.151      0.000
+    COG052             0.447      0.041     10.943      0.000
+    COG053             0.465      0.039     11.983      0.000
+    COG057             0.387      0.050      7.784      0.000
+    COG049             0.810      0.030     26.869      0.000
+    COG051             0.776      0.041     19.080      0.000
+    COG054             0.429      0.042     10.184      0.000
+    COG055             0.819      0.037     22.382      0.000
+    COG056             0.920      0.015     61.657      0.000
+    COG058             0.799      0.022     36.651      0.000
+    COG060             0.902      0.015     59.782      0.000
+    COG061             0.803      0.025     32.158      0.000
+    COG062             0.638      0.041     15.509      0.000
+    COG063             0.822      0.031     26.688      0.000
+    COG066             0.933      0.019     49.816      0.000
+
+ Thresholds
+    COG040$1          -1.140      0.059    -19.376      0.000
+    COG041$1          -0.583      0.049    -11.873      0.000
+    COG043$1          -1.065      0.057    -18.689      0.000
+    COG044$1          -1.214      0.061    -19.954      0.000
+    COG045$1          -0.326      0.047     -6.940      0.000
+    COG046$1           0.032      0.046      0.699      0.485
+    COG048$1          -1.236      0.061    -20.100      0.000
+    COG049$1          -1.013      0.056    -18.143      0.000
+    COG050$1          -0.603      0.049    -12.231      0.000
+    COG051$1          -1.173      0.060    -19.646      0.000
+    COG052$1          -0.477      0.048     -9.927      0.000
+    COG053$1          -0.428      0.048     -8.983      0.000
+    COG054$1          -0.436      0.048     -9.128      0.000
+    COG055$1          -1.166      0.060    -19.593      0.000
+    COG056$1          -0.148      0.046     -3.199      0.001
+    COG057$1           0.900      0.054     16.800      0.000
+    COG058$1          -0.165      0.046     -3.567      0.000
+    COG060$1           0.284      0.047      6.062      0.000
+    COG061$1           0.704      0.050     13.931      0.000
+    COG062$1           1.036      0.056     18.388      0.000
+    COG063$1           1.207      0.061     19.904      0.000
+    COG064$1           0.717      0.051     14.141      0.000
+    COG066$1           0.931      0.054     17.192      0.000
+
+ Variances
+    COG                1.000      0.000    999.000    999.000
+
+
+STDY Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ COG      BY
+    COG040             0.328      0.058      5.683      0.000
+    COG045             0.401      0.042      9.616      0.000
+    COG050             0.483      0.042     11.617      0.000
+    COG064             0.749      0.029     25.455      0.000
+    COG041             0.350      0.045      7.758      0.000
+    COG043             0.475      0.053      8.996      0.000
+    COG044             0.436      0.058      7.559      0.000
+    COG046             0.329      0.043      7.670      0.000
+    COG048             0.551      0.054     10.151      0.000
+    COG052             0.447      0.041     10.943      0.000
+    COG053             0.465      0.039     11.983      0.000
+    COG057             0.387      0.050      7.784      0.000
+    COG049             0.810      0.030     26.869      0.000
+    COG051             0.776      0.041     19.080      0.000
+    COG054             0.429      0.042     10.184      0.000
+    COG055             0.819      0.037     22.382      0.000
+    COG056             0.920      0.015     61.657      0.000
+    COG058             0.799      0.022     36.651      0.000
+    COG060             0.902      0.015     59.782      0.000
+    COG061             0.803      0.025     32.158      0.000
+    COG062             0.638      0.041     15.509      0.000
+    COG063             0.822      0.031     26.688      0.000
+    COG066             0.933      0.019     49.816      0.000
+
+ Thresholds
+    COG040$1          -1.140      0.059    -19.376      0.000
+    COG041$1          -0.583      0.049    -11.873      0.000
+    COG043$1          -1.065      0.057    -18.689      0.000
+    COG044$1          -1.214      0.061    -19.954      0.000
+    COG045$1          -0.326      0.047     -6.940      0.000
+    COG046$1           0.032      0.046      0.699      0.485
+    COG048$1          -1.236      0.061    -20.100      0.000
+    COG049$1          -1.013      0.056    -18.143      0.000
+    COG050$1          -0.603      0.049    -12.231      0.000
+    COG051$1          -1.173      0.060    -19.646      0.000
+    COG052$1          -0.477      0.048     -9.927      0.000
+    COG053$1          -0.428      0.048     -8.983      0.000
+    COG054$1          -0.436      0.048     -9.128      0.000
+    COG055$1          -1.166      0.060    -19.593      0.000
+    COG056$1          -0.148      0.046     -3.199      0.001
+    COG057$1           0.900      0.054     16.800      0.000
+    COG058$1          -0.165      0.046     -3.567      0.000
+    COG060$1           0.284      0.047      6.062      0.000
+    COG061$1           0.704      0.050     13.931      0.000
+    COG062$1           1.036      0.056     18.388      0.000
+    COG063$1           1.207      0.061     19.904      0.000
+    COG064$1           0.717      0.051     14.141      0.000
+    COG066$1           0.931      0.054     17.192      0.000
+
+ Variances
+    COG                1.000      0.000    999.000    999.000
+
+
+STD Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ COG      BY
+    COG040             0.328      0.058      5.683      0.000
+    COG045             0.401      0.042      9.616      0.000
+    COG050             0.483      0.042     11.617      0.000
+    COG064             0.749      0.029     25.455      0.000
+    COG041             0.350      0.045      7.758      0.000
+    COG043             0.475      0.053      8.996      0.000
+    COG044             0.436      0.058      7.559      0.000
+    COG046             0.329      0.043      7.670      0.000
+    COG048             0.551      0.054     10.151      0.000
+    COG052             0.447      0.041     10.943      0.000
+    COG053             0.465      0.039     11.983      0.000
+    COG057             0.387      0.050      7.784      0.000
+    COG049             0.810      0.030     26.869      0.000
+    COG051             0.776      0.041     19.080      0.000
+    COG054             0.429      0.042     10.184      0.000
+    COG055             0.819      0.037     22.382      0.000
+    COG056             0.920      0.015     61.657      0.000
+    COG058             0.799      0.022     36.651      0.000
+    COG060             0.902      0.015     59.782      0.000
+    COG061             0.803      0.025     32.158      0.000
+    COG062             0.638      0.041     15.509      0.000
+    COG063             0.822      0.031     26.688      0.000
+    COG066             0.933      0.019     49.816      0.000
+
+ Thresholds
+    COG040$1          -1.140      0.059    -19.376      0.000
+    COG041$1          -0.583      0.049    -11.873      0.000
+    COG043$1          -1.065      0.057    -18.689      0.000
+    COG044$1          -1.214      0.061    -19.954      0.000
+    COG045$1          -0.326      0.047     -6.940      0.000
+    COG046$1           0.032      0.046      0.699      0.485
+    COG048$1          -1.236      0.061    -20.100      0.000
+    COG049$1          -1.013      0.056    -18.143      0.000
+    COG050$1          -0.603      0.049    -12.231      0.000
+    COG051$1          -1.173      0.060    -19.646      0.000
+    COG052$1          -0.477      0.048     -9.927      0.000
+    COG053$1          -0.428      0.048     -8.983      0.000
+    COG054$1          -0.436      0.048     -9.128      0.000
+    COG055$1          -1.166      0.060    -19.593      0.000
+    COG056$1          -0.148      0.046     -3.199      0.001
+    COG057$1           0.900      0.054     16.800      0.000
+    COG058$1          -0.165      0.046     -3.567      0.000
+    COG060$1           0.284      0.047      6.062      0.000
+    COG061$1           0.704      0.050     13.931      0.000
+    COG062$1           1.036      0.056     18.388      0.000
+    COG063$1           1.207      0.061     19.904      0.000
+    COG064$1           0.717      0.051     14.141      0.000
+    COG066$1           0.931      0.054     17.192      0.000
+
+ Variances
+    COG                1.000      0.000    999.000    999.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed   Residual
+    Variable        Estimate       S.E.  Est./S.E.    P-Value    Variance
+
+    COG040             0.108      0.038      2.841      0.004      0.892
+    COG041             0.123      0.032      3.879      0.000      0.877
+    COG043             0.226      0.050      4.498      0.000      0.774
+    COG044             0.190      0.050      3.780      0.000      0.810
+    COG045             0.161      0.033      4.808      0.000      0.839
+    COG046             0.108      0.028      3.835      0.000      0.892
+    COG048             0.304      0.060      5.076      0.000      0.696
+    COG049             0.656      0.049     13.434      0.000      0.344
+    COG050             0.233      0.040      5.809      0.000      0.767
+    COG051             0.603      0.063      9.540      0.000      0.397
+    COG052             0.200      0.037      5.471      0.000      0.800
+    COG053             0.216      0.036      5.992      0.000      0.784
+    COG054             0.184      0.036      5.092      0.000      0.816
+    COG055             0.671      0.060     11.191      0.000      0.329
+    COG056             0.847      0.027     30.829      0.000      0.153
+    COG057             0.150      0.038      3.892      0.000      0.850
+    COG058             0.639      0.035     18.326      0.000      0.361
+    COG060             0.813      0.027     29.891      0.000      0.187
+    COG061             0.645      0.040     16.079      0.000      0.355
+    COG062             0.408      0.053      7.754      0.000      0.592
+    COG063             0.676      0.051     13.344      0.000      0.324
+    COG064             0.560      0.044     12.728      0.000      0.440
+    COG066             0.870      0.035     24.908      0.000      0.130
+
+
+CONFIDENCE INTERVALS OF MODEL RESULTS
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ COG      BY
+    COG040           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    COG045           0.670       0.802       0.869       1.222       1.575       1.643       1.775
+    COG050           0.805       0.965       1.046       1.472       1.897       1.979       2.138
+    COG064           1.237       1.487       1.615       2.282       2.949       3.077       3.327
+    COG041           0.490       0.628       0.699       1.068       1.437       1.507       1.646
+    COG043           0.678       0.862       0.956       1.448       1.940       2.034       2.219
+    COG044           0.650       0.812       0.895       1.328       1.760       1.843       2.005
+    COG046           0.461       0.591       0.657       1.003       1.349       1.415       1.545
+    COG048           0.864       1.059       1.159       1.680       2.202       2.302       2.497
+    COG052           0.686       0.848       0.931       1.363       1.795       1.878       2.040
+    COG053           0.715       0.883       0.968       1.416       1.864       1.950       2.117
+    COG057           0.535       0.689       0.768       1.179       1.591       1.669       1.823
+    COG049           1.341       1.611       1.749       2.470       3.191       3.329       3.598
+    COG051           1.270       1.532       1.666       2.366       3.067       3.201       3.463
+    COG054           0.652       0.809       0.890       1.309       1.728       1.809       1.966
+    COG055           1.354       1.628       1.767       2.498       3.228       3.367       3.641
+    COG056           1.533       1.837       1.993       2.805       3.617       3.773       4.077
+    COG058           1.317       1.584       1.721       2.436       3.151       3.288       3.556
+    COG060           1.504       1.801       1.954       2.749       3.544       3.696       3.994
+    COG061           1.318       1.588       1.727       2.449       3.172       3.310       3.580
+    COG062           1.034       1.252       1.364       1.946       2.529       2.640       2.858
+    COG063           1.356       1.631       1.772       2.506       3.241       3.382       3.656
+    COG066           1.550       1.859       2.017       2.844       3.670       3.829       4.138
+
+ Thresholds
+    COG040$1        -1.291      -1.255      -1.236      -1.140      -1.043      -1.024      -0.988
+    COG041$1        -0.709      -0.679      -0.663      -0.583      -0.502      -0.486      -0.456
+    COG043$1        -1.212      -1.177      -1.159      -1.065      -0.971      -0.953      -0.918
+    COG044$1        -1.371      -1.334      -1.314      -1.214      -1.114      -1.095      -1.058
+    COG045$1        -0.447      -0.418      -0.404      -0.326      -0.249      -0.234      -0.205
+    COG046$1        -0.087      -0.058      -0.044       0.032       0.108       0.123       0.151
+    COG048$1        -1.394      -1.356      -1.337      -1.236      -1.135      -1.115      -1.077
+    COG049$1        -1.156      -1.122      -1.104      -1.013      -0.921      -0.903      -0.869
+    COG050$1        -0.730      -0.699      -0.684      -0.603      -0.522      -0.506      -0.476
+    COG051$1        -1.327      -1.290      -1.271      -1.173      -1.075      -1.056      -1.019
+    COG052$1        -0.601      -0.571      -0.556      -0.477      -0.398      -0.383      -0.353
+    COG053$1        -0.551      -0.522      -0.507      -0.428      -0.350      -0.335      -0.305
+    COG054$1        -0.559      -0.529      -0.514      -0.436      -0.357      -0.342      -0.313
+    COG055$1        -1.319      -1.283      -1.264      -1.166      -1.068      -1.049      -1.013
+    COG056$1        -0.267      -0.239      -0.224      -0.148      -0.072      -0.057      -0.029
+    COG057$1         0.762       0.795       0.812       0.900       0.988       1.005       1.038
+    COG058$1        -0.285      -0.256      -0.241      -0.165      -0.089      -0.074      -0.046
+    COG060$1         0.163       0.192       0.207       0.284       0.361       0.375       0.404
+    COG061$1         0.573       0.605       0.620       0.704       0.787       0.802       0.834
+    COG062$1         0.891       0.925       0.943       1.036       1.128       1.146       1.181
+    COG063$1         1.051       1.088       1.107       1.207       1.307       1.326       1.363
+    COG064$1         0.586       0.617       0.633       0.717       0.800       0.816       0.847
+    COG066$1         0.792       0.825       0.842       0.931       1.020       1.037       1.071
+
+ Variances
+    COG              0.010       0.033       0.045       0.108       0.170       0.182       0.205
+
+
+CONFIDENCE INTERVALS OF STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ COG      BY
+    COG040           0.179       0.215       0.233       0.328       0.423       0.441       0.477
+    COG045           0.294       0.319       0.332       0.401       0.470       0.483       0.508
+    COG050           0.376       0.401       0.414       0.483       0.551       0.564       0.590
+    COG064           0.673       0.691       0.700       0.749       0.797       0.806       0.824
+    COG041           0.234       0.262       0.276       0.350       0.425       0.439       0.467
+    COG043           0.339       0.372       0.388       0.475       0.562       0.579       0.611
+    COG044           0.287       0.323       0.341       0.436       0.530       0.548       0.584
+    COG046           0.219       0.245       0.258       0.329       0.400       0.413       0.440
+    COG048           0.411       0.445       0.462       0.551       0.641       0.658       0.691
+    COG052           0.342       0.367       0.380       0.447       0.514       0.527       0.552
+    COG053           0.365       0.389       0.401       0.465       0.528       0.541       0.564
+    COG057           0.259       0.289       0.305       0.387       0.469       0.484       0.515
+    COG049           0.733       0.751       0.761       0.810       0.860       0.869       0.888
+    COG051           0.672       0.697       0.709       0.776       0.843       0.856       0.881
+    COG054           0.321       0.347       0.360       0.429       0.499       0.512       0.538
+    COG055           0.725       0.748       0.759       0.819       0.880       0.891       0.914
+    COG056           0.882       0.891       0.896       0.920       0.945       0.949       0.959
+    COG058           0.743       0.756       0.763       0.799       0.835       0.842       0.855
+    COG060           0.863       0.872       0.877       0.902       0.927       0.931       0.941
+    COG061           0.739       0.754       0.762       0.803       0.845       0.852       0.868
+    COG062           0.532       0.558       0.571       0.638       0.706       0.719       0.745
+    COG063           0.743       0.762       0.772       0.822       0.873       0.883       0.902
+    COG066           0.885       0.896       0.902       0.933       0.964       0.970       0.981
+
+ Thresholds
+    COG040$1        -1.291      -1.255      -1.236      -1.140      -1.043      -1.024      -0.988
+    COG041$1        -0.709      -0.679      -0.663      -0.583      -0.502      -0.486      -0.456
+    COG043$1        -1.212      -1.177      -1.159      -1.065      -0.971      -0.953      -0.918
+    COG044$1        -1.371      -1.334      -1.314      -1.214      -1.114      -1.095      -1.058
+    COG045$1        -0.447      -0.418      -0.404      -0.326      -0.249      -0.234      -0.205
+    COG046$1        -0.087      -0.058      -0.044       0.032       0.108       0.123       0.151
+    COG048$1        -1.394      -1.356      -1.337      -1.236      -1.135      -1.115      -1.077
+    COG049$1        -1.156      -1.122      -1.104      -1.013      -0.921      -0.903      -0.869
+    COG050$1        -0.730      -0.699      -0.684      -0.603      -0.522      -0.506      -0.476
+    COG051$1        -1.327      -1.290      -1.271      -1.173      -1.075      -1.056      -1.019
+    COG052$1        -0.601      -0.571      -0.556      -0.477      -0.398      -0.383      -0.353
+    COG053$1        -0.551      -0.522      -0.507      -0.428      -0.350      -0.335      -0.305
+    COG054$1        -0.559      -0.529      -0.514      -0.436      -0.357      -0.342      -0.313
+    COG055$1        -1.319      -1.283      -1.264      -1.166      -1.068      -1.049      -1.013
+    COG056$1        -0.267      -0.239      -0.224      -0.148      -0.072      -0.057      -0.029
+    COG057$1         0.762       0.795       0.812       0.900       0.988       1.005       1.038
+    COG058$1        -0.285      -0.256      -0.241      -0.165      -0.089      -0.074      -0.046
+    COG060$1         0.163       0.192       0.207       0.284       0.361       0.375       0.404
+    COG061$1         0.573       0.605       0.620       0.704       0.787       0.802       0.834
+    COG062$1         0.891       0.925       0.943       1.036       1.128       1.146       1.181
+    COG063$1         1.051       1.088       1.107       1.207       1.307       1.326       1.363
+    COG064$1         0.586       0.617       0.633       0.717       0.800       0.816       0.847
+    COG066$1         0.792       0.825       0.842       0.931       1.020       1.037       1.071
+
+ Variances
+    COG              1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+
+STDY Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ COG      BY
+    COG040           0.179       0.215       0.233       0.328       0.423       0.441       0.477
+    COG045           0.294       0.319       0.332       0.401       0.470       0.483       0.508
+    COG050           0.376       0.401       0.414       0.483       0.551       0.564       0.590
+    COG064           0.673       0.691       0.700       0.749       0.797       0.806       0.824
+    COG041           0.234       0.262       0.276       0.350       0.425       0.439       0.467
+    COG043           0.339       0.372       0.388       0.475       0.562       0.579       0.611
+    COG044           0.287       0.323       0.341       0.436       0.530       0.548       0.584
+    COG046           0.219       0.245       0.258       0.329       0.400       0.413       0.440
+    COG048           0.411       0.445       0.462       0.551       0.641       0.658       0.691
+    COG052           0.342       0.367       0.380       0.447       0.514       0.527       0.552
+    COG053           0.365       0.389       0.401       0.465       0.528       0.541       0.564
+    COG057           0.259       0.289       0.305       0.387       0.469       0.484       0.515
+    COG049           0.733       0.751       0.761       0.810       0.860       0.869       0.888
+    COG051           0.672       0.697       0.709       0.776       0.843       0.856       0.881
+    COG054           0.321       0.347       0.360       0.429       0.499       0.512       0.538
+    COG055           0.725       0.748       0.759       0.819       0.880       0.891       0.914
+    COG056           0.882       0.891       0.896       0.920       0.945       0.949       0.959
+    COG058           0.743       0.756       0.763       0.799       0.835       0.842       0.855
+    COG060           0.863       0.872       0.877       0.902       0.927       0.931       0.941
+    COG061           0.739       0.754       0.762       0.803       0.845       0.852       0.868
+    COG062           0.532       0.558       0.571       0.638       0.706       0.719       0.745
+    COG063           0.743       0.762       0.772       0.822       0.873       0.883       0.902
+    COG066           0.885       0.896       0.902       0.933       0.964       0.970       0.981
+
+ Thresholds
+    COG040$1        -1.291      -1.255      -1.236      -1.140      -1.043      -1.024      -0.988
+    COG041$1        -0.709      -0.679      -0.663      -0.583      -0.502      -0.486      -0.456
+    COG043$1        -1.212      -1.177      -1.159      -1.065      -0.971      -0.953      -0.918
+    COG044$1        -1.371      -1.334      -1.314      -1.214      -1.114      -1.095      -1.058
+    COG045$1        -0.447      -0.418      -0.404      -0.326      -0.249      -0.234      -0.205
+    COG046$1        -0.087      -0.058      -0.044       0.032       0.108       0.123       0.151
+    COG048$1        -1.394      -1.356      -1.337      -1.236      -1.135      -1.115      -1.077
+    COG049$1        -1.156      -1.122      -1.104      -1.013      -0.921      -0.903      -0.869
+    COG050$1        -0.730      -0.699      -0.684      -0.603      -0.522      -0.506      -0.476
+    COG051$1        -1.327      -1.290      -1.271      -1.173      -1.075      -1.056      -1.019
+    COG052$1        -0.601      -0.571      -0.556      -0.477      -0.398      -0.383      -0.353
+    COG053$1        -0.551      -0.522      -0.507      -0.428      -0.350      -0.335      -0.305
+    COG054$1        -0.559      -0.529      -0.514      -0.436      -0.357      -0.342      -0.313
+    COG055$1        -1.319      -1.283      -1.264      -1.166      -1.068      -1.049      -1.013
+    COG056$1        -0.267      -0.239      -0.224      -0.148      -0.072      -0.057      -0.029
+    COG057$1         0.762       0.795       0.812       0.900       0.988       1.005       1.038
+    COG058$1        -0.285      -0.256      -0.241      -0.165      -0.089      -0.074      -0.046
+    COG060$1         0.163       0.192       0.207       0.284       0.361       0.375       0.404
+    COG061$1         0.573       0.605       0.620       0.704       0.787       0.802       0.834
+    COG062$1         0.891       0.925       0.943       1.036       1.128       1.146       1.181
+    COG063$1         1.051       1.088       1.107       1.207       1.307       1.326       1.363
+    COG064$1         0.586       0.617       0.633       0.717       0.800       0.816       0.847
+    COG066$1         0.792       0.825       0.842       0.931       1.020       1.037       1.071
+
+ Variances
+    COG              1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+
+STD Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ COG      BY
+    COG040           0.179       0.215       0.233       0.328       0.423       0.441       0.477
+    COG045           0.294       0.319       0.332       0.401       0.470       0.483       0.508
+    COG050           0.376       0.401       0.414       0.483       0.551       0.564       0.590
+    COG064           0.673       0.691       0.700       0.749       0.797       0.806       0.824
+    COG041           0.234       0.262       0.276       0.350       0.425       0.439       0.467
+    COG043           0.339       0.372       0.388       0.475       0.562       0.579       0.611
+    COG044           0.287       0.323       0.341       0.436       0.530       0.548       0.584
+    COG046           0.219       0.245       0.258       0.329       0.400       0.413       0.440
+    COG048           0.411       0.445       0.462       0.551       0.641       0.658       0.691
+    COG052           0.342       0.367       0.380       0.447       0.514       0.527       0.552
+    COG053           0.365       0.389       0.401       0.465       0.528       0.541       0.564
+    COG057           0.259       0.289       0.305       0.387       0.469       0.484       0.515
+    COG049           0.733       0.751       0.761       0.810       0.860       0.869       0.888
+    COG051           0.672       0.697       0.709       0.776       0.843       0.856       0.881
+    COG054           0.321       0.347       0.360       0.429       0.499       0.512       0.538
+    COG055           0.725       0.748       0.759       0.819       0.880       0.891       0.914
+    COG056           0.882       0.891       0.896       0.920       0.945       0.949       0.959
+    COG058           0.743       0.756       0.763       0.799       0.835       0.842       0.855
+    COG060           0.863       0.872       0.877       0.902       0.927       0.931       0.941
+    COG061           0.739       0.754       0.762       0.803       0.845       0.852       0.868
+    COG062           0.532       0.558       0.571       0.638       0.706       0.719       0.745
+    COG063           0.743       0.762       0.772       0.822       0.873       0.883       0.902
+    COG066           0.885       0.896       0.902       0.933       0.964       0.970       0.981
+
+ Thresholds
+    COG040$1        -1.291      -1.255      -1.236      -1.140      -1.043      -1.024      -0.988
+    COG041$1        -0.709      -0.679      -0.663      -0.583      -0.502      -0.486      -0.456
+    COG043$1        -1.212      -1.177      -1.159      -1.065      -0.971      -0.953      -0.918
+    COG044$1        -1.371      -1.334      -1.314      -1.214      -1.114      -1.095      -1.058
+    COG045$1        -0.447      -0.418      -0.404      -0.326      -0.249      -0.234      -0.205
+    COG046$1        -0.087      -0.058      -0.044       0.032       0.108       0.123       0.151
+    COG048$1        -1.394      -1.356      -1.337      -1.236      -1.135      -1.115      -1.077
+    COG049$1        -1.156      -1.122      -1.104      -1.013      -0.921      -0.903      -0.869
+    COG050$1        -0.730      -0.699      -0.684      -0.603      -0.522      -0.506      -0.476
+    COG051$1        -1.327      -1.290      -1.271      -1.173      -1.075      -1.056      -1.019
+    COG052$1        -0.601      -0.571      -0.556      -0.477      -0.398      -0.383      -0.353
+    COG053$1        -0.551      -0.522      -0.507      -0.428      -0.350      -0.335      -0.305
+    COG054$1        -0.559      -0.529      -0.514      -0.436      -0.357      -0.342      -0.313
+    COG055$1        -1.319      -1.283      -1.264      -1.166      -1.068      -1.049      -1.013
+    COG056$1        -0.267      -0.239      -0.224      -0.148      -0.072      -0.057      -0.029
+    COG057$1         0.762       0.795       0.812       0.900       0.988       1.005       1.038
+    COG058$1        -0.285      -0.256      -0.241      -0.165      -0.089      -0.074      -0.046
+    COG060$1         0.163       0.192       0.207       0.284       0.361       0.375       0.404
+    COG061$1         0.573       0.605       0.620       0.704       0.787       0.802       0.834
+    COG062$1         0.891       0.925       0.943       1.036       1.128       1.146       1.181
+    COG063$1         1.051       1.088       1.107       1.207       1.307       1.326       1.363
+    COG064$1         0.586       0.617       0.633       0.717       0.800       0.816       0.847
+    COG066$1         0.792       0.825       0.842       0.931       1.020       1.037       1.071
+
+ Variances
+    COG              1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           TAU
+              COG040$1      COG041$1      COG043$1      COG044$1      COG045$1
+              ________      ________      ________      ________      ________
+                  1             2             3             4             5
+
+
+           TAU
+              COG046$1      COG048$1      COG049$1      COG050$1      COG051$1
+              ________      ________      ________      ________      ________
+                  6             7             8             9            10
+
+
+           TAU
+              COG052$1      COG053$1      COG054$1      COG055$1      COG056$1
+              ________      ________      ________      ________      ________
+                 11            12            13            14            15
+
+
+           TAU
+              COG057$1      COG058$1      COG060$1      COG061$1      COG062$1
+              ________      ________      ________      ________      ________
+                 16            17            18            19            20
+
+
+           TAU
+              COG063$1      COG064$1      COG066$1
+              ________      ________      ________
+                 21            22            23
+
+
+           NU
+              COG040        COG041        COG043        COG044        COG045
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              COG046        COG048        COG049        COG050        COG051
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              COG052        COG053        COG054        COG055        COG056
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              COG057        COG058        COG060        COG061        COG062
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              COG063        COG064        COG066
+              ________      ________      ________
+                  0             0             0
+
+
+           LAMBDA
+              COG
+              ________
+ COG040             0
+ COG041            24
+ COG043            25
+ COG044            26
+ COG045            27
+ COG046            28
+ COG048            29
+ COG049            30
+ COG050            31
+ COG051            32
+ COG052            33
+ COG053            34
+ COG054            35
+ COG055            36
+ COG056            37
+ COG057            38
+ COG058            39
+ COG060            40
+ COG061            41
+ COG062            42
+ COG063            43
+ COG064            44
+ COG066            45
+
+
+           ALPHA
+              COG
+              ________
+                  0
+
+
+           BETA
+              COG
+              ________
+ COG                0
+
+
+           PSI
+              COG
+              ________
+ COG               46
+
+
+     STARTING VALUES
+
+
+           TAU
+              COG040$1      COG041$1      COG043$1      COG044$1      COG045$1
+              ________      ________      ________      ________      ________
+               -1.140        -0.583        -1.065        -1.214        -0.326
+
+
+           TAU
+              COG046$1      COG048$1      COG049$1      COG050$1      COG051$1
+              ________      ________      ________      ________      ________
+                0.032        -1.236        -1.013        -0.603        -1.173
+
+
+           TAU
+              COG052$1      COG053$1      COG054$1      COG055$1      COG056$1
+              ________      ________      ________      ________      ________
+               -0.477        -0.428        -0.436        -1.166        -0.148
+
+
+           TAU
+              COG057$1      COG058$1      COG060$1      COG061$1      COG062$1
+              ________      ________      ________      ________      ________
+                0.900        -0.165         0.284         0.704         1.036
+
+
+           TAU
+              COG063$1      COG064$1      COG066$1
+              ________      ________      ________
+                1.207         0.717         0.931
+
+
+           NU
+              COG040        COG041        COG043        COG044        COG045
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COG046        COG048        COG049        COG050        COG051
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COG052        COG053        COG054        COG055        COG056
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COG057        COG058        COG060        COG061        COG062
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COG063        COG064        COG066
+              ________      ________      ________
+                0.000         0.000         0.000
+
+
+           LAMBDA
+              COG
+              ________
+ COG040         1.000
+ COG041         1.000
+ COG043         1.000
+ COG044         1.000
+ COG045         1.000
+ COG046         1.000
+ COG048         1.000
+ COG049         1.000
+ COG050         1.000
+ COG051         1.000
+ COG052         1.000
+ COG053         1.000
+ COG054         1.000
+ COG055         1.000
+ COG056         1.000
+ COG057         1.000
+ COG058         1.000
+ COG060         1.000
+ COG061         1.000
+ COG062         1.000
+ COG063         1.000
+ COG064         1.000
+ COG066         1.000
+
+
+           ALPHA
+              COG
+              ________
+                0.000
+
+
+           BETA
+              COG
+              ________
+ COG            0.000
+
+
+           PSI
+              COG
+              ________
+ COG            0.050
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              COG
+              ________
+                0.000
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            0.108
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            1.000
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              COG
+              ________
+                0.000
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              COG
+              ________
+                0.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              COG
+              ________
+                1.000
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            0.038
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            2.841
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            0.004
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG          999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              COG
+              ________
+ COG            0.000
+
+
+     Beginning Time:  16:55:32
+        Ending Time:  16:55:32
+       Elapsed Time:  00:00:00
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2021 Muthen & Muthen

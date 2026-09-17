@@ -1,0 +1,41 @@
+item_id,cluster,probability,reference_factor,detected_factor,agrees
+COG_002,1,0.5952,attention,attention,True
+COG_003,1,0.5998,attention,attention,True
+COG_008,1,0.6252,attention,attention,True
+COG_009,1,0.5914999999999999,attention,attention,True
+COG_010,1,0.6207,attention,attention,True
+COG_011,1,0.6406,attention,attention,True
+COG_012,1,0.6544000000000001,attention,attention,True
+COG_014,2,0.5062500000000001,goal_directed_problem_solving,higher order processes,False
+COG_021,4,0.548,working_memory,goal directed problem solving,False
+COG_022,2,0.522,goal_directed_problem_solving,higher order processes,False
+COG_024,1,0.6425,working_memory,attention,False
+COG_026,1,0.6470999999999999,attention,attention,True
+COG_028,4,0.74075,working_memory,goal directed problem solving,False
+COG_032,4,0.8079999999999999,working_memory,goal directed problem solving,False
+COG_034,2,0.499,flexibility_shift,higher order processes,False
+COG_035,3,0.5983,"goal_directed_problem_solving,flexibility_shift",flexibility shift,True
+COG_037,4,0.80225,working_memory,goal directed problem solving,False
+COG_040,3,0.7880999999999999,flexibility_shift,flexibility shift,True
+COG_041,1,0.6476999999999999,attention,attention,True
+COG_042,4,0.807,working_memory,goal directed problem solving,False
+COG_043,3,0.7814,flexibility_shift,flexibility shift,True
+COG_047,3,0.7889,unassigned,flexibility shift,False
+COG_048,2,0.498,"goal_directed_problem_solving,higher_order_processing",higher order processes,True
+COG_049,3,0.7809,flexibility_shift,flexibility shift,True
+COG_051,3,0.7831,"flexibility_shift,higher_order_processing",flexibility shift,True
+COG_052,3,0.7329,flexibility_shift,flexibility shift,True
+COG_053,3,0.7251,flexibility_shift,flexibility shift,True
+COG_056,0,0.5637142857142857,working_memory,working memory,True
+COG_057,2,0.51425,goal_directed_problem_solving,higher order processes,False
+COG_060,0,0.497,working_memory,working memory,True
+COG_062,0,0.4127142857142857,higher_order_processing,working memory,False
+COG_063,0,0.5175714285714286,higher_order_processing,working memory,False
+COG_064,0,0.5064285714285715,working_memory,working memory,True
+COG_067,1,0.3869,working_memory,attention,False
+COG_068,0,0.5534285714285715,higher_order_processing,working memory,False
+COG_073,3,0.7331,flexibility_shift,flexibility shift,True
+COG_074,3,0.7377,flexibility_shift,flexibility shift,True
+COG_076,0,0.5642857142857143,working_memory,working memory,True
+COG_080,0,0.5188571428571429,working_memory,working memory,True
+COG_081,3,0.5167,higher_order_processing,flexibility shift,False

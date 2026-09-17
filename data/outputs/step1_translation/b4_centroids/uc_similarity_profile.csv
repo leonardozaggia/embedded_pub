@@ -1,0 +1,14 @@
+item_id,item_title,source,final_factor,uc_sim,best_ef_factor,best_ef_sim,margin
+COG_053,Relational Play Series: Others,loo_uc_redirected,attention,0.7156447768211365,attention,0.5599912405014038,0.15565353631973267
+COG_048,Relational Play Series: Self,loo_uc_redirected,goal_directed_problem_solving,0.7238177061080933,goal_directed_problem_solving,0.5788409113883972,0.14497679471969604
+COG_065,Representational Play,loo_uc_redirected,goal_directed_problem_solving,0.746309757232666,goal_directed_problem_solving,0.6062516570091248,0.14005810022354126
+COG_037,Picks Up Block Series: 3 Blocks,loo_uc_redirected,goal_directed_problem_solving,0.8107870221138,goal_directed_problem_solving,0.7073527574539185,0.10343426465988159
+COG_036,Block Series: 1 Block,loo_uc_redirected,flexibility_shift,0.8065706491470337,flexibility_shift,0.7257164716720581,0.08085417747497559
+COG_038,Explores Holes in Pegboard,loo_uc_redirected,goal_directed_problem_solving,0.7176855802536011,goal_directed_problem_solving,0.642438530921936,0.07524704933166504
+COG_035,Takes Blocks Out of Cup,loo_uc_redirected,flexibility_shift,0.7687264084815979,flexibility_shift,0.6968299150466919,0.071896493434906
+COG_054,Block Series: 9 Blocks,loo_uc_redirected,flexibility_shift,0.7273135781288147,flexibility_shift,0.6753497123718262,0.051963865756988525
+COG_047,Pegboard Series: 2 Holes,loo_uc_redirected,flexibility_shift,0.7040014266967773,flexibility_shift,0.677643895149231,0.026357531547546387
+COG_046,Removes Lid From Bottle,loo_uc_redirected,goal_directed_problem_solving,0.5892434120178223,goal_directed_problem_solving,0.5753461718559265,0.013897240161895752
+COG_039,Pushes Car,loo_uc_redirected,goal_directed_problem_solving,0.5869402289390564,goal_directed_problem_solving,0.5866668820381165,0.0002733469009399414
+COG_053,Relational Play Series: Others,sparse_ef_excluded,,,,,
+COG_059,Attends to Story,sparse_ef_excluded,,,,,

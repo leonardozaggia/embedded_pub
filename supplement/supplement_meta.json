@@ -1,0 +1,385 @@
+{
+ "TABLE_SECTIONS": [
+  {
+   "id": "table-s1",
+   "label": "Table S1",
+   "title": "Bayley-4 → Bayley-III translation cascade",
+   "caption": "The 39 Bayley-4 → Bayley-III item pairs produced by the translation cascade, with full-text and title cosine similarities and the stage at which each pair was locked (27 title-locked, 12 full-text fallback).",
+   "parts": [
+    {
+     "key": "s1",
+     "cols": {
+      "b4_item_id": "Bayley-4 item",
+      "b4_item_title": "Bayley-4 title",
+      "b3_item_id": "Bayley-III item",
+      "b3_item_title": "Bayley-III title",
+      "aylward_domains": "Aylward domain(s)",
+      "theoretical_domain": "Transferred domain",
+      "cosine_similarity_fulltext": "Cosine (full text)",
+      "cosine_similarity_title": "Cosine (title)",
+      "pairing_stage": "Stage"
+     }
+    }
+   ],
+   "footnote": "Aylward and colleagues assign 39 of the 81 Bayley-4 cognitive items to a domain. Three of these (COG_035, COG_048, COG_051) carry two domains and were transferred to the Bayley-III under their first-listed domain. One further item (COG_047) is assigned only in the empirically derived model; it was retained in the 40-item benchmark comparison (Objective 2) but has no expert domain to transfer. In concordance counts, multi-factor items were scored as concordant when the cluster matched either of their domains."
+  },
+  {
+   "id": "table-s2",
+   "label": "Table S2",
+   "title": "Bayley-III cognitive items administered in the dHCP sample",
+   "caption": "The 35 items in the administered range (34–68), their assigned factor, and their status in the analysis: 23 retained, 11 excluded for floor or ceiling effects (≥90% identical responses among valid administrations), and 1 dropped as the sole remaining indicator of a factor.",
+   "parts": [
+    {
+     "key": "s2",
+     "cols": {
+      "item_id": "Item",
+      "item_title": "Title",
+      "theoretical_domain_3F": "Domain (3F)",
+      "n_valid": "N valid",
+      "pct_pass": "% pass",
+      "pct_fail": "% fail",
+      "dominant_response_pct": "Dominant %",
+      "status": "Status"
+     }
+    }
+   ],
+   "footnote": "COG059 carries no response statistics because it was dropped before estimation: as the only attention item in the administered range it would have been the single indicator of its factor, which is unidentifiable."
+  },
+  {
+   "id": "table-s3",
+   "label": "Table S3",
+   "title": "Confirmatory factor analysis",
+   "caption": "Confirmatory factor analysis of the 23 retained Bayley-III cognitive items: standardised (STDYX) loadings and inter-factor correlations for the 3-factor model, model fit statistics, and loadings for the unidimensional comparison model.",
+   "parts": [
+    {
+     "key": "s3a",
+     "sub": "S3a — 3-factor model: standardised loadings (STDYX)",
+     "cols": {
+      "factor": "Factor",
+      "item_id": "Item",
+      "item_title": "Title",
+      "std_loading": "Loading",
+      "se": "SE",
+      "est_se": "Est./SE",
+      "p_value": "p"
+     }
+    },
+    {
+     "key": "s3b",
+     "sub": "S3b — 3-factor model: inter-factor correlations",
+     "cols": {
+      "factor_pair": "Factor pair",
+      "std_correlation": "Correlation",
+      "se": "SE",
+      "est_se": "Est./SE",
+      "p_value": "p"
+     }
+    },
+    {
+     "key": "s3c",
+     "sub": "S3c — model fit statistics and nested-model test",
+     "cols": {
+      "model": "Model",
+      "n_items": "Items",
+      "chi_square": "χ²",
+      "df": "df",
+      "chi_p": "p (χ²)",
+      "rmsea": "RMSEA",
+      "rmsea_ci_low": "90% CI low",
+      "rmsea_ci_high": "90% CI high",
+      "cfi": "CFI",
+      "tli": "TLI",
+      "srmr": "SRMR",
+      "difftest_vs_3factor_chi2": "Δχ² vs 3-factor",
+      "difftest_df": "Δdf",
+      "difftest_p": "p (Δχ²)"
+     },
+     "hide": [
+      "source"
+     ]
+    },
+    {
+     "key": "s3d",
+     "sub": "S3d — unidimensional model: standardised loadings (STDYX)",
+     "cols": {
+      "item_id": "Item",
+      "item_title": "Title",
+      "std_loading": "Loading",
+      "se": "SE",
+      "est_se": "Est./SE",
+      "p_value": "p"
+     }
+    }
+   ],
+   "footnote": "Nested-model test (S3c): WLSMV-corrected chi-square difference test (Mplus DIFFTEST) of the unidimensional model, in which the three factor correlations are fixed to 1, against the three-factor model on the same 23 items: Δχ²(3) = 246·1, p < 0·0001."
+  },
+  {
+   "id": "table-s4",
+   "label": "Table S4",
+   "title": "MIMIC covariate associations",
+   "caption": "MIMIC models: standardised associations between 18 perinatal, neonatal and sociodemographic covariates and the latent factors (3-factor model) or the unidimensional composite. Continuous covariates are fully standardised (STDYX) and binary covariates semi-standardised (STDY), the convention used in the text and Figure 4A; the standardisation is stated per row. S4b gives the WLSMV chi-square difference tests (Mplus DIFFTEST) of the factor contrasts quoted in the text.",
+   "noteLabel": "Covariate instruments.",
+   "note": "Maternal postnatal depression was assessed with the 10-item Edinburgh Postnatal Depression Scale (EPDS),¹ a maternal self-report. Dysfunctional parenting was assessed with the 30-item Parenting Scale,² which yields overreactivity, laxness, and verbosity subscales and a total score. Cognitively stimulating parenting was assessed with the Cognitively Stimulating Parenting Scale (CSPS).³",
+   "footnote": "† p < 0.1 · * p < 0.05 · ** p < 0.01 · *** p < 0.001",
+   "parts": [
+    {
+     "key": "s4a",
+     "sub": "S4a — standardised regression coefficients",
+     "groupBy": "covariate_label",
+     "cols": {
+      "covariate_label": "Covariate",
+      "model": "Model",
+      "factor": "Factor",
+      "standardization": "Standardisation",
+      "estimate": "Estimate",
+      "se": "SE",
+      "z_ratio": "z",
+      "p_value": "p",
+      "sig": ""
+     },
+     "hide": [
+      "covariate",
+      "predictor"
+     ]
+    },
+    {
+     "key": "s4b",
+     "sub": "S4b — factor contrasts (WLSMV DIFFTEST, 1 df)",
+     "cols": {
+      "covariate": "Covariate",
+      "constraint": "Constraint (H0)",
+      "chi2_diff": "Δχ²",
+      "df": "df",
+      "p_value": "p",
+      "sig": ""
+     },
+     "hide": [
+      "significant"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "table-s5",
+   "label": "Table S5",
+   "title": "Factor–outcome associations",
+   "caption": "Standardised latent correlations between the factors (3-factor model, and the unidimensional composite) and concurrent developmental and behavioural outcomes.",
+   "footnote": "† p < 0.1 · * p < 0.05 · ** p < 0.01 · *** p < 0.001",
+   "parts": [
+    {
+     "key": "s5",
+     "groupBy": "label",
+     "groupExtra": "domain",
+     "cols": {
+      "label": "Outcome",
+      "domain": "Domain",
+      "model": "Model",
+      "factor": "Factor",
+      "estimate": "Estimate",
+      "se": "SE",
+      "z_ratio": "z",
+      "p_value": "p",
+      "sig": ""
+     },
+     "hide": [
+      "subfolder",
+      "outcome"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "table-s6",
+   "label": "Table S6",
+   "title": "Per-domain recovery of the Aylward domains by the Bayley-4 clusters",
+   "caption": "Number of Bayley-4 items in each expert (Aylward) domain whose unsupervised cluster was labelled with that domain, under two scoring rules: any-factor (an item counts as recovered if the cluster matches any of its listed domains; the rule used in the text) and single-domain (the three multi-factor items excluded, so every item has one domain).",
+   "parts": [
+    {
+     "key": "s6",
+     "cols": {
+      "domain": "Domain",
+      "items_any_factor": "Items (any-factor)",
+      "recovered_any_factor": "Recovered",
+      "pct_any_factor": "%",
+      "items_single_domain": "Items (single-domain)",
+      "recovered_single_domain": "Recovered",
+      "pct_single_domain": "%"
+     }
+    }
+   ],
+   "footnote": "Under the any-factor rule the multi-factor items appear in both of their domains, so the domain rows sum to 42 memberships; the \"All items\" row counts each of the 39 expert-assigned items once (24 recovered, 61·5%)."
+  },
+  {
+   "id": "table-s7",
+   "label": "Table S7",
+   "title": "Pair-level position of the Bayley-4 clusters between the two reference models",
+   "caption": "Every pair of Bayley-4 items with a domain in both of Aylward's reference models is classified as consensus-apart (both models separate the items), consensus-together (both models join them) or disputed (the models disagree). Columns give three treatments of the multi-factor items: excluded (31 single-domain items), any-factor (two items are together under the expert model if they share any listed domain), and first-listed domain (the resolution used for the transfer to the Bayley-III). COG_047 (no expert domain) and the five items absent from the empirical model (COG_002, 003, 008, 052, 081) are excluded throughout.",
+   "parts": [
+    {
+     "key": "s7",
+     "groupBy": "pair_class",
+     "cols": {
+      "quantity": "",
+      "single_domain_31_items": "31 single-domain items",
+      "any_factor_34_items": "Any-factor (34 items)",
+      "first_listed_34_items": "First-listed domain (34 items)"
+     }
+    }
+   ],
+   "footnote": "In the 31-item treatment the nine broken consensus-together pairs all involve COG_024 and COG_067, which the clusters assigned to the attention cluster; the clusters merge 87 pairs against 108 (expert) and 97 (empirical). All values from b4_pair_level_intermediacy.py."
+  },
+  {
+   "id": "table-s8",
+   "label": "Table S8",
+   "title": "Expert-review ledger",
+   "caption": "Items whose unsupervised cluster disagreed with the reference structure, with the two experts’ independent domain assignments (blind to the algorithmic labels) and their consensus. (a) The 16 Bayley-4 items discordant with the Aylward domain under the any-factor rule (Objective 2). (b) The 60 Bayley-III items whose bottom-up cluster (Objective 3) differs from the final translated structure; the algorithmic label is the Step 1 assignment before the expert overrides, the final label the one carried into the 91-item model. Where an expert listed more than one domain the first-listed one is shown, as used for the kappa statistics; — marks a blank or no consensus.",
+   "parts": [
+    {
+     "key": "s8a",
+     "sub": "S8a — Bayley-4: 16 discordant items",
+     "cols": {
+      "item_id": "Item",
+      "aylward_domain": "Aylward domain",
+      "detected_cluster": "Detected cluster",
+      "expert_1": "Expert 1",
+      "expert_2": "Expert 2",
+      "consensus": "Consensus"
+     }
+    },
+    {
+     "key": "s8b",
+     "sub": "S8b — Bayley-III: 60 discordant items",
+     "cols": {
+      "item_id": "Item",
+      "algorithmic_label": "Algorithmic label",
+      "final_label": "Final label",
+      "bottom_up_cluster": "Bottom-up cluster",
+      "expert_1": "Expert 1",
+      "expert_2": "Expert 2",
+      "consensus": "Consensus"
+     }
+    }
+   ],
+   "footnote": "Expert assignments were scored against the algorithmic labels prior to the three expert overrides (κ vs translated 0·27, 0·19); against the final structure, which incorporates those overrides, they are 0·35, 0·25. Of the six UC-flagged items reviewed under Objective 1, COG_027 (reviewed but concordant) is excluded; the other five are discordant under the final structure and are listed in S8b, three of them (COG_033, COG_065, COG_069) carrying the consensus override as their final label. COG_048 (Bayley-4) was on the review sheet but is concordant under the any-factor rule and was not rated."
+  }
+ ],
+ "FIGURE_SECTIONS": [
+  {
+   "id": "figures-s",
+   "title": "Supplementary figures",
+   "figures": [
+    {
+     "id": "fig-s1",
+     "label": "Figure S1",
+     "base": "figure_s1_centroid_heatmap_dhcp_range",
+     "formats": [
+      "png"
+     ],
+     "caption": "Centroid similarity heatmap for unpaired items in the dHCP administration range (items 34–68)."
+    },
+    {
+     "id": "fig-s2",
+     "label": "Figure S2",
+     "base": "figure_s2_centroid_heatmap_full52",
+     "formats": [
+      "png"
+     ],
+     "caption": "Centroid similarity heatmap for all 52 unpaired items."
+    },
+    {
+     "id": "fig-s3",
+     "label": "Figure S3",
+     "base": "figure_s3_b4_threeway_alluvial",
+     "formats": [
+      "png"
+     ],
+     "caption": "Three-way Bayley-4 alluvial diagram: item flow from the theoretical (Aylward et al. 2022), detected (unsupervised consensus k-means), and empirical (standardisation-sample) domain structures."
+    },
+    {
+     "id": "fig-s4",
+     "label": "Figure S4",
+     "base": "figure_s4_b3_alluvial",
+     "formats": [
+      "png"
+     ],
+     "caption": "Bayley-III alluvial diagram: item flow from the theoretical (translated, Step 1) to the detected (bottom-up NLP, Step 3) domain structure, all 91 items."
+    },
+    {
+     "id": "fig-s5",
+     "label": "Figure S5",
+     "base": "figure_s5_cosine_vs_tetrachoric",
+     "formats": [
+      "svg",
+      "png",
+      "pdf"
+     ],
+     "display": "svg",
+     "caption": "Item similarity matrices for the 23-item CFA model (WM · GDPS · FS): embedding cosine similarity vs empirical tetrachoric correlation, dHCP sample."
+    },
+    {
+     "id": "fig-s6",
+     "label": "Figure S6",
+     "base": "figure_s6_threeway_correspondence",
+     "formats": [
+      "svg",
+      "png",
+      "pdf"
+     ],
+     "display": "svg",
+     "caption": "Three-way correspondence between theoretical, detected, and empirical Bayley-4 domain structures."
+    },
+    {
+     "id": "fig-s7",
+     "label": "Figure S7",
+     "base": "figure_s7_within_vs_between",
+     "formats": [
+      "svg",
+      "png",
+      "pdf"
+     ],
+     "display": "svg",
+     "caption": "Within- vs between-cluster cosine similarity by factor, theoretical (Step 1) and bottom-up NLP (Step 3) solutions."
+    },
+    {
+     "id": "fig-s8",
+     "label": "Figure S8",
+     "base": "figure_s8_threshold_sensitivity",
+     "formats": [
+      "svg",
+      "png",
+      "pdf"
+     ],
+     "display": "svg",
+     "caption": "Why cascade item pairing accepts a title match at 0·75. (A) Best title similarity for each of the 39 Bayley-4 cognitive items: 27 clear the threshold and pair on title, 12 fall through to full text. The widest gap is 0·84 to 0·96, so 0·75 marks a sparse region rather than the emptiest one. (B) Pairings differing from the adopted solution across thresholds 0·60 to 0·90. The solution is unchanged throughout 0·68 to 0·77. From 0·78 correct matches between reworded titles are rejected (Grouping: Size with Concept Grouping: Size); from 0·83 four pairings differ; below 0·68 spurious title matches are admitted, two by 0·63. 0·75 is therefore supported by the stability of the solution, not by a clean split in the distribution."
+    }
+   ]
+  }
+ ],
+ "ABBREVIATIONS": [
+  [
+   "ATT",
+   "Attention"
+  ],
+  [
+   "WM",
+   "Working Memory"
+  ],
+  [
+   "GDPS",
+   "Goal-Directed Problem Solving"
+  ],
+  [
+   "FS",
+   "Flexibility/Shift"
+  ],
+  [
+   "HOP",
+   "Higher-Order Processing"
+  ]
+ ],
+ "REFERENCES": [
+  "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry 1987; 150: 782–86.",
+  "Arnold DS, O’Leary SG, Wolff LS, Acker MM. The Parenting Scale: a measure of dysfunctional parenting in discipline situations. Psychol Assess 1993; 5: 137–44.",
+  "Wolke D, Jaekel J, Hall J, Baumann N. Effects of sensitive parenting on the academic resilience of very preterm and very low birth weight adolescents. J Adolesc Health 2013; 53: 642–47."
+ ]
+}

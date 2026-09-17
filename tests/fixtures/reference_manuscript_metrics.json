@@ -1,0 +1,886 @@
+{
+    "Bayley4_Heatmap_Theo_vs_Det": {
+        "within_cluster_mean": 1.8,
+        "between_cluster_mean": 1.65,
+        "separation_ratio": 1.091,
+        "mean_silhouette": 0.0444,
+        "per_factor_silhouette": {
+            "WM": 0.0,
+            "FS": 0.8889,
+            "GDPS": -1.0,
+            "ATT": 1.0,
+            "HOP": -0.6667
+        },
+        "top_off_diagonal_pairs": [
+            {
+                "row": "FS",
+                "col": "FS",
+                "count": 9
+            },
+            {
+                "row": "ATT",
+                "col": "ATT",
+                "count": 9
+            },
+            {
+                "row": "WM",
+                "col": "GDPS",
+                "count": 5
+            },
+            {
+                "row": "HOP",
+                "col": "WM",
+                "count": 3
+            },
+            {
+                "row": "WM",
+                "col": "ATT",
+                "count": 2
+            }
+        ]
+    },
+    "Bayley4_Heatmap_Det_vs_Emp": {
+        "within_cluster_mean": 1.8,
+        "between_cluster_mean": 1.3,
+        "separation_ratio": 1.385,
+        "mean_silhouette": null,
+        "per_factor_silhouette": {},
+        "top_off_diagonal_pairs": [
+            {
+                "row": "FS",
+                "col": "factor_2",
+                "count": 7
+            },
+            {
+                "row": "GDPS",
+                "col": "factor_3",
+                "count": 4
+            },
+            {
+                "row": "ATT",
+                "col": "factor_4",
+                "count": 3
+            },
+            {
+                "row": "HOP",
+                "col": "factor_5",
+                "count": 3
+            },
+            {
+                "row": "ATT",
+                "col": "factor_3",
+                "count": 2
+            }
+        ]
+    },
+    "Bayley4_Heatmap_Theo_vs_Emp": {
+        "within_cluster_mean": 3.0,
+        "between_cluster_mean": 1.1,
+        "separation_ratio": 2.727,
+        "mean_silhouette": null,
+        "per_factor_silhouette": {},
+        "top_off_diagonal_pairs": [
+            {
+                "row": "WM",
+                "col": "factor_3",
+                "count": 5
+            },
+            {
+                "row": "GDPS",
+                "col": "factor_2",
+                "count": 3
+            },
+            {
+                "row": "HOP",
+                "col": "factor_1",
+                "count": 3
+            },
+            {
+                "row": "FS",
+                "col": "factor_1",
+                "count": 2
+            },
+            {
+                "row": "GDPS",
+                "col": "factor_5",
+                "count": 2
+            }
+        ]
+    },
+    "Bayley4_Sankey_Theo_vs_Det": {
+        "ARI": 0.4936,
+        "NMI": 0.6293,
+        "left_marginal_totals": {
+            "WM": 12,
+            "FS": 10,
+            "GDPS": 5,
+            "ATT": 9,
+            "HOP": 6
+        },
+        "right_marginal_totals": {
+            "WM": 8,
+            "ATT": 11,
+            "HOP": 6,
+            "FS": 12,
+            "GDPS": 5
+        },
+        "transition_proportions": [
+            {
+                "from": "WM",
+                "to": "WM",
+                "n": 5,
+                "pct_of_left": 41.7,
+                "is_match": true
+            },
+            {
+                "from": "WM",
+                "to": "ATT",
+                "n": 2,
+                "pct_of_left": 16.7,
+                "is_match": false
+            },
+            {
+                "from": "WM",
+                "to": "GDPS",
+                "n": 5,
+                "pct_of_left": 41.7,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "HOP",
+                "n": 1,
+                "pct_of_left": 10.0,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "FS",
+                "n": 9,
+                "pct_of_left": 90.0,
+                "is_match": true
+            },
+            {
+                "from": "GDPS",
+                "to": "HOP",
+                "n": 4,
+                "pct_of_left": 80.0,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "FS",
+                "n": 1,
+                "pct_of_left": 20.0,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "ATT",
+                "n": 9,
+                "pct_of_left": 100.0,
+                "is_match": true
+            },
+            {
+                "from": "HOP",
+                "to": "WM",
+                "n": 3,
+                "pct_of_left": 50.0,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "HOP",
+                "n": 1,
+                "pct_of_left": 16.7,
+                "is_match": true
+            },
+            {
+                "from": "HOP",
+                "to": "FS",
+                "n": 2,
+                "pct_of_left": 33.3,
+                "is_match": false
+            }
+        ],
+        "major_reallocation_flags": [
+            "41.7% of WM \u2192 GDPS (N=5)",
+            "80.0% of GDPS \u2192 HOP (N=4)",
+            "20.0% of GDPS \u2192 FS (N=1)",
+            "50.0% of HOP \u2192 WM (N=3)",
+            "33.3% of HOP \u2192 FS (N=2)"
+        ]
+    },
+    "Bayley4_Sankey_Det_vs_Emp": {
+        "ARI": 0.4194,
+        "NMI": 0.5642,
+        "left_marginal_totals": {
+            "WM": 8,
+            "ATT": 8,
+            "HOP": 5,
+            "FS": 9,
+            "GDPS": 5
+        },
+        "right_marginal_totals": {
+            "factor_1": 11,
+            "factor_2": 10,
+            "factor_3": 6,
+            "factor_4": 4,
+            "factor_5": 4
+        },
+        "transition_proportions": [
+            {
+                "from": "WM",
+                "to": "factor_1",
+                "n": 8,
+                "pct_of_left": 100.0,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_1",
+                "n": 1,
+                "pct_of_left": 12.5,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_2",
+                "n": 1,
+                "pct_of_left": 12.5,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_3",
+                "n": 2,
+                "pct_of_left": 25.0,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_4",
+                "n": 3,
+                "pct_of_left": 37.5,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_5",
+                "n": 1,
+                "pct_of_left": 12.5,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "factor_2",
+                "n": 2,
+                "pct_of_left": 40.0,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "factor_5",
+                "n": 3,
+                "pct_of_left": 60.0,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "factor_1",
+                "n": 2,
+                "pct_of_left": 22.2,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "factor_2",
+                "n": 7,
+                "pct_of_left": 77.8,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "factor_3",
+                "n": 4,
+                "pct_of_left": 80.0,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "factor_4",
+                "n": 1,
+                "pct_of_left": 20.0,
+                "is_match": false
+            }
+        ],
+        "major_reallocation_flags": [
+            "100.0% of WM \u2192 factor_1 (N=8)",
+            "25.0% of ATT \u2192 factor_3 (N=2)",
+            "37.5% of ATT \u2192 factor_4 (N=3)",
+            "40.0% of HOP \u2192 factor_2 (N=2)",
+            "60.0% of HOP \u2192 factor_5 (N=3)",
+            "22.2% of FS \u2192 factor_1 (N=2)",
+            "77.8% of FS \u2192 factor_2 (N=7)",
+            "80.0% of GDPS \u2192 factor_3 (N=4)",
+            "20.0% of GDPS \u2192 factor_4 (N=1)"
+        ]
+    },
+    "Bayley4_Sankey_Theo_vs_Emp": {
+        "ARI": 0.1924,
+        "NMI": 0.4031,
+        "left_marginal_totals": {
+            "WM": 12,
+            "FS": 9,
+            "GDPS": 5,
+            "ATT": 6,
+            "HOP": 5
+        },
+        "right_marginal_totals": {
+            "factor_1": 11,
+            "factor_2": 12,
+            "factor_3": 6,
+            "factor_4": 4,
+            "factor_5": 4
+        },
+        "transition_proportions": [
+            {
+                "from": "WM",
+                "to": "factor_1",
+                "n": 6,
+                "pct_of_left": 50.0,
+                "is_match": false
+            },
+            {
+                "from": "WM",
+                "to": "factor_3",
+                "n": 5,
+                "pct_of_left": 41.7,
+                "is_match": false
+            },
+            {
+                "from": "WM",
+                "to": "factor_4",
+                "n": 1,
+                "pct_of_left": 8.3,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "factor_1",
+                "n": 2,
+                "pct_of_left": 22.2,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "factor_2",
+                "n": 6,
+                "pct_of_left": 66.7,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "factor_5",
+                "n": 1,
+                "pct_of_left": 11.1,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "factor_2",
+                "n": 3,
+                "pct_of_left": 60.0,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "factor_5",
+                "n": 2,
+                "pct_of_left": 40.0,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_2",
+                "n": 1,
+                "pct_of_left": 16.7,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_3",
+                "n": 1,
+                "pct_of_left": 16.7,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_4",
+                "n": 3,
+                "pct_of_left": 50.0,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "factor_5",
+                "n": 1,
+                "pct_of_left": 16.7,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "factor_1",
+                "n": 3,
+                "pct_of_left": 60.0,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "factor_2",
+                "n": 2,
+                "pct_of_left": 40.0,
+                "is_match": false
+            }
+        ],
+        "major_reallocation_flags": [
+            "50.0% of WM \u2192 factor_1 (N=6)",
+            "41.7% of WM \u2192 factor_3 (N=5)",
+            "22.2% of FS \u2192 factor_1 (N=2)",
+            "66.7% of FS \u2192 factor_2 (N=6)",
+            "60.0% of GDPS \u2192 factor_2 (N=3)",
+            "40.0% of GDPS \u2192 factor_5 (N=2)",
+            "50.0% of ATT \u2192 factor_4 (N=3)",
+            "60.0% of HOP \u2192 factor_1 (N=3)",
+            "40.0% of HOP \u2192 factor_2 (N=2)"
+        ]
+    },
+    "Bayley4_ItemLevel_Theo_vs_Det": {
+        "overall_agreement_rate_pct": 61.5,
+        "overall_agreement_fraction": "24/39",
+        "overall_agreement_rate_pct_all_clustered": 60.0,
+        "overall_agreement_fraction_all_clustered": "24/40",
+        "agreement_rule": "any-factor: cluster matches any expert domain listed for the item; denominator = the 39 items with an expert domain (COG_047 has none)",
+        "n_items_clustered": 40,
+        "n_items_with_expert_domain": 39,
+        "n_items_multi_factor": 3,
+        "items_without_expert_domain": [
+            "COG_047"
+        ],
+        "n_discordant": 16,
+        "discordant_items": [
+            "COG_014",
+            "COG_021",
+            "COG_022",
+            "COG_024",
+            "COG_028",
+            "COG_032",
+            "COG_034",
+            "COG_037",
+            "COG_042",
+            "COG_047",
+            "COG_057",
+            "COG_062",
+            "COG_063",
+            "COG_067",
+            "COG_068",
+            "COG_081"
+        ],
+        "primary_domain_agreement_fraction": "22/39",
+        "domain_specific_accuracy": {
+            "WM": {
+                "n_items": 12,
+                "n_agree": 5,
+                "pct_agreement": 41.7,
+                "n_items_single_domain": 12,
+                "n_agree_single_domain": 5
+            },
+            "FS": {
+                "n_items": 10,
+                "n_agree": 9,
+                "pct_agreement": 90.0,
+                "n_items_single_domain": 8,
+                "n_agree_single_domain": 7
+            },
+            "GDPS": {
+                "n_items": 5,
+                "n_agree": 0,
+                "pct_agreement": 0.0,
+                "n_items_single_domain": 3,
+                "n_agree_single_domain": 0
+            },
+            "ATT": {
+                "n_items": 9,
+                "n_agree": 9,
+                "pct_agreement": 100.0,
+                "n_items_single_domain": 9,
+                "n_agree_single_domain": 9
+            },
+            "HOP": {
+                "n_items": 6,
+                "n_agree": 1,
+                "pct_agreement": 16.7,
+                "n_items_single_domain": 4,
+                "n_agree_single_domain": 0
+            }
+        }
+    },
+    "Bayley3_Heatmap_Theo_vs_Det": {
+        "within_cluster_mean": 4.8,
+        "between_cluster_mean": 3.35,
+        "separation_ratio": 1.433,
+        "mean_silhouette": -0.3071,
+        "per_factor_silhouette": {
+            "WM": 0.25,
+            "FS": -0.9412,
+            "GDPS": -0.7333,
+            "ATT": 0.8889,
+            "HOP": -1.0
+        },
+        "top_off_diagonal_pairs": [
+            {
+                "row": "FS",
+                "col": "GDPS",
+                "count": 17
+            },
+            {
+                "row": "GDPS",
+                "col": "FS",
+                "count": 15
+            },
+            {
+                "row": "WM",
+                "col": "WM",
+                "count": 8
+            },
+            {
+                "row": "WM",
+                "col": "FS",
+                "count": 6
+            },
+            {
+                "row": "HOP",
+                "col": "WM",
+                "count": 5
+            }
+        ]
+    },
+    "Bayley3_Sankey_Theo_vs_Det": {
+        "ARI": 0.3917,
+        "NMI": 0.4835,
+        "left_marginal_totals": {
+            "WM": 19,
+            "FS": 20,
+            "GDPS": 23,
+            "ATT": 22,
+            "HOP": 7
+        },
+        "right_marginal_totals": {
+            "GDPS": 29,
+            "FS": 23,
+            "WM": 15,
+            "ATT": 18,
+            "HOP": 6
+        },
+        "transition_proportions": [
+            {
+                "from": "WM",
+                "to": "GDPS",
+                "n": 5,
+                "pct_of_left": 26.3,
+                "is_match": false
+            },
+            {
+                "from": "WM",
+                "to": "FS",
+                "n": 6,
+                "pct_of_left": 31.6,
+                "is_match": false
+            },
+            {
+                "from": "WM",
+                "to": "WM",
+                "n": 8,
+                "pct_of_left": 42.1,
+                "is_match": true
+            },
+            {
+                "from": "FS",
+                "to": "GDPS",
+                "n": 17,
+                "pct_of_left": 85.0,
+                "is_match": false
+            },
+            {
+                "from": "FS",
+                "to": "FS",
+                "n": 1,
+                "pct_of_left": 5.0,
+                "is_match": true
+            },
+            {
+                "from": "FS",
+                "to": "HOP",
+                "n": 2,
+                "pct_of_left": 10.0,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "GDPS",
+                "n": 4,
+                "pct_of_left": 17.4,
+                "is_match": true
+            },
+            {
+                "from": "GDPS",
+                "to": "FS",
+                "n": 15,
+                "pct_of_left": 65.2,
+                "is_match": false
+            },
+            {
+                "from": "GDPS",
+                "to": "HOP",
+                "n": 4,
+                "pct_of_left": 17.4,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "GDPS",
+                "n": 1,
+                "pct_of_left": 4.5,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "FS",
+                "n": 1,
+                "pct_of_left": 4.5,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "WM",
+                "n": 2,
+                "pct_of_left": 9.1,
+                "is_match": false
+            },
+            {
+                "from": "ATT",
+                "to": "ATT",
+                "n": 18,
+                "pct_of_left": 81.8,
+                "is_match": true
+            },
+            {
+                "from": "HOP",
+                "to": "GDPS",
+                "n": 2,
+                "pct_of_left": 28.6,
+                "is_match": false
+            },
+            {
+                "from": "HOP",
+                "to": "WM",
+                "n": 5,
+                "pct_of_left": 71.4,
+                "is_match": false
+            }
+        ],
+        "major_reallocation_flags": [
+            "26.3% of WM \u2192 GDPS (N=5)",
+            "31.6% of WM \u2192 FS (N=6)",
+            "85.0% of FS \u2192 GDPS (N=17)",
+            "65.2% of GDPS \u2192 FS (N=15)",
+            "28.6% of HOP \u2192 GDPS (N=2)",
+            "71.4% of HOP \u2192 WM (N=5)"
+        ]
+    },
+    "Bayley3_ItemLevel_Theo_vs_Det": {
+        "overall_agreement_rate_pct": 34.1,
+        "overall_agreement_fraction": "31/91",
+        "domain_specific_accuracy": {
+            "WM": {
+                "n_items": 19,
+                "n_agree": 8,
+                "pct_agreement": 42.1
+            },
+            "FS": {
+                "n_items": 20,
+                "n_agree": 1,
+                "pct_agreement": 5.0
+            },
+            "GDPS": {
+                "n_items": 23,
+                "n_agree": 4,
+                "pct_agreement": 17.4
+            },
+            "ATT": {
+                "n_items": 22,
+                "n_agree": 18,
+                "pct_agreement": 81.8
+            },
+            "HOP": {
+                "n_items": 7,
+                "n_agree": 0,
+                "pct_agreement": 0.0
+            }
+        }
+    },
+    "Bayley4_PairLevel_Intermediacy": {
+        "description": "pair-level agreement of the detected Bayley-4 clusters with the expert-derived and empirical Aylward models (see analysis/concordance/b4_pair_level_intermediacy.py)",
+        "excluded_always": {
+            "no_expert_domain": [
+                "COG_047"
+            ],
+            "not_in_empirical_model": [
+                "COG_002",
+                "COG_003",
+                "COG_008",
+                "COG_052",
+                "COG_081"
+            ]
+        },
+        "multi_factor_items": {
+            "COG_035": [
+                "GDPS",
+                "FS"
+            ],
+            "COG_048": [
+                "GDPS",
+                "HOP"
+            ],
+            "COG_051": [
+                "FS",
+                "HOP"
+            ]
+        },
+        "cluster_sizes": {
+            "detected": {
+                "ATT": 11,
+                "FS": 11,
+                "WM": 8,
+                "GDPS": 5,
+                "HOP": 5
+            },
+            "expert_primary": {
+                "WM": 12,
+                "ATT": 9,
+                "FS": 9,
+                "GDPS": 5,
+                "HOP": 4
+            },
+            "empirical": {
+                "factor_1": 11,
+                "factor_2": 10,
+                "factor_3": 6,
+                "factor_4": 4,
+                "factor_5": 4
+            }
+        },
+        "strict": {
+            "n_items": 31,
+            "n_pairs": 465,
+            "consensus_together": {
+                "n": 39,
+                "kept_together": 30,
+                "pct": 76.9
+            },
+            "consensus_apart": {
+                "n": 299,
+                "kept_apart": 287,
+                "pct": 96.0
+            },
+            "disputed": {
+                "n": 127,
+                "expert_together_pairs": 69,
+                "expert_together_kept_together": 27,
+                "empirical_together_pairs": 58,
+                "empirical_together_kept_together": 18,
+                "resolved_toward_expert": 67,
+                "resolved_toward_empirical": 60,
+                "pct_toward_expert": 52.8
+            },
+            "together_pairs": {
+                "expert": 108,
+                "empirical": 97,
+                "detected": 87
+            },
+            "jaccard": {
+                "detected_vs_expert": 0.413,
+                "detected_vs_empirical": 0.3529,
+                "expert_vs_empirical": 0.2349
+            }
+        },
+        "any_factor": {
+            "n_items": 34,
+            "n_pairs": 561,
+            "consensus_together": {
+                "n": 52,
+                "kept_together": 40,
+                "pct": 76.9
+            },
+            "consensus_apart": {
+                "n": 358,
+                "kept_apart": 345,
+                "pct": 96.4
+            },
+            "disputed": {
+                "n": 151,
+                "expert_together_pairs": 85,
+                "expert_together_kept_together": 33,
+                "empirical_together_pairs": 66,
+                "empirical_together_kept_together": 18,
+                "resolved_toward_expert": 81,
+                "resolved_toward_empirical": 70,
+                "pct_toward_expert": 53.6
+            },
+            "together_pairs": {
+                "expert": 137,
+                "empirical": 118,
+                "detected": 104
+            },
+            "jaccard": {
+                "detected_vs_expert": 0.4345,
+                "detected_vs_empirical": 0.3537,
+                "expert_vs_empirical": 0.2562
+            }
+        },
+        "primary": {
+            "n_items": 34,
+            "n_pairs": 561,
+            "consensus_together": {
+                "n": 46,
+                "kept_together": 35,
+                "pct": 76.1
+            },
+            "consensus_apart": {
+                "n": 367,
+                "kept_apart": 352,
+                "pct": 95.9
+            },
+            "disputed": {
+                "n": 148,
+                "expert_together_pairs": 76,
+                "expert_together_kept_together": 31,
+                "empirical_together_pairs": 72,
+                "empirical_together_kept_together": 23,
+                "resolved_toward_expert": 80,
+                "resolved_toward_empirical": 68,
+                "pct_toward_expert": 54.1
+            },
+            "together_pairs": {
+                "expert": 122,
+                "empirical": 118,
+                "detected": 104
+            },
+            "jaccard": {
+                "detected_vs_expert": 0.4125,
+                "detected_vs_empirical": 0.3537,
+                "expert_vs_empirical": 0.2371
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+comparison,step1_source,n_pairs,n_agree,pct_agree
+AD vs AH (IRR),cascade_pairing,25,8,32.0
+AD vs AH (IRR),centroid_loo,13,6,46.2
+AD vs AH (IRR),uc_redirected,16,11,68.8
+AD vs Step 1 (translated),cascade_pairing,25,12,48.0
+AD vs Step 1 (translated),centroid_loo,13,8,61.5
+AD vs Step 1 (translated),uc_redirected,16,4,25.0
+AH vs Step 1 (translated),cascade_pairing,26,9,34.6
+AH vs Step 1 (translated),centroid_loo,15,5,33.3
+AH vs Step 1 (translated),uc_redirected,20,8,40.0
+Consensus vs Step 1 (translated),cascade_pairing,8,7,87.5
+Consensus vs Step 1 (translated),centroid_loo,6,4,66.7
+Consensus vs Step 1 (translated),uc_redirected,11,3,27.3
+AD vs Step 3 (bottom-up),cascade_pairing,25,4,16.0
+AD vs Step 3 (bottom-up),centroid_loo,13,2,15.4
+AD vs Step 3 (bottom-up),uc_redirected,16,3,18.8
+AH vs Step 3 (bottom-up),cascade_pairing,26,0,0.0
+AH vs Step 3 (bottom-up),centroid_loo,15,0,0.0
+AH vs Step 3 (bottom-up),uc_redirected,20,3,15.0
+Consensus vs Step 3 (bottom-up),cascade_pairing,8,0,0.0
+Consensus vs Step 3 (bottom-up),centroid_loo,6,0,0.0
+Consensus vs Step 3 (bottom-up),uc_redirected,11,2,18.2

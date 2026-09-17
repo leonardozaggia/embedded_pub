@@ -1,0 +1,40 @@
+b4_item_id,b4_item_title,b3_item_id,b3_item_title,aylward_domains,theoretical_domain,cosine_similarity_fulltext,cosine_similarity_title,pairing_stage
+COG_002,Looks at Object,COG_003,Regards Object for 3 Seconds,ATT,attention,0.891,0.4,full-text fallback
+COG_003,Habituates to Rattle,COG_004,Habituates to Rattle,ATT,attention,0.983,1.0,title-locked
+COG_008,Shifts Attention,COG_010,Shifts Attention,ATT,attention,0.96,1.0,title-locked
+COG_009,Shows Visual Preference,COG_011,Shows Visual Preference,ATT,attention,0.933,1.0,title-locked
+COG_010,Habituates to Balloons,COG_014,Habituates to Picture (Balloons),ATT,attention,0.909,0.83,title-locked
+COG_011,Prefers Ball,COG_015,Prefers Novel Picture (Ball),ATT,attention,0.833,0.704,full-text fallback
+COG_012,Responds to Surroundings,COG_002,Responds to Surroundings Series: Inspects,ATT,attention,0.91,0.598,full-text fallback
+COG_026,Looks at Pictures,COG_032,Looks at Pictures,ATT,attention,0.973,1.0,title-locked
+COG_041,Listens to Story,COG_059,Attends to Story,ATT,attention,0.887,0.839,title-locked
+COG_034,Removes Pellet,COG_042,Removes Pellet,FS,flexibility_shift,0.919,1.0,title-locked
+COG_040,Pink Board Series: 2 Pieces,COG_049,Pink Board Series: 1 Piece,FS,flexibility_shift,0.963,0.959,title-locked
+COG_043,Blue Board Series: 1 Piece,COG_051,Blue Board Series: 1 Piece,FS,flexibility_shift,0.977,1.0,title-locked
+COG_049,Blue Board Series: 4 Pieces,COG_058,Blue Board Series: 4 Pieces,FS,flexibility_shift,0.974,1.0,title-locked
+COG_051,Rotated Pink Board,COG_060,Rotated Pink Board,FS + HOP,flexibility_shift,0.958,1.0,title-locked
+COG_052,Object Assembly: ball,COG_061,Object Assembly (Ball),FS,flexibility_shift,0.934,0.976,title-locked
+COG_053,Object Assembly: Ice Cream Cone,COG_063,Object Assembly (Ice Cream Cone),FS,flexibility_shift,0.953,0.99,title-locked
+COG_073,Object Assembly: Dog,COG_082,Object Assembly (Dog),FS,flexibility_shift,0.946,0.972,title-locked
+COG_074,Object Assembly: Cat,COG_066,Blue Board Series: Completes (75 Seconds),FS,flexibility_shift,0.625,-0.025,full-text fallback
+COG_014,Brings to Mouth,COG_017,Carries Object to Mouth,GDPS,goal_directed_problem_solving,0.867,0.556,full-text fallback
+COG_022,Obtains Ring,COG_041,Suspends Ring,GDPS,goal_directed_problem_solving,0.902,0.51,full-text fallback
+COG_035,Clear Box,COG_043,Clear Box: Front,GDPS + FS,goal_directed_problem_solving,0.775,0.796,title-locked
+COG_048,Uses Pencil to Obtain Object,COG_057,Uses Pencil to Obtain Object,GDPS + HOP,goal_directed_problem_solving,0.96,1.0,title-locked
+COG_057,Imitates 2-Step Action,COG_067,Imitates a Two-Step Action,GDPS,goal_directed_problem_solving,0.96,0.981,title-locked
+COG_062,Grouping: Colour,COG_072,Concept Grouping: Color,HOP,higher_order_processing,0.564,0.828,title-locked
+COG_063,Grouping: Size,COG_073,Concept Grouping: Size,HOP,higher_order_processing,0.567,0.776,title-locked
+COG_068,Simple Pattern,COG_077,Simple Pattern,HOP,higher_order_processing,0.532,1.0,title-locked
+COG_081,Completes Patterns,COG_091,Completes Patterns,HOP,higher_order_processing,0.958,1.0,title-locked
+COG_021,Searches for Object,COG_025,Searches for Fallen Object,WM,working_memory,0.964,0.707,full-text fallback
+COG_024,Anticipatory Gaze,COG_013,Prefers Novel Object,WM,working_memory,0.703,0.17,full-text fallback
+COG_028,Searches for Missing Objects,COG_034,Searches for Missing Objects,WM,working_memory,0.975,1.0,title-locked
+COG_032,Finds Hidden Object,COG_040,Finds Hidden Object,WM,working_memory,0.755,1.0,title-locked
+COG_037,Finds Hidden Object (Reversed),COG_045,Finds Hidden Object (Reversed),WM,working_memory,0.762,1.0,title-locked
+COG_042,Finds Hidden Object (Visible Displacement),COG_050,Finds Hidden Object (Visible Displacement),WM,working_memory,0.775,1.0,title-locked
+COG_056,Spatial Memory: 3 Cards,COG_068,Matches 3 Colors,WM,working_memory,0.582,0.132,full-text fallback
+COG_060,Recalls Names,COG_081,Identifies 3 Incomplete Pictures,WM,working_memory,0.66,0.162,full-text fallback
+COG_064,Repeats Words,COG_064,Matches Pictures,WM,working_memory,0.553,0.155,full-text fallback
+COG_067,Discriminates Pictures,COG_076,Discriminates Pictures,WM,working_memory,0.876,1.0,title-locked
+COG_076,Spatial Memory: 6 Cards,COG_084,Spatial Memory,WM,working_memory,0.897,0.557,full-text fallback
+COG_080,Repeats Number Sequences,COG_090,Repeats Number Sequences,WM,working_memory,0.89,1.0,title-locked

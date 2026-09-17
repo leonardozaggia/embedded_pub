@@ -1,0 +1,54 @@
+{
+  "input": "coauthor_review_b4.xlsx",
+  "n_items": 17,
+  "n_expert1": 16,
+  "n_expert2": 16,
+  "n_consensus": 8,
+  "n_rated_items": 16,
+  "n_discordant_any_factor": 16,
+  "items_reviewed": [
+    "COG_014",
+    "COG_021",
+    "COG_022",
+    "COG_024",
+    "COG_028",
+    "COG_032",
+    "COG_034",
+    "COG_037",
+    "COG_042",
+    "COG_047",
+    "COG_048",
+    "COG_057",
+    "COG_062",
+    "COG_063",
+    "COG_067",
+    "COG_068",
+    "COG_081"
+  ],
+  "items_unrated": [
+    "COG_048"
+  ],
+  "items_reviewed_but_concordant": [
+    "COG_048"
+  ],
+  "items_without_reference_domain": [
+    "COG_047"
+  ],
+  "items_with_consensus": [
+    "COG_022",
+    "COG_032",
+    "COG_034",
+    "COG_047",
+    "COG_062",
+    "COG_063",
+    "COG_067",
+    "COG_068"
+  ],
+  "kappa": {
+    "Expert 1 vs Expert 2 (IRR)": 0.3228,
+    "Consensus vs Aylward (reference)": 0.6522,
+    "Consensus vs Detected (NLP)": -0.3333,
+    "Expert 1 vs Aylward (reference)": 0.3368,
+    "Expert 2 vs Aylward (reference)": 0.4227
+  }
+}

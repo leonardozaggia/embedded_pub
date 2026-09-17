@@ -1,0 +1,124 @@
+all_mpnet_base_v2_b3_expert_guided_v6_cog_b3_centroids:
+  source: b3_expert_guided_mapping_v6_cog
+  model: all-mpnet-base-v2
+  date: '2026-06-30'
+  reference_model: Aylward et al. (2022) expert-guided cognitive facets
+  n_factors: 3
+  n_items: 34
+  centroid_method: b3_centroids
+  uc_policy: LOO-UC items redirected to best cognitive facet; sparse facets excluded
+  min_items_per_ef_factor: 3
+  n_paired_items_in_data: 19
+  n_centroid_assigned_items: 16
+  n_facet_direct: 8
+  n_uc_redirected: 8
+  uc_redirected_items:
+    COG_035: flexibility_shift
+    COG_036: flexibility_shift
+    COG_037: goal_directed_problem_solving
+    COG_038: flexibility_shift
+    COG_048: goal_directed_problem_solving
+    COG_053: goal_directed_problem_solving
+    COG_054: flexibility_shift
+    COG_065: goal_directed_problem_solving
+  n_excluded_sparse_ef: 1
+  excluded_sparse_ef_items:
+  - COG_059
+  sparse_ef_factors:
+  - attention
+  - higher_order_processing
+  final_ef_factors:
+  - working_memory
+  - goal_directed_problem_solving
+  - flexibility_shift
+  mean_pairing_similarity: 0.906
+  factor_names:
+    F1: working_memory
+    F2: goal_directed_problem_solving
+    F3: flexibility_shift
+  factor_items:
+    F1:
+    - COG_034
+    - COG_040
+    - COG_045
+    - COG_050
+    - COG_064
+    - COG_068
+    F2:
+    - COG_037
+    - COG_039
+    - COG_041
+    - COG_043
+    - COG_044
+    - COG_046
+    - COG_048
+    - COG_052
+    - COG_053
+    - COG_057
+    - COG_065
+    - COG_067
+    F3:
+    - COG_035
+    - COG_036
+    - COG_038
+    - COG_042
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_054
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_066
+  factor_indices:
+    F1:
+    - 1
+    - 7
+    - 12
+    - 17
+    - 31
+    - 35
+    F2:
+    - 4
+    - 6
+    - 8
+    - 10
+    - 11
+    - 13
+    - 15
+    - 19
+    - 20
+    - 24
+    - 32
+    - 34
+    F3:
+    - 2
+    - 3
+    - 5
+    - 9
+    - 14
+    - 16
+    - 18
+    - 21
+    - 22
+    - 23
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 33
+  factor_sizes:
+    F1: 6
+    F2: 12
+    F3: 16
+  description: 'B3 items 34-68 assigned to expert-guided cognitive facets of Aylward
+    et al. (2022). 19 items via cascade B4-B3 pairing (title-locked + full-text fallback);
+    8 unpaired items via LOO (b3_centroids) directly to EF facets; 8 LOO-UC items
+    redirected to best cognitive facet (total LOO-in-model: 16); 1 items excluded
+    from sparse cognitive facets (ATT, HOP). Cross-loaders contributed embeddings
+    to all listed facets'' centroids.'

@@ -1,0 +1,22 @@
+comparison,group,n_pairs,n_agree,pct_agree,kappa
+AD vs AH (IRR),paired,25,8,32.0,0.1667
+AD vs AH (IRR),extension,29,17,58.6,0.4295
+AD vs AH (IRR),all,54,25,46.3,0.3262
+AD vs Step 1 (translated),paired,25,12,48.0,0.3552
+AD vs Step 1 (translated),extension,29,12,41.4,0.1714
+AD vs Step 1 (translated),all,54,24,44.4,0.2816
+AH vs Step 1 (translated),paired,26,9,34.6,0.1934
+AH vs Step 1 (translated),extension,35,13,37.1,0.1387
+AH vs Step 1 (translated),all,61,22,36.1,0.1974
+Consensus vs Step 1 (translated),paired,8,7,87.5,0.8095
+Consensus vs Step 1 (translated),extension,17,7,41.2,0.1707
+Consensus vs Step 1 (translated),all,25,14,56.0,0.3996
+AD vs Step 3 (bottom-up),paired,25,4,16.0,-0.0736
+AD vs Step 3 (bottom-up),extension,29,5,17.2,-0.1857
+AD vs Step 3 (bottom-up),all,54,9,16.7,-0.1101
+AH vs Step 3 (bottom-up),paired,26,0,0.0,-0.1696
+AH vs Step 3 (bottom-up),extension,35,3,8.6,-0.257
+AH vs Step 3 (bottom-up),all,61,3,4.9,-0.2018
+Consensus vs Step 3 (bottom-up),paired,8,0,0.0,-0.1852
+Consensus vs Step 3 (bottom-up),extension,17,2,11.8,-0.226
+Consensus vs Step 3 (bottom-up),all,25,2,8.0,-0.1735

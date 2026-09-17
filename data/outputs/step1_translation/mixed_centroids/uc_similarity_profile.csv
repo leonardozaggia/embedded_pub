@@ -1,0 +1,11 @@
+item_id,item_title,source,final_factor,uc_sim,best_ef_factor,best_ef_sim,margin
+COG_053,Relational Play Series: Others,loo_uc_redirected,goal_directed_problem_solving,0.7156447768211365,goal_directed_problem_solving,0.5761483907699585,0.13949638605117798
+COG_048,Relational Play Series: Self,loo_uc_redirected,goal_directed_problem_solving,0.7238177061080933,goal_directed_problem_solving,0.5976294875144958,0.1261882185935974
+COG_065,Representational Play,loo_uc_redirected,goal_directed_problem_solving,0.746309757232666,goal_directed_problem_solving,0.629799485206604,0.11651027202606201
+COG_037,Picks Up Block Series: 3 Blocks,loo_uc_redirected,goal_directed_problem_solving,0.8107870221138,goal_directed_problem_solving,0.7158595323562622,0.09492748975753784
+COG_038,Explores Holes in Pegboard,loo_uc_redirected,goal_directed_problem_solving,0.7176855802536011,goal_directed_problem_solving,0.650101363658905,0.06758421659469604
+COG_036,Block Series: 1 Block,loo_uc_redirected,flexibility_shift,0.8065706491470337,flexibility_shift,0.7528046369552612,0.05376601219177246
+COG_035,Takes Blocks Out of Cup,loo_uc_redirected,flexibility_shift,0.7687264084815979,flexibility_shift,0.7222177386283875,0.04650866985321045
+COG_054,Block Series: 9 Blocks,loo_uc_redirected,flexibility_shift,0.7273135781288147,flexibility_shift,0.7029796838760376,0.0243338942527771
+COG_047,Pegboard Series: 2 Holes,loo_uc_redirected,flexibility_shift,0.7040014266967773,flexibility_shift,0.7010617256164551,0.0029397010803222656
+COG_059,Attends to Story,sparse_ef_excluded,,,,,

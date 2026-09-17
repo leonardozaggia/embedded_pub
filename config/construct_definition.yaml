@@ -1,0 +1,42 @@
+# Constructs and their definitions
+
+oxford:
+  attention:
+  - description: sustained concentration on a specific stimulus, sensation, idea, thought, or activity, enabling one to use information-processing systems with limited capacity to handle vast amounts of information available from the sense organs and memory stores. # Definition Attention OXFORD PSY DICT.
+
+  working memory:
+  - description: a temporary store for recently activated items of information that are currently occupying consciousness and that can be manipulated and moved in and out of short-term memory # Definition Working Memory OXFORD PSY DICT.
+
+  goal directed problem solving:
+  - description: cognitive processing directed at finding solutions to well-defined problems, by performing a sequence of operations.               # Definition Problem Solving OXFORD PSY DICT.
+
+  flexibility shift:
+  - description: shifting back and forth between multiple tasks, operations, or mental sets. The ability to perform a new operation in the face of proactive interference or negative priming # Miyake et al. (2000), p. 49
+
+  higher order processes: 
+  - description: cognitive processing directed at finding solutions to problems by applying formal rules of logic or some other rational procedure. # Definition Rationality OXFORD PSY DICT.
+
+
+cognitive_psychology:
+  attention:
+  - description: the taking into possession of the mind, in clear and vivid form, of one out of what seem several simultaneously possible objects or trains of thought. Focalization, concentration, of consciousness are of its essence.  # William James (1890), Principles of Psychology, Vol. 1, Chapter 11: Attention
+  
+  working memory:
+  - description: sythem, or a set of processes, holding mental representations temporarily available for use in thought and action. # Oberauer et al. 2018
+  
+  goal directed problem solving:
+  - description: purposeful, involves controlled processes and is not totally reliant on automatic processes. # no-reference
+  
+  flexibility shift:
+  - description: used to switch flexibly between tasks or mental sets # Miyake et al. (2000)
+  
+  higher order processes: 
+  - description: high level processes that, through their influence on lower-level processes, enable individuals to regulate their thoughts and actions, during goal-directed behaviour # Friedman & Miyake (2017)
+
+
+# other:
+#   attention:
+#   - description: all those aspects of human cognition that the subject can control and to all aspects of cognition having to do with limited resources or capacity, and methods of dealing with such constraints # Shiffrin (1988)
+
+#   working_memory:
+#   - description: involves holding information in mind and mentally working with it (or said differently, working with information no longer perceptually present) # Diamond (2013): reference to Baddeley & Hitch (1994), Smith & Jonides (1999)

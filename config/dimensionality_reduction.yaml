@@ -1,0 +1,97 @@
+# Dimensionality Reduction Configuration
+# 
+# This file defines default parameters for all supported dimensionality reduction algorithms.
+# Parameters can be overridden via CLI arguments or programmatic kwargs.
+#
+# Use cases:
+#   - n_components=15: Clustering (pre-clustering reduction)
+#   - n_components=2: Visualization (2D scatter plots)
+#   - n_components=3: Visualization (3D plots, optional)
+
+# Global defaults
+defaults:
+  random_state: 42
+  n_components_cluster: 15  # For pre-clustering reduction
+  n_components_viz: 2       # For visualization
+
+# UMAP - Uniform Manifold Approximation and Projection
+# Reference: McInnes et al. (2018) https://arxiv.org/abs/1802.03426
+# Best for: Preserving both local and global structure, fast on large datasets
+umap:
+  n_neighbors: 10          # Local neighborhood size (larger = more global structure)
+  min_dist: 0.0            # Minimum distance between points (0 = tighter clusters)
+  metric: "cosine"         # Distance metric for embedding space
+  n_jobs: -1               # Parallel jobs (-1 = all cores)
+  low_memory: false        # Use low memory mode for very large datasets
+  # Note: random_state inherited from defaults
+
+# t-SNE - t-Distributed Stochastic Neighbor Embedding
+# Reference: van der Maaten & Hinton (2008)
+# Best for: 2D visualization, revealing cluster structure
+# Warning: Slow on large datasets, not suitable for n_components > 3
+tsne:
+  perplexity: 30           # Balance between local/global (5-50 typical)
+  learning_rate: "auto"    # Learning rate (200 typical, "auto" recommended)
+  n_iter: 1000             # Number of iterations
+  early_exaggeration: 12.0 # Early exaggeration factor
+  metric: "cosine"         # Distance metric
+  init: "pca"              # Initialization method ("pca" or "random")
+  method: "exact"     # Algorithm ("barnes_hut" for speed, "exact" for precision)
+  # Note: t-SNE generally only supports n_components=2 or 3
+
+# PCA - Principal Component Analysis
+# Best for: Linear dimensionality reduction, fast, deterministic
+# Note: May not capture nonlinear relationships in embedding space
+pca:
+  svd_solver: "auto"       # "auto", "full", "arpack", "randomized"
+  whiten: false            # Whiten components (decorrelate and scale)
+  # Note: No random_state needed when svd_solver="full"
+
+# Isomap - Isometric Mapping
+# Reference: Tenenbaum et al. (2000)
+# Best for: Data lying on a low-dimensional manifold
+# Warning: Memory-intensive for large datasets
+isomap:
+  n_neighbors: 10          # Number of neighbors for graph construction
+  metric: "cosine"         # Distance metric
+  eigen_solver: "auto"     # "auto", "arpack", "dense"
+  # Note: Uses geodesic distances along the manifold
+
+# Spectral Embedding
+# Best for: Graph-based data, when data has cluster structure
+spectral:
+  n_neighbors: 10          # Number of neighbors for affinity matrix
+  affinity: "nearest_neighbors"  # Affinity type ("nearest_neighbors" or "rbf")
+  gamma: null              # Kernel coefficient for rbf (null = 1/n_features)
+  eigen_solver: "arpack"   # "arpack" or "lobpcg"
+
+# MDS - Multidimensional Scaling
+# Best for: Preserving pairwise distances
+# Warning: Slow on large datasets (O(n^3) complexity)
+mds:
+  metric: true             # Use metric MDS (true) or non-metric (false)
+  n_init: 4                # Number of times to run with different inits
+  max_iter: 300            # Maximum iterations
+  eps: 1.0e-3              # Convergence threshold
+  dissimilarity: "euclidean"  # "euclidean" or "precomputed"
+
+# TriMAP - Large-scale Dimensionality Reduction
+# Reference: Amid & Warmuth (2019)
+# Best for: Very large datasets, alternative to t-SNE/UMAP
+# Note: Requires separate installation: pip install trimap
+trimap:
+  n_inliers: 10            # Number of nearest neighbors
+  n_outliers: 5            # Number of outlier points
+  n_random: 5              # Number of random triplets
+  weight_adj: 500.0        # Weight adjustment factor
+  n_iters: 400             # Number of iterations
+
+# PACMAP - Pairwise Controlled Manifold Approximation
+# Reference: Wang et al. (2021)
+# Best for: Balancing local and global structure preservation
+# Note: Requires separate installation: pip install pacmap
+pacmap:
+  n_neighbors: 10          # Number of neighbors
+  mn_ratio: 0.5            # Mid-near pair ratio
+  fp_ratio: 2.0            # Further pair ratio
+  num_iters: 450           # Number of iterations

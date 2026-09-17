@@ -1,0 +1,75 @@
+{
+  "instruments": [
+    "bsid_iii01",
+    "cbcl1_501",
+    "cpenr01",
+    "ecbq01",
+    "epds01",
+    "lpb01",
+    "ndar_subject01",
+    "nicu101",
+    "nnsi01",
+    "pqmf01",
+    "qucht01",
+    "stps01"
+  ],
+  "n_subjects_all_instruments": 984,
+  "n_subjects_per_instrument": {
+    "bsid_iii01": 739,
+    "cbcl1_501": 742,
+    "cpenr01": 984,
+    "ecbq01": 741,
+    "epds01": 874,
+    "lpb01": 982,
+    "ndar_subject01": 984,
+    "nicu101": 190,
+    "nnsi01": 805,
+    "pqmf01": 748,
+    "qucht01": 744,
+    "stps01": 735
+  },
+  "n_rows_per_instrument": {
+    "bsid_iii01": 739,
+    "cbcl1_501": 742,
+    "cpenr01": 984,
+    "ecbq01": 741,
+    "epds01": 1085,
+    "lpb01": 982,
+    "ndar_subject01": 984,
+    "nicu101": 200,
+    "nnsi01": 915,
+    "pqmf01": 1482,
+    "qucht01": 744,
+    "stps01": 735
+  },
+  "n_subjects_bsid_iii01": 739,
+  "n_infants_item_level_cognition": 739,
+  "analysed_infants_with_bsid_record": 739,
+  "analysed_infants_in_instruments": 739,
+  "recruitment_period": {
+    "source": "cpenr01.interview_date (enrolment record, interview_age 0)",
+    "all_subjects": {
+      "first": "2014-03-06",
+      "last": "2020-10-31",
+      "n": 984
+    },
+    "analysed_infants": {
+      "first": "2014-03-06",
+      "last": "2020-10-31",
+      "n": 739
+    }
+  },
+  "bayley_assessment_dates": {
+    "source": "bsid_iii01.interview_date (18-month Bayley-III visit)",
+    "all_subjects": {
+      "first": "2015-10-02",
+      "last": "2022-10-24",
+      "n": 739
+    },
+    "analysed_infants": {
+      "first": "2015-10-02",
+      "last": "2022-10-24",
+      "n": 739
+    }
+  }
+}

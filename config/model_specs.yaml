@@ -1,0 +1,720 @@
+all_mpnet_base_v2_consensus_stable:
+  source: consensus_clustering
+  model: all-mpnet-base-v2
+  date: '2026-06-02'
+  n_factors: 5
+  n_items: 91
+  method: Consensus from KMeans (multiple runs)
+  n_iterations: 1000
+  n_clusters_param: 5
+  umap_params:
+    metric: cosine
+    n_neighbors: 10
+    min_dist: 0.0
+    n_components: 15
+    perplexity: 30.0
+  factor_indices:
+    F1:
+    - -32
+    - -31
+    - -30
+    - -29
+    - -28
+    - -27
+    - -26
+    - -25
+    - -24
+    - -23
+    - -21
+    - -20
+    - -19
+    - -15
+    - -14
+    - -13
+    - -11
+    - -1
+    - 26
+    F2:
+    - -22
+    - -18
+    - 31
+    - 35
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 47
+    - 48
+    - 50
+    - 51
+    - 55
+    F3:
+    - -6
+    - -3
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 21
+    - 37
+    - 46
+    - 52
+    - 53
+    - 56
+    - 57
+    F4:
+    - -17
+    - -16
+    - -12
+    - -10
+    - -9
+    - -8
+    - -7
+    - -5
+    - -4
+    - -2
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 15
+    - 17
+    - 19
+    - 20
+    - 24
+    - 32
+    - 34
+    - 36
+    - 38
+    - 54
+    F5:
+    - 5
+    - 14
+    - 16
+    - 18
+    - 22
+    - 23
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 33
+    - 45
+    - 49
+    - 58
+  factor_items:
+    F1:
+    - COG_001
+    - COG_002
+    - COG_003
+    - COG_004
+    - COG_005
+    - COG_006
+    - COG_007
+    - COG_008
+    - COG_009
+    - COG_010
+    - COG_012
+    - COG_013
+    - COG_014
+    - COG_018
+    - COG_019
+    - COG_020
+    - COG_022
+    - COG_032
+    - COG_059
+    F2:
+    - COG_011
+    - COG_015
+    - COG_064
+    - COG_068
+    - COG_072
+    - COG_073
+    - COG_074
+    - COG_075
+    - COG_076
+    - COG_077
+    - COG_080
+    - COG_081
+    - COG_083
+    - COG_084
+    - COG_088
+    F3:
+    - COG_027
+    - COG_030
+    - COG_033
+    - COG_034
+    - COG_035
+    - COG_036
+    - COG_037
+    - COG_054
+    - COG_070
+    - COG_079
+    - COG_085
+    - COG_086
+    - COG_089
+    - COG_090
+    F4:
+    - COG_016
+    - COG_017
+    - COG_021
+    - COG_023
+    - COG_024
+    - COG_025
+    - COG_026
+    - COG_028
+    - COG_029
+    - COG_031
+    - COG_039
+    - COG_040
+    - COG_041
+    - COG_042
+    - COG_043
+    - COG_044
+    - COG_045
+    - COG_046
+    - COG_048
+    - COG_050
+    - COG_052
+    - COG_053
+    - COG_057
+    - COG_065
+    - COG_067
+    - COG_069
+    - COG_071
+    - COG_087
+    F5:
+    - COG_038
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_066
+    - COG_078
+    - COG_082
+    - COG_091
+  factor_sizes:
+    F1: 19
+    F2: 15
+    F3: 14
+    F4: 28
+    F5: 15
+  factor_stability_scores:
+    F1: 0.9445497076023393
+    F2: 0.8588476190476191
+    F3: 0.9257912087912087
+    F4: 0.9251084656084656
+    F5: 0.9719999999999998
+  stability_metrics:
+    mean_item_stability: 0.9260799196733263
+    median_item_stability: 0.9542962962962963
+    min_item_stability: 0.5151666666666667
+    mean_pairwise_ari: 0.8322007098436374
+  timestamp: 2026-06-02_16-35-20
+  description: Consensus clustering derived from 1000 runs with 5 clusters. This model
+    represents the most stable factor structure, where items consistently cluster
+    together across different random initializations. Factor stability scores indicate
+    how reliably items co-occur within their assigned factors.
+all_mpnet_base_v2_b3_expert_guided_v6_cog_b4_centroids:
+  source: b3_expert_guided_mapping_v6_cog
+  model: all-mpnet-base-v2
+  date: '2026-06-02'
+  reference_model: Aylward et al. (2022) expert-guided cognitive facets
+  n_factors: 3
+  n_items: 33
+  centroid_method: b4_centroids
+  uc_policy: LOO-UC items redirected to best cognitive facet; sparse facets excluded
+  min_items_per_ef_factor: 3
+  n_paired_items_in_data: 19
+  n_centroid_assigned_items: 16
+  n_facet_direct: 5
+  n_uc_redirected: 11
+  uc_redirected_items:
+    COG_035: flexibility_shift
+    COG_036: flexibility_shift
+    COG_037: goal_directed_problem_solving
+    COG_038: goal_directed_problem_solving
+    COG_039: goal_directed_problem_solving
+    COG_046: goal_directed_problem_solving
+    COG_047: flexibility_shift
+    COG_048: goal_directed_problem_solving
+    COG_053: attention
+    COG_054: flexibility_shift
+    COG_065: goal_directed_problem_solving
+  n_excluded_sparse_ef: 2
+  excluded_sparse_ef_items:
+  - COG_053
+  - COG_059
+  sparse_ef_factors:
+  - attention
+  - higher_order_processing
+  final_ef_factors:
+  - working_memory
+  - goal_directed_problem_solving
+  - flexibility_shift
+  mean_pairing_similarity: 0.906
+  factor_names:
+    F1: working_memory
+    F2: goal_directed_problem_solving
+    F3: flexibility_shift
+  factor_items:
+    F1:
+    - COG_034
+    - COG_040
+    - COG_045
+    - COG_050
+    - COG_064
+    - COG_068
+    F2:
+    - COG_037
+    - COG_038
+    - COG_039
+    - COG_041
+    - COG_043
+    - COG_044
+    - COG_046
+    - COG_048
+    - COG_052
+    - COG_057
+    - COG_065
+    - COG_067
+    F3:
+    - COG_035
+    - COG_036
+    - COG_042
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_054
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_066
+  factor_indices:
+    F1:
+    - 1
+    - 7
+    - 12
+    - 17
+    - 31
+    - 35
+    F2:
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 11
+    - 13
+    - 15
+    - 19
+    - 24
+    - 32
+    - 34
+    F3:
+    - 2
+    - 3
+    - 9
+    - 14
+    - 16
+    - 18
+    - 21
+    - 22
+    - 23
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 33
+  factor_sizes:
+    F1: 6
+    F2: 12
+    F3: 15
+  description: 'B3 items 34-68 assigned to expert-guided cognitive facets of Aylward
+    et al. (2022). 19 items via cascade B4-B3 pairing (title-locked + full-text fallback);
+    5 unpaired items via LOO (b4_centroids) directly to EF facets; 11 LOO-UC items
+    redirected to best cognitive facet (total LOO-in-model: 16); 2 items excluded
+    from sparse cognitive facets (ATT, HOP). Cross-loaders contributed embeddings
+    to all listed facets'' centroids.'
+all_mpnet_base_v2_b3_expert_guided_v6_cog_b3_centroids:
+  source: b3_expert_guided_mapping_v6_cog
+  model: all-mpnet-base-v2
+  date: '2026-06-02'
+  reference_model: Aylward et al. (2022) expert-guided cognitive facets
+  n_factors: 3
+  n_items: 34
+  centroid_method: b3_centroids
+  uc_policy: LOO-UC items redirected to best cognitive facet; sparse facets excluded
+  min_items_per_ef_factor: 3
+  n_paired_items_in_data: 19
+  n_centroid_assigned_items: 16
+  n_facet_direct: 8
+  n_uc_redirected: 8
+  uc_redirected_items:
+    COG_035: flexibility_shift
+    COG_036: flexibility_shift
+    COG_037: goal_directed_problem_solving
+    COG_038: flexibility_shift
+    COG_048: goal_directed_problem_solving
+    COG_053: goal_directed_problem_solving
+    COG_054: flexibility_shift
+    COG_065: goal_directed_problem_solving
+  n_excluded_sparse_ef: 1
+  excluded_sparse_ef_items:
+  - COG_059
+  sparse_ef_factors:
+  - attention
+  - higher_order_processing
+  final_ef_factors:
+  - working_memory
+  - goal_directed_problem_solving
+  - flexibility_shift
+  mean_pairing_similarity: 0.906
+  factor_names:
+    F1: working_memory
+    F2: goal_directed_problem_solving
+    F3: flexibility_shift
+  factor_items:
+    F1:
+    - COG_034
+    - COG_040
+    - COG_045
+    - COG_050
+    - COG_064
+    - COG_068
+    F2:
+    - COG_037
+    - COG_039
+    - COG_041
+    - COG_043
+    - COG_044
+    - COG_046
+    - COG_048
+    - COG_052
+    - COG_053
+    - COG_057
+    - COG_065
+    - COG_067
+    F3:
+    - COG_035
+    - COG_036
+    - COG_038
+    - COG_042
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_054
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_066
+  factor_indices:
+    F1:
+    - 1
+    - 7
+    - 12
+    - 17
+    - 31
+    - 35
+    F2:
+    - 4
+    - 6
+    - 8
+    - 10
+    - 11
+    - 13
+    - 15
+    - 19
+    - 20
+    - 24
+    - 32
+    - 34
+    F3:
+    - 2
+    - 3
+    - 5
+    - 9
+    - 14
+    - 16
+    - 18
+    - 21
+    - 22
+    - 23
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 33
+  factor_sizes:
+    F1: 6
+    F2: 12
+    F3: 16
+  description: 'B3 items 34-68 assigned to expert-guided cognitive facets of Aylward
+    et al. (2022). 19 items via cascade B4-B3 pairing (title-locked + full-text fallback);
+    8 unpaired items via LOO (b3_centroids) directly to EF facets; 8 LOO-UC items
+    redirected to best cognitive facet (total LOO-in-model: 16); 1 items excluded
+    from sparse cognitive facets (ATT, HOP). Cross-loaders contributed embeddings
+    to all listed facets'' centroids.'
+all_mpnet_base_v2_b3_expert_guided_v6_cog_mixed_centroids:
+  source: b3_expert_guided_mapping_v6_cog
+  model: all-mpnet-base-v2
+  date: '2026-06-02'
+  reference_model: Aylward et al. (2022) expert-guided cognitive facets
+  n_factors: 3
+  n_items: 34
+  centroid_method: mixed_centroids
+  uc_policy: LOO-UC items redirected to best cognitive facet; sparse facets excluded
+  min_items_per_ef_factor: 3
+  n_paired_items_in_data: 19
+  n_centroid_assigned_items: 16
+  n_facet_direct: 7
+  n_uc_redirected: 9
+  uc_redirected_items:
+    COG_035: flexibility_shift
+    COG_036: flexibility_shift
+    COG_037: goal_directed_problem_solving
+    COG_038: goal_directed_problem_solving
+    COG_047: flexibility_shift
+    COG_048: goal_directed_problem_solving
+    COG_053: goal_directed_problem_solving
+    COG_054: flexibility_shift
+    COG_065: goal_directed_problem_solving
+  n_excluded_sparse_ef: 1
+  excluded_sparse_ef_items:
+  - COG_059
+  sparse_ef_factors:
+  - attention
+  - higher_order_processing
+  final_ef_factors:
+  - working_memory
+  - goal_directed_problem_solving
+  - flexibility_shift
+  mean_pairing_similarity: 0.906
+  factor_names:
+    F1: working_memory
+    F2: goal_directed_problem_solving
+    F3: flexibility_shift
+  factor_items:
+    F1:
+    - COG_034
+    - COG_040
+    - COG_045
+    - COG_050
+    - COG_064
+    - COG_068
+    F2:
+    - COG_037
+    - COG_038
+    - COG_039
+    - COG_041
+    - COG_043
+    - COG_044
+    - COG_046
+    - COG_048
+    - COG_052
+    - COG_053
+    - COG_057
+    - COG_065
+    - COG_067
+    F3:
+    - COG_035
+    - COG_036
+    - COG_042
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_054
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_066
+  factor_indices:
+    F1:
+    - 1
+    - 7
+    - 12
+    - 17
+    - 31
+    - 35
+    F2:
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 11
+    - 13
+    - 15
+    - 19
+    - 20
+    - 24
+    - 32
+    - 34
+    F3:
+    - 2
+    - 3
+    - 9
+    - 14
+    - 16
+    - 18
+    - 21
+    - 22
+    - 23
+    - 25
+    - 27
+    - 28
+    - 29
+    - 30
+    - 33
+  factor_sizes:
+    F1: 6
+    F2: 13
+    F3: 15
+  description: 'B3 items 34-68 assigned to expert-guided cognitive facets of Aylward
+    et al. (2022). 19 items via cascade B4-B3 pairing (title-locked + full-text fallback);
+    7 unpaired items via LOO (mixed_centroids) directly to EF facets; 9 LOO-UC items
+    redirected to best cognitive facet (total LOO-in-model: 16); 1 items excluded
+    from sparse cognitive facets (ATT, HOP). Cross-loaders contributed embeddings
+    to all listed facets'' centroids.'
+all_mpnet_base_v2_b3_coauthor_consensus:
+  source: coauthor_consensus_review
+  model: all-mpnet-base-v2
+  date: '2026-09-08'
+  reference_model: Coauthor consensus review of B3 item assignments
+  n_factors: 5
+  n_items: 91
+  centroid_method: mixed_centroids
+  n_reviewed_items: 61
+  n_consensus_used: 5
+  n_step1_fallback: 86
+  factor_names:
+    F1: attention
+    F2: working_memory
+    F3: goal_directed_problem_solving
+    F4: flexibility_shift
+    F5: higher_order_processing
+  factor_items:
+    F1:
+    - COG_001
+    - COG_002
+    - COG_003
+    - COG_004
+    - COG_005
+    - COG_006
+    - COG_007
+    - COG_008
+    - COG_009
+    - COG_010
+    - COG_011
+    - COG_012
+    - COG_014
+    - COG_015
+    - COG_016
+    - COG_018
+    - COG_019
+    - COG_020
+    - COG_022
+    - COG_032
+    - COG_033
+    - COG_059
+    F2:
+    - COG_013
+    - COG_025
+    - COG_034
+    - COG_040
+    - COG_045
+    - COG_050
+    - COG_064
+    - COG_068
+    - COG_076
+    - COG_079
+    - COG_080
+    - COG_081
+    - COG_083
+    - COG_084
+    - COG_085
+    - COG_086
+    - COG_088
+    - COG_089
+    - COG_090
+    F3:
+    - COG_017
+    - COG_021
+    - COG_023
+    - COG_024
+    - COG_026
+    - COG_027
+    - COG_028
+    - COG_029
+    - COG_031
+    - COG_037
+    - COG_038
+    - COG_039
+    - COG_041
+    - COG_043
+    - COG_044
+    - COG_046
+    - COG_048
+    - COG_052
+    - COG_053
+    - COG_057
+    - COG_067
+    - COG_071
+    - COG_087
+    F4:
+    - COG_030
+    - COG_035
+    - COG_036
+    - COG_042
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_054
+    - COG_055
+    - COG_056
+    - COG_058
+    - COG_060
+    - COG_061
+    - COG_062
+    - COG_063
+    - COG_065
+    - COG_066
+    - COG_069
+    - COG_070
+    - COG_082
+    F5:
+    - COG_072
+    - COG_073
+    - COG_074
+    - COG_075
+    - COG_077
+    - COG_078
+    - COG_091

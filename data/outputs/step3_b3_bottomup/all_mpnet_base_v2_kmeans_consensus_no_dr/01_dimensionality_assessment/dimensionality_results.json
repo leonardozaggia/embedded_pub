@@ -1,0 +1,35 @@
+{
+  "model": "all-mpnet-base-v2",
+  "timestamp": "2026-06-02_14-04-35",
+  "n_items": 91,
+  "embedding_dim": 768,
+  "final_used_k": 6,
+  "decision_used": "non_circular",
+  "non_circular_selection": {
+    "selected_k": 6,
+    "candidate_k": 6,
+    "parallel_analysis_k": 8,
+    "cv_one_se_k": 4,
+    "stability": {
+      "median_phi": 0.9610456859383947,
+      "per_component_median": [
+        0.957774212100503,
+        0.9809191475750656,
+        0.9660122940112645,
+        0.9643171597762865,
+        0.954011669728386,
+        0.9287654762654409
+      ],
+      "stable": true
+    }
+  },
+  "legacy_vote": {
+    "legacy_vote_k": 4,
+    "criteria": {
+      "broken_stick": 3,
+      "elbow": 4,
+      "ppca_bic": 7,
+      "parallel_analysis_suggested": 8
+    }
+  }
+}

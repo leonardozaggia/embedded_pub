@@ -1,0 +1,6 @@
+cluster_id,top_concept,top_concept_similarity,all_concepts
+0,working memory,0.44955241680145264,attention (0.317); working memory (0.450); goal directed problem solving (0.355); flexibility shift (0.126); higher order processes (0.057)
+1,attention,0.3868708610534668,attention (0.387); working memory (0.429); goal directed problem solving (0.280); flexibility shift (0.152); higher order processes (0.019)
+2,higher order processes,0.043491460382938385,attention (0.219); working memory (0.280); goal directed problem solving (0.250); flexibility shift (0.072); higher order processes (0.043)
+3,flexibility shift,0.09088653326034546,attention (0.147); working memory (0.275); goal directed problem solving (0.290); flexibility shift (0.091); higher order processes (0.048)
+4,goal directed problem solving,0.32358044385910034,attention (0.264); working memory (0.326); goal directed problem solving (0.324); flexibility shift (0.074); higher order processes (0.021)

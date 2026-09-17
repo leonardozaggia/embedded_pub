@@ -1,0 +1,4 @@
+factor_pair,std_correlation,se,est_se,p_value
+WM-GDPS,0.616,0.05,12.402,0.0
+WM-FS,0.705,0.041,17.259,0.0
+GDPS-FS,0.54,0.037,14.394,0.0

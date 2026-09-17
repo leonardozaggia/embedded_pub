@@ -1,0 +1,11 @@
+pair_class,quantity,single_domain_31_items,any_factor_34_items,first_listed_34_items
+Consensus-apart pairs,Pairs,299,358,367
+Consensus-apart pairs,Kept apart by the clusters,287 (96%),345 (96%),352 (96%)
+Consensus-together pairs,Pairs,39,52,46
+Consensus-together pairs,Kept together by the clusters,30 (77%),40 (77%),35 (76%)
+Disputed pairs,Pairs,127,151,148
+Disputed pairs,Resolved toward the expert model,67,81,80
+Disputed pairs,Resolved toward the empirical model,60,70,68
+Pairs placed together by each model,Expert model,108,137,122
+Pairs placed together by each model,Empirical model,97,118,118
+Pairs placed together by each model,Detected clusters,87,104,104

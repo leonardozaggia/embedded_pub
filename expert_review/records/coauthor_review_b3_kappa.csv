@@ -1,0 +1,11 @@
+comparison,kappa
+AD vs AH (IRR),0.3261617900172117
+AD vs Step 3 (NLP),-0.1100959342165373
+AD vs Step 1 (theoretical),0.28159645232815966
+AH vs Step 3 (NLP),-0.20176630434782594
+AH vs Step 1 (theoretical),0.19736842105263153
+Consensus vs Step 3 (NLP),-0.1734693877551019
+Consensus vs Step 1 (theoretical),0.39956331877729256
+AD vs final translated,0.36331877729257644
+AH vs final translated,0.26184873949579834
+Consensus vs final translated,0.576271186440678

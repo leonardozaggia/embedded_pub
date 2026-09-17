@@ -1,0 +1,48 @@
+{
+  "model": "all-mpnet-base-v2",
+  "timestamp": "2026-02-06_10-50-28",
+  "n_iterations": 1000,
+  "n_successful_runs": 1000,
+  "n_clusters": 5,
+  "kmeans_metrics": {
+    "mean_inertia": 14.799882422447205,
+    "std_inertia": 0.5464462850382774,
+    "min_inertia": 13.542343139648438,
+    "max_inertia": 16.778226852416992,
+    "mean_silhouette": 0.10706801732443273,
+    "std_silhouette": 0.024697798096316233,
+    "min_silhouette": 0.02336246892809868,
+    "max_silhouette": 0.1623249053955078
+  },
+  "stability_metrics": {
+    "mean_pairwise_ari": 0.3299923111407176,
+    "median_pairwise_ari": 0.3188245615513541,
+    "std_pairwise_ari": 0.131460645448785,
+    "min_pairwise_ari": -0.1130841121495327,
+    "max_pairwise_ari": 1.0
+  },
+  "dr_method": "umap",
+  "umap_params": {
+    "metric": "cosine",
+    "n_neighbors": 10,
+    "min_dist": 0.0,
+    "n_components": 15,
+    "perplexity": 30.0
+  },
+  "kmeans_params": {
+    "n_clusters": 5,
+    "init": "random",
+    "n_init": 1
+  },
+  "consensus_validation": {
+    "mean_ari_to_consensus": 0.46770507893028634,
+    "median_ari_to_consensus": 0.45498636952317817,
+    "std_ari_to_consensus": 0.13561690863852785,
+    "min_ari_to_consensus": 0.13117845342589193,
+    "max_ari_to_consensus": 0.8941027394505008,
+    "mean_within_cluster_cooccurrence": 0.6332215189873417,
+    "mean_between_cluster_cooccurrence": 0.13787299035369777,
+    "separation_ratio": 4.592788749724529,
+    "items_well_represented_pct": 87.5
+  }
+}

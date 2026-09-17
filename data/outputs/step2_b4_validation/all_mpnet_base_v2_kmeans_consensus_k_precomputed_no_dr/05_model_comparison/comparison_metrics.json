@@ -1,0 +1,20 @@
+{
+  "theoretical": {
+    "reference_model": "Theoretical",
+    "n_items_compared": 42,
+    "n_items_excluded": 1,
+    "ari": 0.49363579080025205,
+    "nmi": 0.6293057415038484,
+    "n_detected_clusters": 5,
+    "n_reference_clusters": 5
+  },
+  "empirical": {
+    "reference_model": "Empirical",
+    "n_items_compared": 35,
+    "n_items_excluded": 5,
+    "ari": 0.4194203433634853,
+    "nmi": 0.5642116826922369,
+    "n_detected_clusters": 5,
+    "n_reference_clusters": 5
+  }
+}

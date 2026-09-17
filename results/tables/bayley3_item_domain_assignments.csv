@@ -1,0 +1,92 @@
+item_id,item_number,item_title,domain,domain_name,assignment_source,algorithmic_domain,uc_flagged,uc_margin,expert_1_AD,expert_2_AH,expert_consensus,pairing_stage,b4_item_id,b4_item_title,similarity_title,similarity_fulltext,sim_ATT,sim_WM,sim_GDPS,sim_FS,sim_HOP,sim_UC,in_dhcp_range,in_mplus_dataset,in_cfa_model
+COG_001,1,Calms When Picked UP,ATT,attention,centroid_nearest_domain,ATT,False,-0.0139,,,,,,,,,0.5151,0.4069,0.4787,0.3151,0.2741,0.5012,False,False,False
+COG_002,2,Responds to Surroundings Series: Inspects,ATT,attention,cascade_pairing,ATT,False,,,,,full-text fallback,COG_012,Responds to Surroundings,0.5984,0.9095,,,,,,,False,False,False
+COG_003,3,Regards Object for 3 Seconds,ATT,attention,cascade_pairing,ATT,False,,,,,full-text fallback,COG_002,Looks at Object,0.4004,0.8906,,,,,,,False,False,False
+COG_004,4,Habituates to Rattle,ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_003,Habituates to Rattle,1.0,0.9833,,,,,,,False,False,False
+COG_005,5,Discriminates Between Objects,ATT,attention,centroid_nearest_domain,ATT,False,-0.0707,,,,,,,,,0.7892,0.6805,0.6444,0.5116,0.5172,0.7185,False,False,False
+COG_006,6,Recognizes Caregiver,ATT,attention,centroid_nearest_domain,ATT,False,-0.0378,,,,,,,,,0.6659,0.5905,0.525,0.3598,0.443,0.628,False,False,False
+COG_007,7,Becomes Excited in Anticipation,ATT,attention,centroid_nearest_domain,ATT,False,-0.0464,,,,,,,,,0.6956,0.5293,0.5565,0.3912,0.3101,0.6492,False,False,False
+COG_008,8,Regards Object for 5 Seconds,ATT,attention,centroid_nearest_domain,ATT,False,-0.0422,,,,,,,,,0.7872,0.6783,0.6736,0.5555,0.4564,0.745,False,False,False
+COG_009,9,Reacts to Disappearance of Face,ATT,attention,centroid_nearest_domain,ATT,False,-0.066,,,,,,,,,0.6539,0.5311,0.4932,0.3281,0.3544,0.588,False,False,False
+COG_010,10,Shifts Attention,ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_008,Shifts Attention,1.0,0.9603,,,,,,,False,False,False
+COG_011,11,Shows Visual Preference,ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_009,Shows Visual Preference,1.0,0.9327,,,,,,,False,False,False
+COG_012,12,Habituates to Object,ATT,attention,centroid_nearest_domain,ATT,False,-0.145,,,,,,,,,0.8039,0.5905,0.5673,0.4539,0.3837,0.659,False,False,False
+COG_013,13,Prefers Novel Object,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_024,Anticipatory Gaze,0.1698,0.7028,,,,,,,False,False,False
+COG_014,14,Habituates to Picture (Balloons),ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_010,Habituates to Balloons,0.8299,0.9093,,,,,,,False,False,False
+COG_015,15,Prefers Novel Picture (Ball),ATT,attention,cascade_pairing,ATT,False,,,,,full-text fallback,COG_011,Prefers Ball,0.7041,0.8335,,,,,,,False,False,False
+COG_016,16,Explores Object,ATT,attention,centroid_uc_redirected,ATT,False,0.0054,,,,,,,,,0.7319,0.6233,0.7213,0.5353,0.468,0.7373,False,False,False
+COG_017,17,Carries Object to Mouth,GDPS,goal_directed_problem_solving,cascade_pairing,GDPS,False,,,,,full-text fallback,COG_014,Brings to Mouth,0.5565,0.8669,,,,,,,False,False,False
+COG_018,18,Inspects Own Hand,ATT,attention,centroid_nearest_domain,ATT,False,-0.0299,,,,,,,,,0.6489,0.562,0.5119,0.3784,0.3483,0.6191,False,False,False
+COG_019,19,Mirror Image Series: Approaches,ATT,attention,centroid_nearest_domain,ATT,False,-0.037,,,,,,,,,0.7223,0.6488,0.5855,0.4603,0.4433,0.6853,False,False,False
+COG_020,20,Responds to Surroundings Series: Awareness of Novelty,ATT,attention,centroid_nearest_domain,ATT,False,-0.1334,,,,,,,,,0.7343,0.5946,0.4479,0.3411,0.3924,0.6009,False,False,False
+COG_021,21,Persistent Reach,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0118,,,,,,,,,0.5932,0.63,0.7215,0.5356,0.4202,0.7097,False,False,False
+COG_022,22,Mirror Image Series: Responds Positively,ATT,attention,centroid_nearest_domain,ATT,False,-0.0057,,,,,,,,,0.7022,0.6357,0.5972,0.4771,0.436,0.6965,False,False,False
+COG_023,23,Plays With String,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.027,,,,,,,,,0.631,0.5966,0.7648,0.5402,0.4792,0.7378,False,False,False
+COG_024,24,Bangs in Play,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0921,,,,,,,,,0.5233,0.5508,0.619,0.5452,0.4272,0.7111,False,False,False
+COG_025,25,Searches for Fallen Object,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_021,Searches for Object,0.707,0.9645,,,,,,,False,False,False
+COG_026,26,Bell Series: Manipulates,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0318,,,,,,,,,0.599,0.5717,0.6641,0.5357,0.4819,0.6959,False,False,False
+COG_027,27,Picks Up Block Series: Reaches for Second Block,GDPS,goal_directed_problem_solving,expert_review_confirmed,GDPS,True,0.1205,GDPS,GDPS,GDPS,,,,,,0.6168,0.7071,0.7243,0.6458,0.555,0.8448,False,False,False
+COG_028,28,Pulls Cloth to Obtain Object,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0355,,,,,,,,,0.5659,0.6463,0.7421,0.5247,0.429,0.7067,False,False,False
+COG_029,29,Pulls String Adaptively,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.1268,,,,,,,,,0.5227,0.534,0.7389,0.476,0.4046,0.6122,False,False,False
+COG_030,30,Retains Both Blocks,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.0663,,,,,,,,,0.4836,0.6477,0.6727,0.674,0.5209,0.7403,False,False,False
+COG_031,31,Bell Series: Rings Purposely,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0404,,,,,,,,,0.6041,0.5206,0.612,0.4202,0.4382,0.6524,False,False,False
+COG_032,32,Looks at Pictures,ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_026,Looks at Pictures,1.0,0.973,,,,,,,False,False,False
+COG_033,33,Picks Up Block Series: Retains 2 of 3 Blocks,ATT,attention,expert_review_override,GDPS,True,0.1116,ATT,ATT,ATT,,,,,,0.6165,0.706,0.715,0.6559,0.547,0.8266,False,False,False
+COG_034,34,Searches for Missing Objects,WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_028,Searches for Missing Objects,1.0,0.975,,,,,,,True,True,False
+COG_035,35,Takes Blocks Out of Cup,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.0465,,,,,,,,,0.5156,0.6559,0.6911,0.7222,0.5328,0.7687,True,True,False
+COG_036,36,Block Series: 1 Block,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.0538,,,,,,,,,0.5129,0.7151,0.6974,0.7528,0.6201,0.8066,True,True,False
+COG_037,37,Picks Up Block Series: 3 Blocks,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0949,,,,,,,,,0.574,0.671,0.7159,0.6449,0.5389,0.8108,True,True,False
+COG_038,38,Explores Holes in Pegboard,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0676,,,,,,,,,0.5336,0.5978,0.6501,0.6193,0.5843,0.7177,True,True,False
+COG_039,39,Pushes Car,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0107,,,,,,,,,0.453,0.4799,0.5976,0.4675,0.3848,0.5869,True,True,False
+COG_040,40,Finds Hidden Object,WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_032,Finds Hidden Object,1.0,0.7547,,,,,,,True,True,True
+COG_041,41,Suspends Ring,GDPS,goal_directed_problem_solving,cascade_pairing,GDPS,False,,,,,full-text fallback,COG_022,Obtains Ring,0.5104,0.902,,,,,,,True,True,True
+COG_042,42,Removes Pellet,FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_034,Removes Pellet,1.0,0.9188,,,,,,,True,True,False
+COG_043,43,Clear Box: Front,GDPS,goal_directed_problem_solving,cascade_pairing,GDPS,False,,,,,title-locked,COG_035,Clear Box,0.7962,0.7751,,,,,,,True,True,True
+COG_044,44,Squeezes Object,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0248,,,,,,,,,0.4373,0.414,0.5715,0.4385,0.3587,0.5467,True,True,True
+COG_045,45,Finds Hidden Object (Reversed),WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_037,Finds Hidden Object (Reversed),1.0,0.7623,,,,,,,True,True,True
+COG_046,46,Removes Lid From Bottle,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0074,,,,,,,,,0.4837,0.5243,0.5966,0.477,0.3838,0.5892,True,True,True
+COG_047,47,Pegboard Series: 2 Holes,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.0029,,,,,,,,,0.5251,0.6461,0.5862,0.7011,0.6531,0.704,True,True,False
+COG_048,48,Relational Play Series: Self,GDPS,goal_directed_problem_solving,expert_review_no_consensus,GDPS,True,0.1262,FS,GDPS,,,,,,,0.5759,0.5606,0.5976,0.4789,0.4258,0.7238,True,True,True
+COG_049,49,Pink Board Series: 1 Piece,FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_040,Pink Board Series: 2 Pieces,0.9585,0.9635,,,,,,,True,True,True
+COG_050,50,Finds Hidden Object (Visible Displacement),WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_042,Finds Hidden Object (Visible Displacement),1.0,0.7751,,,,,,,True,True,True
+COG_051,51,Blue Board Series: 1 Piece,FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_043,Blue Board Series: 1 Piece,1.0,0.9765,,,,,,,True,True,True
+COG_052,52,Clear Box: Sides,GDPS,goal_directed_problem_solving,centroid_nearest_domain,GDPS,False,-0.0326,,,,,,,,,0.6464,0.7384,0.7862,0.7098,0.5348,0.7536,True,True,True
+COG_053,53,Relational Play Series: Others,GDPS,goal_directed_problem_solving,expert_review_confirmed,GDPS,True,0.1395,GDPS,GDPS,GDPS,,,,,,0.562,0.555,0.5761,0.4711,0.4317,0.7156,True,True,True
+COG_054,54,Block Series: 9 Blocks,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.0243,,,,,,,,,0.435,0.6591,0.608,0.703,0.5912,0.7273,True,True,True
+COG_055,55,Pegboard Series: 6 Pegs,FS,flexibility_shift,centroid_nearest_domain,FS,False,-0.0894,,,,,,,,,0.4067,0.5384,0.5718,0.7241,0.6361,0.6347,True,True,True
+COG_056,56,Pink Board Series: Completes,FS,flexibility_shift,centroid_nearest_domain,FS,False,-0.1895,,,,,,,,,0.4729,0.6322,0.6397,0.8855,0.7066,0.696,True,True,True
+COG_057,57,Uses Pencil to Obtain Object,GDPS,goal_directed_problem_solving,cascade_pairing,GDPS,False,,,,,title-locked,COG_048,Uses Pencil to Obtain Object,1.0,0.9598,,,,,,,True,True,True
+COG_058,58,Blue Board Series: 4 Pieces,FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_049,Blue Board Series: 4 Pieces,1.0,0.9739,,,,,,,True,True,True
+COG_059,59,Attends to Story,ATT,attention,cascade_pairing,ATT,False,,,,,title-locked,COG_041,Listens to Story,0.8392,0.8869,,,,,,,True,False,False
+COG_060,60,Rotated Pink Board,FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_051,Rotated Pink Board,1.0,0.9575,,,,,,,True,True,True
+COG_061,61,Object Assembly (Ball),FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_052,Object Assembly: ball,0.9759,0.9338,,,,,,,True,True,True
+COG_062,62,Completes Pegboard: 25 Seconds,FS,flexibility_shift,centroid_nearest_domain,FS,False,-0.0845,,,,,,,,,0.4159,0.5344,0.5965,0.7336,0.6295,0.6492,True,True,True
+COG_063,63,Object Assembly (Ice Cream Cone),FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_053,Object Assembly: Ice Cream Cone,0.9904,0.9528,,,,,,,True,True,True
+COG_064,64,Matches Pictures,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_064,Repeats Words,0.1553,0.5527,,,,,,,True,True,True
+COG_065,65,Representational Play,FS,flexibility_shift,expert_review_override,GDPS,True,0.1165,FS,FS,FS,,,,,,0.597,0.5999,0.6298,0.5083,0.4705,0.7463,True,True,False
+COG_066,66,Blue Board Series: Completes (75 Seconds),FS,flexibility_shift,cascade_pairing,FS,False,,,,,full-text fallback,COG_074,Object Assembly: Cat,-0.0254,0.6251,,,,,,,True,True,True
+COG_067,67,Imitates a Two-Step Action,GDPS,goal_directed_problem_solving,cascade_pairing,GDPS,False,,,,,title-locked,COG_057,Imitates 2-Step Action,0.9806,0.9602,,,,,,,True,True,False
+COG_068,68,Matches 3 Colors,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_056,Spatial Memory: 3 Cards,0.1323,0.5823,,,,,,,True,True,False
+COG_069,69,Imaginary Play,FS,flexibility_shift,expert_review_override,GDPS,True,0.1071,FS,FS,FS,,,,,,0.6094,0.5746,0.6446,0.5371,0.4529,0.7516,False,False,False
+COG_070,70,Understands Concept of One,FS,flexibility_shift,centroid_uc_redirected,FS,False,0.068,,,,,,,,,0.5265,0.6879,0.6414,0.7004,0.5367,0.7683,False,False,False
+COG_071,71,Multischeme Combination Play,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.0977,,,,,,,,,0.5798,0.5944,0.6311,0.5696,0.5022,0.7288,False,False,False
+COG_072,72,Concept Grouping: Color,HOP,higher_order_processing,cascade_pairing,HOP,False,,,,,title-locked,COG_062,Grouping: Colour,0.8278,0.5636,,,,,,,False,False,False
+COG_073,73,Concept Grouping: Size,HOP,higher_order_processing,cascade_pairing,HOP,False,,,,,title-locked,COG_063,Grouping: Size,0.7759,0.5666,,,,,,,False,False,False
+COG_074,74,Compares Masses,HOP,higher_order_processing,centroid_nearest_domain,HOP,False,-0.0792,,,,,,,,,0.4913,0.6159,0.5382,0.4728,0.6337,0.5545,False,False,False
+COG_075,75,Matches Size,HOP,higher_order_processing,centroid_nearest_domain,HOP,False,-0.334,,,,,,,,,0.2602,0.3949,0.3925,0.3452,0.7071,0.3732,False,False,False
+COG_076,76,Discriminates Pictures,WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_067,Discriminates Pictures,1.0,0.8762,,,,,,,False,False,False
+COG_077,77,Simple Pattern,HOP,higher_order_processing,cascade_pairing,HOP,False,,,,,title-locked,COG_068,Simple Pattern,1.0,0.532,,,,,,,False,False,False
+COG_078,78,Sorts Pegs by Color,HOP,higher_order_processing,centroid_nearest_domain,HOP,False,-0.0911,,,,,,,,,0.4253,0.5804,0.5119,0.6352,0.7193,0.6282,False,False,False
+COG_079,79,Counts (One-to-One Correspondence),WM,working_memory,centroid_uc_redirected,WM,False,0.04,,,,,,,,,0.4162,0.5863,0.446,0.5766,0.5526,0.6263,False,False,False
+COG_080,80,Discriminates Sizes,WM,working_memory,centroid_nearest_domain,WM,False,-0.0906,,,,,,,,,0.6025,0.7098,0.4743,0.4873,0.6097,0.6192,False,False,False
+COG_081,81,Identifies 3 Incomplete Pictures,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_060,Recalls Names,0.1616,0.6603,,,,,,,False,False,False
+COG_082,82,Object Assembly (Dog),FS,flexibility_shift,cascade_pairing,FS,False,,,,,title-locked,COG_073,Object Assembly: Dog,0.9725,0.9456,,,,,,,False,False,False
+COG_083,83,Discriminates Patterns,WM,working_memory,centroid_nearest_domain,WM,False,-0.1273,,,,,,,,,0.6559,0.7734,0.4779,0.5371,0.681,0.6461,False,False,False
+COG_084,84,Spatial Memory,WM,working_memory,cascade_pairing,WM,False,,,,,full-text fallback,COG_076,Spatial Memory: 6 Cards,0.557,0.897,,,,,,,False,False,False
+COG_085,85,Counts (Cardinality),WM,working_memory,centroid_uc_redirected,WM,False,0.0181,,,,,,,,,0.4133,0.6192,0.436,0.5608,0.537,0.6373,False,False,False
+COG_086,86,Number Constancy,WM,working_memory,centroid_nearest_domain,WM,False,-0.0057,,,,,,,,,0.467,0.6577,0.4765,0.5558,0.5574,0.6521,False,False,False
+COG_087,87,Laces Card,GDPS,goal_directed_problem_solving,centroid_uc_redirected,GDPS,False,0.019,,,,,,,,,0.4168,0.4993,0.5391,0.4863,0.4118,0.5582,False,False,False
+COG_088,88,Classifies Objects,WM,working_memory,centroid_nearest_domain,WM,False,-0.0934,,,,,,,,,0.6351,0.7489,0.5031,0.5294,0.624,0.6555,False,False,False
+COG_089,89,Understands Concept of More,WM,working_memory,centroid_uc_redirected,WM,False,0.0011,,,,,,,,,0.4878,0.7067,0.525,0.5962,0.6339,0.7078,False,False,False
+COG_090,90,Repeats Number Sequences,WM,working_memory,cascade_pairing,WM,False,,,,,title-locked,COG_080,Repeats Number Sequences,1.0,0.8903,,,,,,,False,False,False
+COG_091,91,Completes Patterns,HOP,higher_order_processing,cascade_pairing,HOP,False,,,,,title-locked,COG_081,Completes Patterns,1.0,0.9576,,,,,,,False,False,False

@@ -1,0 +1,62 @@
+item_id,expert1,expert2,consensus,sheet,is_uc,step1_factor,step3_factor,step1_source,group,item_title
+COG_053,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,UC Uncertain (Step 1),True,goal_directed_problem_solving,higher_order_processing,uc_redirected,extension,Relational Play Series: Others
+COG_048,flexibility_shift,goal_directed_problem_solving,,UC Uncertain (Step 1),True,goal_directed_problem_solving,higher_order_processing,uc_redirected,extension,Relational Play Series: Self
+COG_027,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,UC Uncertain (Step 1),True,goal_directed_problem_solving,goal_directed_problem_solving,uc_redirected,extension,Picks Up Block Series: Reaches for Second Block
+COG_065,flexibility_shift,flexibility_shift,flexibility_shift,UC Uncertain (Step 1),True,goal_directed_problem_solving,higher_order_processing,uc_redirected,extension,Representational Play
+COG_033,attention,attention,attention,UC Uncertain (Step 1),True,goal_directed_problem_solving,goal_directed_problem_solving,uc_redirected,extension,Picks Up Block Series: Retains 2 of 3 Blocks
+COG_069,flexibility_shift,flexibility_shift,flexibility_shift,UC Uncertain (Step 1),True,goal_directed_problem_solving,higher_order_processing,uc_redirected,extension,Imaginary Play
+COG_011,attention,attention,attention,Discordant (Step 3 vs Step 1),False,attention,working_memory,cascade_pairing,paired,Shows Visual Preference
+COG_015,attention,attention,attention,Discordant (Step 3 vs Step 1),False,attention,working_memory,cascade_pairing,paired,Prefers Novel Picture (Ball)
+COG_016,attention,attention,attention,Discordant (Step 3 vs Step 1),False,attention,flexibility_shift,uc_redirected,extension,Explores Object
+COG_013,working_memory,attention,,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Prefers Novel Object
+COG_025,working_memory,attention,,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Searches for Fallen Object
+COG_034,working_memory,working_memory,working_memory,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Searches for Missing Objects
+COG_040,goal_directed_problem_solving,working_memory,,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Finds Hidden Object
+COG_045,higher_order_processing,working_memory,,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Finds Hidden Object (Reversed)
+COG_050,working_memory,working_memory,working_memory,Discordant (Step 3 vs Step 1),False,working_memory,flexibility_shift,cascade_pairing,paired,Finds Hidden Object (Visible Displacement)
+COG_079,,higher_order_processing,,Discordant (Step 3 vs Step 1),False,working_memory,goal_directed_problem_solving,uc_redirected,extension,Counts (One-to-One Correspondence)
+COG_085,higher_order_processing,higher_order_processing,higher_order_processing,Discordant (Step 3 vs Step 1),False,working_memory,goal_directed_problem_solving,uc_redirected,extension,Counts (Cardinality)
+COG_086,higher_order_processing,higher_order_processing,higher_order_processing,Discordant (Step 3 vs Step 1),False,working_memory,goal_directed_problem_solving,centroid_loo,extension,Number Constancy
+COG_089,higher_order_processing,higher_order_processing,higher_order_processing,Discordant (Step 3 vs Step 1),False,working_memory,goal_directed_problem_solving,uc_redirected,extension,Understands Concept of More
+COG_090,working_memory,working_memory,working_memory,Discordant (Step 3 vs Step 1),False,working_memory,goal_directed_problem_solving,cascade_pairing,paired,Repeats Number Sequences
+COG_017,,attention,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,cascade_pairing,paired,Carries Object to Mouth
+COG_021,goal_directed_problem_solving,attention,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Persistent Reach
+COG_023,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Plays With String
+COG_024,,goal_directed_problem_solving,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,uc_redirected,extension,Bangs in Play
+COG_026,,goal_directed_problem_solving,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,uc_redirected,extension,Bell Series: Manipulates
+COG_028,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Pulls Cloth to Obtain Object
+COG_029,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Pulls String Adaptively
+COG_031,higher_order_processing,goal_directed_problem_solving,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,uc_redirected,extension,Bell Series: Rings Purposely
+COG_039,,goal_directed_problem_solving,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Pushes Car
+COG_041,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,cascade_pairing,paired,Suspends Ring
+COG_043,goal_directed_problem_solving,attention,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,cascade_pairing,paired,Clear Box: Front
+COG_044,,attention,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Squeezes Object
+COG_046,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Removes Lid From Bottle
+COG_052,goal_directed_problem_solving,attention,,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,centroid_loo,extension,Clear Box: Sides
+COG_057,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,flexibility_shift,cascade_pairing,paired,Uses Pencil to Obtain Object
+COG_067,working_memory,working_memory,working_memory,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,higher_order_processing,cascade_pairing,paired,Imitates a Two-Step Action
+COG_071,flexibility_shift,flexibility_shift,flexibility_shift,Discordant (Step 3 vs Step 1),False,goal_directed_problem_solving,higher_order_processing,uc_redirected,extension,Multischeme Combination Play
+COG_030,attention,attention,attention,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Retains Both Blocks
+COG_035,,working_memory,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Takes Blocks Out of Cup
+COG_036,flexibility_shift,goal_directed_problem_solving,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Block Series: 1 Block
+COG_047,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Pegboard Series: 2 Holes
+COG_049,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Pink Board Series: 1 Piece
+COG_051,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Blue Board Series: 1 Piece
+COG_054,goal_directed_problem_solving,goal_directed_problem_solving,goal_directed_problem_solving,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Block Series: 9 Blocks
+COG_055,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,centroid_loo,extension,Pegboard Series: 6 Pegs
+COG_056,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,centroid_loo,extension,Pink Board Series: Completes
+COG_058,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Blue Board Series: 4 Pieces
+COG_060,flexibility_shift,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Rotated Pink Board
+COG_061,working_memory,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Object Assembly (Ball)
+COG_062,flexibility_shift,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,centroid_loo,extension,Completes Pegboard: 25 Seconds
+COG_063,working_memory,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Object Assembly (Ice Cream Cone)
+COG_066,goal_directed_problem_solving,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Blue Board Series: Completes (75 Seconds)
+COG_070,higher_order_processing,flexibility_shift,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,uc_redirected,extension,Understands Concept of One
+COG_082,working_memory,higher_order_processing,,Discordant (Step 3 vs Step 1),False,flexibility_shift,goal_directed_problem_solving,cascade_pairing,paired,Object Assembly (Dog)
+COG_072,attention,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,working_memory,cascade_pairing,paired,Concept Grouping: Color
+COG_073,attention,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,working_memory,cascade_pairing,paired,Concept Grouping: Size
+COG_074,flexibility_shift,flexibility_shift,flexibility_shift,Discordant (Step 3 vs Step 1),False,higher_order_processing,working_memory,centroid_loo,extension,Compares Masses
+COG_075,attention,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,working_memory,centroid_loo,extension,Matches Size
+COG_077,attention,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,working_memory,cascade_pairing,paired,Simple Pattern
+COG_078,higher_order_processing,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,goal_directed_problem_solving,centroid_loo,extension,Sorts Pegs by Color
+COG_091,higher_order_processing,flexibility_shift,,Discordant (Step 3 vs Step 1),False,higher_order_processing,goal_directed_problem_solving,cascade_pairing,paired,Completes Patterns

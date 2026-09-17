@@ -1,0 +1,129 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayley-nlp"
+version = "1.0.0"
+description = "Domain-differentiated scoring of the Bayley-III cognition scale: item-embedding translation of the Bayley-4 domains with psychometric (Mplus) validation"
+authors = [
+    {name = "Leonardo Zaggia"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["psychometrics", "embeddings", "factor-analysis", "irt", "nlp"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.7.0",
+    "sentence-transformers>=2.0.0",
+    "seaborn>=0.11.0",
+    "matplotlib>=3.4.0",
+    "factor-analyzer>=0.4.0",
+    "openpyxl>=3.0.0",
+    "umap-learn>=0.5.0",
+    "hdbscan>=0.8.0",
+    "torch>=1.10.0",
+    "transformers>=4.18.0",
+    "tqdm>=4.60.0",
+    "xlsxwriter>=3.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "ipython>=8.0.0",
+    "jupyter>=1.0.0",
+]
+
+docs = [
+    "sphinx>=4.5.0",
+    "sphinx-rtd-theme>=1.0.0",
+    "myst-parser>=0.18.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/leonardozaggia/embedded_pub"
+Repository = "https://github.com/leonardozaggia/embedded_pub"
+Issues = "https://github.com/leonardozaggia/embedded_pub/issues"
+
+[tool.setuptools]
+packages = [
+    "bayley_nlp",
+    "bayley_nlp.core",
+    "bayley_nlp.viz",
+    "bayley_nlp.cli",
+    "bayley_nlp.pipelines",
+]
+
+[tool.setuptools.package-data]
+bayley_nlp = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | archive
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v"
+# Coverage requires the optional `dev` extra (pytest-cov); run explicitly
+# with: pytest --cov=bayley_nlp --cov-report=term
+
+[tool.coverage.run]
+source = ["bayley_nlp"]
+omit = ["*/tests/*", "*/cli/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]

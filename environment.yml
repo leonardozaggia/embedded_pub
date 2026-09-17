@@ -1,0 +1,11 @@
+name: bayley-nlp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -e .
+      - pytest>=7.0
+      - plotly>=5.0
+      - kaleido>=0.2

@@ -1,0 +1,34 @@
+block,variable,category,statistic,value,sd_or_pct,low,high,n_with_data,n_missing,note
+Infant characteristics,Sex,female,n_pct,346,46.82,,,739,0,"MIMIC covariate Sex (binary, STDY; coded 1 = male, 0 = female, so the Figure 4A effect is male vs female)"
+Infant characteristics,"Gestational age at birth, weeks",,mean_sd,38.306,3.79,23.0,43.0,739,0,"MIMIC covariate GA (continuous, STDYX); lpb01 baby_gest_at_birth, scan-derived fallback where missing"
+Infant characteristics,Preterm birth,<37 weeks,n_pct,158,21.38,,,739,0,not a MIMIC covariate (GA entered continuously)
+Infant characteristics,Very preterm birth,<32 weeks,n_pct,69,9.337,,,739,0,not a MIMIC covariate (GA entered continuously)
+Infant characteristics,"Birth weight, kg",,mean_sd,3.0127,0.8747,0.45,4.75,694,45,"MIMIC covariate BirthWt (continuous, STDYX); entered in kg (Figure 4A label says g; STDYX is scale-free)"
+Infant characteristics,Birth weight <1500 g,<1500 g,n_pct,60,8.646,,,694,45,of infants with birth weight; not a MIMIC covariate
+Infant characteristics,"Growth restriction, birth weight <10th INTERGROWTH-21st centile",<10th centile,n_pct,81,11.722,,,691,48,sex-specific INTERGROWTH-21st centile for gestational age (analysis/growth_restriction.py); denominator = infants with birth weight and GA within 24+0 to 42+6 weeks; not a MIMIC covariate
+Infant characteristics,"Head circumference at birth, cm",,mean_sd,33.378,2.947,20.3,38.0,651,88,"MIMIC covariate HdCirc (continuous, STDYX); lpb01 baby_babyhc (661 records); the +/-4 SD rule of prepare_data.R removed 10 record(s): 10 coded -996 (an NDA missing-value code) and 0 measured value(s)"
+Infant characteristics,Plurality,singleton,n_pct,657,89.145,,,737,2,cpenr01 pregnancy_size (at conception); manuscript percentages use all 739 as denominator; not a MIMIC covariate
+Infant characteristics,Plurality,twin,n_pct,77,10.448,,,737,2,cpenr01 pregnancy_size (at conception); manuscript percentages use all 739 as denominator; not a MIMIC covariate
+Infant characteristics,Plurality,higher-order,n_pct,3,0.407,,,737,2,cpenr01 pregnancy_size (at conception); manuscript percentages use all 739 as denominator; not a MIMIC covariate
+Infant characteristics,NICU admission,yes,n_pct,166,23.919,,,694,45,lpb01 baby_admitted_to_nicu; manuscript reports 166/739 = 22.5% (all infants); not a MIMIC covariate
+Perinatal and obstetric,Antenatal corticosteroids,none,n_pct,565,83.088,,,680,59,lpb01 study_corticosteroids; reference category of the MIMIC dummies AntCor_P / AntCor_C
+Perinatal and obstetric,Antenatal corticosteroids,partial course,n_pct,22,3.235,,,680,59,"lpb01 study_corticosteroids; MIMIC covariate AntCor_P (binary, STDY; 1 = partial course, 0 = none or complete)"
+Perinatal and obstetric,Antenatal corticosteroids,complete course,n_pct,93,13.676,,,680,59,"lpb01 study_corticosteroids; MIMIC covariate AntCor_C (binary, STDY; 1 = complete course, 0 = none or partial)"
+Perinatal and obstetric,Clinically suspected intrauterine growth restriction,yes,n_pct,42,6.442,,,652,87,"MIMIC covariate IUGR (binary, STDY); lpb01 baby_suspected_iugr"
+Perinatal and obstetric,Gestational diabetes,yes,n_pct,38,5.499,,,691,48,"MIMIC covariate GDiab (binary, STDY); lpb01 study_gestational_diabetes"
+Perinatal and obstetric,Pre-eclampsia,yes,n_pct,62,9.051,,,685,54,"MIMIC covariate PrEcl (binary, STDY); lpb01 study_preeclampsia ('pre-eclampsia, HELLP or pregnancy-induced hypertension') dichotomised 0 = none vs 1 = any of codes 1-3, as in prepare_data.R; raw code counts {0: 623, 1: 22, 2: 4, 3: 36}"
+Assessment,"Corrected age at assessment, months",,mean_sd,19.415,2.437,17.0,34.208,739,0,bsid_iii01 interview_age minus (40 - GA)/4.3482 months for infants born before 37 weeks (analysis/age_at_assessment.py)
+Assessment,"Chronological age at assessment, months",,mean_sd,19.801,2.568,17.0,37.0,739,0,bsid_iii01 interview_age
+Assessment,Bayley-III cognitive composite score,,mean_sd,100.792,11.667,55.0,145.0,739,0,bsid_iii01 bsid_cog_composite
+Assessment,Bayley-III language composite score,,mean_sd,98.729,16.19,47.0,153.0,738,1,bsid_iii01 bsid_lang_composite
+Assessment,Bayley-III motor composite score,,mean_sd,101.56,10.079,52.0,133.0,739,0,bsid_iii01 bsid_mot_composite
+Maternal and family,"Maternal age at birth, years",,mean_sd,34.187,4.571,17.0,52.0,739,0,"MIMIC covariate MomAge (continuous, STDYX); cpenr01 mother_age1 (age at expected delivery)"
+Maternal and family,"Maternal age at leaving formal education, years",,mean_sd,23.332,4.365,12.0,41.0,717,22,"MIMIC covariate MomEdu (continuous, STDYX); cpenr01 mother_education1 (age last in continuous full-time education)"
+Maternal and family,"Paternal age at leaving formal education, years",,mean_sd,23.077,4.773,5.0,46.0,650,89,"MIMIC covariate DadEdu (continuous, STDYX); cpenr01 father_education1 (age last in continuous full-time education)"
+Maternal and family,Maternal English as first language,yes,n_pct,500,67.751,,,738,1,"MIMIC covariate MomEng (binary, STDY); cpenr01 mother_eng_first_lan"
+Maternal and family,Edinburgh Postnatal Depression Scale total,,mean_sd,5.39,4.275,0.0,28.0,661,78,"MIMIC covariate EPDSTot (continuous, STDYX); epds01 epds_tot, earliest record per mother (prepare_data.R)"
+Maternal and family,"Parenting Scale, total",,mean_sd,2.972,0.503,1.17,4.47,646,93,"MIMIC covariate PrSty (continuous, STDYX); pqmf01 pm_parent_style, earliest visit (prepare_data.R)"
+Maternal and family,"Parenting Scale, laxness",,mean_sd,3.054,0.772,1.0,6.36,646,93,"MIMIC covariate PrLax (continuous, STDYX); pqmf01 pm_laxness, earliest visit (prepare_data.R)"
+Maternal and family,"Parenting Scale, overreactivity",,mean_sd,2.228,0.707,1.0,4.8,646,93,"MIMIC covariate PrOvr (continuous, STDYX); pqmf01 pm_overactivity, earliest visit (prepare_data.R)"
+Maternal and family,"Parenting Scale, verbosity",,mean_sd,3.643,0.774,1.0,6.14,646,93,"MIMIC covariate PrVrb (continuous, STDYX); pqmf01 pm_verbosity, earliest visit (prepare_data.R)"
+Maternal and family,Cognitively Stimulating Parenting Scale total,,mean_sd,20.613,3.345,7.0,28.0,716,23,"MIMIC covariate StimEnv (continuous, STDYX); stps01 total_sps_home_environment"

@@ -1,0 +1,65 @@
+subfolder,outcome,label,domain,model,factor,estimate,se,z_ratio,p_value,sig
+BayLan,BAYLAN,Bayley Language,Bayley,3F,FS,0.45,0.032,14.102,0.0,***
+BayLan,BAYLAN,Bayley Language,Bayley,3F,GDP,0.533,0.03,17.684,0.0,***
+BayLan,BAYLAN,Bayley Language,Bayley,3F,WM,0.639,0.036,17.718,0.0,***
+BayLan,BAYLAN,Bayley Language,Bayley,UNIDIM,COG,0.547,0.027,20.196,0.0,***
+BayMot,BAYMOT,Bayley Motor,Bayley,3F,FS,0.409,0.031,13.01,0.0,***
+BayMot,BAYMOT,Bayley Motor,Bayley,3F,GDP,0.385,0.037,10.482,0.0,***
+BayMot,BAYMOT,Bayley Motor,Bayley,3F,WM,0.444,0.044,10.093,0.0,***
+BayMot,BAYMOT,Bayley Motor,Bayley,UNIDIM,COG,0.451,0.029,15.462,0.0,***
+CBExt,CBEXT,CBCL Externalising,CBCL Broad,3F,FS,0.05,0.04,1.237,0.216,
+CBExt,CBEXT,CBCL Externalising,CBCL Broad,3F,GDP,-0.02,0.045,-0.444,0.657,
+CBExt,CBEXT,CBCL Externalising,CBCL Broad,3F,WM,0.023,0.048,0.486,0.627,
+CBExt,CBEXT,CBCL Externalising,CBCL Broad,UNIDIM,COG,0.037,0.04,0.924,0.355,
+CBInt,CBINT,CBCL Internalising,CBCL Broad,3F,FS,-0.031,0.039,-0.799,0.424,
+CBInt,CBINT,CBCL Internalising,CBCL Broad,3F,GDP,-0.153,0.044,-3.491,0.0,***
+CBInt,CBINT,CBCL Internalising,CBCL Broad,3F,WM,-0.119,0.047,-2.544,0.011,*
+CBInt,CBINT,CBCL Internalising,CBCL Broad,UNIDIM,COG,-0.075,0.041,-1.838,0.066,†
+CBTot,CBTOT,CBCL Total Problems,CBCL Broad,3F,FS,-0.005,0.04,-0.123,0.902,
+CBTot,CBTOT,CBCL Total Problems,CBCL Broad,3F,GDP,-0.102,0.044,-2.317,0.021,*
+CBTot,CBTOT,CBCL Total Problems,CBCL Broad,3F,WM,-0.076,0.047,-1.604,0.109,
+CBTot,CBTOT,CBCL Total Problems,CBCL Broad,UNIDIM,COG,-0.037,0.04,-0.905,0.366,
+CBAgg,CBAGG,CBCL Aggressive Behaviour,CBCL Narrow,3F,FS,0.209,0.039,5.355,0.0,***
+CBAgg,CBAGG,CBCL Aggressive Behaviour,CBCL Narrow,3F,GDP,0.121,0.041,2.968,0.003,**
+CBAgg,CBAGG,CBCL Aggressive Behaviour,CBCL Narrow,3F,WM,0.218,0.045,4.849,0.0,***
+CBAgg,CBAGG,CBCL Aggressive Behaviour,CBCL Narrow,UNIDIM,COG,0.215,0.037,5.839,0.0,***
+CBAnx,CBANX,CBCL Anxious/Depressed,CBCL Narrow,3F,FS,-0.069,0.038,-1.814,0.07,†
+CBAnx,CBANX,CBCL Anxious/Depressed,CBCL Narrow,3F,GDP,-0.119,0.044,-2.727,0.006,**
+CBAnx,CBANX,CBCL Anxious/Depressed,CBCL Narrow,3F,WM,-0.09,0.046,-1.977,0.048,*
+CBAnx,CBANX,CBCL Anxious/Depressed,CBCL Narrow,UNIDIM,COG,-0.088,0.039,-2.268,0.023,*
+CBAtt,CBATT,CBCL Attention Problems,CBCL Narrow,3F,FS,-0.154,0.038,-4.022,0.0,***
+CBAtt,CBATT,CBCL Attention Problems,CBCL Narrow,3F,GDP,-0.135,0.044,-3.082,0.002,**
+CBAtt,CBATT,CBCL Attention Problems,CBCL Narrow,3F,WM,-0.227,0.047,-4.856,0.0,***
+CBAtt,CBATT,CBCL Attention Problems,CBCL Narrow,UNIDIM,COG,-0.177,0.038,-4.662,0.0,***
+CBEmR,CBEMR,CBCL Emotionally Reactive,CBCL Narrow,3F,FS,0.042,0.039,1.075,0.282,
+CBEmR,CBEMR,CBCL Emotionally Reactive,CBCL Narrow,3F,GDP,-0.048,0.044,-1.084,0.278,
+CBEmR,CBEMR,CBCL Emotionally Reactive,CBCL Narrow,3F,WM,-0.011,0.047,-0.234,0.815,
+CBEmR,CBEMR,CBCL Emotionally Reactive,CBCL Narrow,UNIDIM,COG,0.02,0.039,0.521,0.602,
+CBSlp,CBSLP,CBCL Sleep Problems,CBCL Narrow,3F,FS,0.019,0.04,0.478,0.632,
+CBSlp,CBSLP,CBCL Sleep Problems,CBCL Narrow,3F,GDP,-0.017,0.042,-0.408,0.683,
+CBSlp,CBSLP,CBCL Sleep Problems,CBCL Narrow,3F,WM,0.009,0.047,0.197,0.844,
+CBSlp,CBSLP,CBCL Sleep Problems,CBCL Narrow,UNIDIM,COG,0.013,0.039,0.329,0.742,
+CBSom,CBSOM,CBCL Somatic Complaints,CBCL Narrow,3F,FS,0.019,0.039,0.503,0.615,
+CBSom,CBSOM,CBCL Somatic Complaints,CBCL Narrow,3F,GDP,-0.071,0.04,-1.751,0.08,†
+CBSom,CBSOM,CBCL Somatic Complaints,CBCL Narrow,3F,WM,-0.058,0.049,-1.2,0.23,
+CBSom,CBSOM,CBCL Somatic Complaints,CBCL Narrow,UNIDIM,COG,-0.009,0.038,-0.239,0.811,
+CBWth,CBWTH,CBCL Withdrawn/Depressed,CBCL Narrow,3F,FS,-0.101,0.041,-2.492,0.013,*
+CBWth,CBWTH,CBCL Withdrawn/Depressed,CBCL Narrow,3F,GDP,-0.233,0.045,-5.236,0.0,***
+CBWth,CBWTH,CBCL Withdrawn/Depressed,CBCL Narrow,3F,WM,-0.243,0.046,-5.236,0.0,***
+CBWth,CBWTH,CBCL Withdrawn/Depressed,CBCL Narrow,UNIDIM,COG,-0.167,0.042,-3.961,0.0,***
+ECEff,ECEFF,Effortful Control,Emotion Control,3F,FS,-0.072,0.039,-1.827,0.068,†
+ECEff,ECEFF,Effortful Control,Emotion Control,3F,GDP,-0.008,0.044,-0.185,0.853,
+ECEff,ECEFF,Effortful Control,Emotion Control,3F,WM,-0.014,0.049,-0.296,0.767,
+ECEff,ECEFF,Effortful Control,Emotion Control,UNIDIM,COG,-0.058,0.039,-1.482,0.138,
+ECNeg,ECNEG,Negative Affect,Emotion Control,3F,FS,-0.042,0.041,-1.03,0.303,
+ECNeg,ECNEG,Negative Affect,Emotion Control,3F,GDP,-0.064,0.044,-1.468,0.142,
+ECNeg,ECNEG,Negative Affect,Emotion Control,3F,WM,-0.044,0.051,-0.876,0.381,
+ECNeg,ECNEG,Negative Affect,Emotion Control,UNIDIM,COG,-0.05,0.041,-1.214,0.225,
+ECSur,ECSUR,Surgency/Extraversion,Emotion Control,3F,FS,-0.019,0.04,-0.478,0.633,
+ECSur,ECSUR,Surgency/Extraversion,Emotion Control,3F,GDP,0.017,0.043,0.407,0.684,
+ECSur,ECSUR,Surgency/Extraversion,Emotion Control,3F,WM,0.005,0.049,0.106,0.915,
+ECSur,ECSUR,Surgency/Extraversion,Emotion Control,UNIDIM,COG,-0.01,0.039,-0.244,0.807,
+QchatTot,QCHATTOT,Q-CHAT Total,Q-CHAT,3F,FS,-0.276,0.037,-7.552,0.0,***
+QchatTot,QCHATTOT,Q-CHAT Total,Q-CHAT,3F,GDP,-0.39,0.034,-11.382,0.0,***
+QchatTot,QCHATTOT,Q-CHAT Total,Q-CHAT,3F,WM,-0.362,0.046,-7.81,0.0,***
+QchatTot,QCHATTOT,Q-CHAT Total,Q-CHAT,UNIDIM,COG,-0.346,0.034,-10.262,0.0,***

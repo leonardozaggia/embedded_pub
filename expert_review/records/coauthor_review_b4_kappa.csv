@@ -1,0 +1,6 @@
+comparison,kappa
+Expert 1 vs Expert 2 (IRR),0.3227513227513228
+Consensus vs Aylward (reference),0.6521739130434783
+Consensus vs Detected (NLP),-0.33333333333333326
+Expert 1 vs Aylward (reference),0.33678756476683935
+Expert 2 vs Aylward (reference),0.4226804123711341

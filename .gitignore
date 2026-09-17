@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Restricted / proprietary inputs (docs/DATA_ACCESS.md): never committed
+#   data/raw/            Bayley item text (copyright), dHCP/NDA instruments (controlled access)
+#   cogn_id_GA.xlsx      item-level dHCP responses
+#   items.csv            parsed item text (also inside the pipeline run directories)
+#   combined.dat         individual-level Mplus analysis file
+#   fscores_*.dat        individual-level factor scores
+#   review workbooks     reproduce the item instructions
+# ---------------------------------------------------------------------------
+data/raw/*
+!data/raw/README.md
+data/processed/cogn_id_GA.xlsx
+data/processed/items.csv
+**/items.csv
+**/items_combined.csv
+**/04_labeling/cluster_*_nearest_items.csv
+**/04_labeling/cluster_labels_report.md
+psychometrics/combined.dat
+psychometrics/**/fscores_*.dat
+psychometrics/**/difftest_free.dat
+psychometrics/difftest_3factor.dat
+psychometrics/**/*.dgm
+data/outputs/growth_restriction_per_infant.csv
+expert_review/records/*.xlsx
+expert_review/records/b4_raw/*.xlsx
+
+# ---------------------------------------------------------------------------
+# Regenerable / bulky pipeline output that the paper does not depend on
+# ---------------------------------------------------------------------------
+data/outputs/**/*.html
+data/outputs/**/similarity_matrix_*.npy
+data/outputs/concordance/
+data/outputs/expert_review/
+data/outputs/step1_translation/figures/
+data/outputs/step1_translation/*.svg
+data/outputs/step2_b4_validation/**/03_clustering_extended_*/
+data/outputs/step2_b4_validation/**/b3_independent_analysis/
+data/outputs/step2_b4_validation/**/06_b4_b3_pairing/
+data/outputs/step2_b4_validation/**/07_cluster_comparison/
+data/outputs/step2_b4_validation/*_k_precomputed/
+data/outputs/step3_b3_bottomup/*_kmeans_consensus_dr/
+data/outputs/experiments/
+psychometrics/mimic/radar_plots/
+psychometrics/mimic/difftest_results.png
+psychometrics/mimic/fort.16
+psychometrics/measurement/*.tst
+results/figures/main/fig2_embedding_3d.*
+
+# ---------------------------------------------------------------------------
+# Python / R / IDE
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.Rhistory
+.RData
+.Rproj.user
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# ---------------------------------------------------------------------------
+# Manuscript drafts (never committed; analysis/verify_manuscript_numbers.py
+# --manuscript reads a .docx from here for its wording checks)
+# ---------------------------------------------------------------------------
+manuscript/*
+!manuscript/README.md

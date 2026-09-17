@@ -1,0 +1,123 @@
+{
+  "n_infants": 739,
+  "female": {
+    "n": 346,
+    "of": 739,
+    "pct": 46.8
+  },
+  "gestational_age_weeks": {
+    "n": 739,
+    "mean": 38.3,
+    "sd": 3.8,
+    "min": 23.0,
+    "max": 43.0
+  },
+  "preterm_lt37": {
+    "n": 158,
+    "of": 739,
+    "pct": 21.4
+  },
+  "very_preterm_lt32": {
+    "n": 69,
+    "of": 739,
+    "pct": 9.3
+  },
+  "birth_weight_kg": {
+    "n": 694,
+    "mean": 3.01,
+    "sd": 0.87,
+    "min": 0.45,
+    "max": 4.75
+  },
+  "birth_weight_lt1500g": {
+    "n": 60,
+    "of": 694,
+    "pct": 8.6
+  },
+  "growth_restriction_sga10": {
+    "n": 81,
+    "of": 691,
+    "pct": 11.7,
+    "of_whom_lt1500g": 13,
+    "definition": "birth weight < 10th sex-specific INTERGROWTH-21st centile for gestational age; infants outside 24+0 to 42+6 weeks or without birth weight are not eligible"
+  },
+  "nicu_admission": {
+    "n": 166,
+    "n_with_data": 694,
+    "pct_of_all": 22.5,
+    "pct_of_those_with_data": 23.9
+  },
+  "plurality": {
+    "singleton": {
+      "n": 657,
+      "of": 739,
+      "pct": 88.9
+    },
+    "twin": {
+      "n": 77,
+      "of": 739,
+      "pct": 10.4
+    },
+    "higher_order": {
+      "n": 3,
+      "of": 739,
+      "pct": 0.4
+    },
+    "missing": 2,
+    "source": "cpenr01.pregnancy_size (pregnancy size at conception)"
+  },
+  "maternal_age_years": {
+    "n": 739,
+    "mean": 34.2,
+    "sd": 4.6,
+    "min": 17.0,
+    "max": 52.0
+  },
+  "maternal_age_left_education_years": {
+    "n": 717,
+    "mean": 23.3,
+    "sd": 4.4,
+    "min": 12.0,
+    "max": 41.0
+  },
+  "age_at_assessment_months": {
+    "corrected": {
+      "n": 739,
+      "mean": 19.4,
+      "sd": 2.4,
+      "min": 17.0,
+      "max": 34.2
+    },
+    "chronological": {
+      "n": 739,
+      "mean": 19.8,
+      "sd": 2.6,
+      "min": 17.0,
+      "max": 37.0
+    },
+    "correction": "(40 - GA)/4.3482 months subtracted for infants born before 37 weeks"
+  },
+  "bayley_composites": {
+    "cognitive": {
+      "n": 739,
+      "mean": 100.8,
+      "sd": 11.7,
+      "min": 55.0,
+      "max": 145.0
+    },
+    "language": {
+      "n": 738,
+      "mean": 98.7,
+      "sd": 16.2,
+      "min": 47.0,
+      "max": 153.0
+    },
+    "motor": {
+      "n": 739,
+      "mean": 101.6,
+      "sd": 10.1,
+      "min": 52.0,
+      "max": 133.0
+    }
+  }
+}

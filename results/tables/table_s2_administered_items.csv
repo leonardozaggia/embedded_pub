@@ -1,0 +1,36 @@
+item_id,item_title,translated_domain,empirical_factor,n_valid,pct_pass,pct_fail,dominant_response_pct,status
+COG034,Searches for Missing Objects,WM,WM,739,98.2,1.8,98.2,ceiling
+COG035,Takes Blocks Out of Cup,FS,FS,739,97.8,2.2,97.8,ceiling
+COG036,Block Series: 1 Block,FS,FS,739,98.5,1.5,98.5,ceiling
+COG037,Picks Up Block Series: 3 Blocks,GDPS,GDPS,739,90.1,9.9,90.1,ceiling
+COG038,Explores Holes in Pegboard,GDPS,GDPS,739,97.6,2.4,97.6,ceiling
+COG039,Pushes Car,GDPS,GDPS,739,97.6,2.4,97.6,ceiling
+COG040,Finds Hidden Object,WM,WM,739,87.3,12.7,87.3,retained
+COG041,Suspends Ring,GDPS,GDPS,739,72.0,28.0,72.0,retained
+COG042,Removes Pellet,FS,FS,739,96.6,3.4,96.6,ceiling
+COG043,Clear Box: Front,GDPS,GDPS,739,85.7,14.3,85.7,retained
+COG044,Squeezes Object,GDPS,GDPS,739,88.8,11.2,88.8,retained
+COG045,Finds Hidden Object (Reversed),WM,WM,739,62.8,37.2,62.8,retained
+COG046,Removes Lid From Bottle,GDPS,GDPS,739,48.7,51.3,51.3,retained
+COG047,Pegboard Series: 2 Holes,FS,FS,739,96.5,3.5,96.5,ceiling
+COG048,Relational Play Series: Self,GDPS,GDPS,739,89.2,10.8,89.2,retained
+COG049,Pink Board Series: 1 Piece,FS,FS,739,84.4,15.6,84.4,retained
+COG050,Finds Hidden Object (Visible Displacement),WM,WM,739,72.7,27.3,72.7,retained
+COG051,Blue Board Series: 1 Piece,FS,FS,739,88.0,12.0,88.0,retained
+COG052,Clear Box: Sides,GDPS,GDPS,739,68.3,31.7,68.3,retained
+COG053,Relational Play Series: Others,GDPS,GDPS,739,66.6,33.4,66.6,retained
+COG054,Block Series: 9 Blocks,FS,FS,739,66.8,33.2,66.8,retained
+COG055,Pegboard Series: 6 Pegs,FS,FS,739,87.8,12.2,87.8,retained
+COG056,Pink Board Series: Completes,FS,FS,739,55.9,44.1,55.9,retained
+COG057,Uses Pencil to Obtain Object,GDPS,GDPS,739,18.4,81.6,81.6,retained
+COG058,Blue Board Series: 4 Pieces,FS,FS,739,56.6,43.4,56.6,retained
+COG059,Attends to Story,ATT,,,,,,excluded: domain with a single indicator
+COG060,Rotated Pink Board,FS,FS,739,38.8,61.2,61.2,retained
+COG061,Object Assembly (Ball),FS,FS,739,24.1,75.9,75.9,retained
+COG062,Completes Pegboard: 25 Seconds,FS,FS,739,15.0,85.0,85.0,retained
+COG063,Object Assembly (Ice Cream Cone),FS,FS,739,11.4,88.6,88.6,retained
+COG064,Matches Pictures,WM,WM,739,23.7,76.3,76.3,retained
+COG065,Representational Play,FS,GDPS,739,3.1,96.9,96.9,floor
+COG066,Blue Board Series: Completes (75 Seconds),FS,FS,739,17.6,82.4,82.4,retained
+COG067,Imitates a Two-Step Action,GDPS,GDPS,739,2.7,97.3,97.3,floor
+COG068,Matches 3 Colors,WM,WM,739,9.3,90.7,90.7,floor

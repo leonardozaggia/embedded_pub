@@ -1,0 +1,40 @@
+b4_item_id,b4_item_title,b3_item_id,b3_item_title,sim_title,sim_fulltext,sim_decision,b4_factor,pairing_stage
+COG_002,Looks at Object,COG_003,Regards Object for 3 Seconds,0.4003680348396301,0.8905743360519409,0.8905743360519409,attention,fulltext
+COG_003,Habituates to Rattle,COG_004,Habituates to Rattle,1.0,0.9832829236984253,1.0,attention,title_locked
+COG_008,Shifts Attention,COG_010,Shifts Attention,1.0000001192092896,0.9603173732757568,1.0000001192092896,attention,title_locked
+COG_009,Shows Visual Preference,COG_011,Shows Visual Preference,1.0,0.9327347278594971,1.0,attention,title_locked
+COG_010,Habituates to Balloons,COG_014,Habituates to Picture (Balloons),0.8299041986465454,0.9093315601348877,0.8299041986465454,attention,title_locked
+COG_011,Prefers Ball,COG_015,Prefers Novel Picture (Ball),0.7041356563568115,0.8334617018699646,0.8334617018699646,attention,fulltext
+COG_012,Responds to Surroundings,COG_002,Responds to Surroundings Series: Inspects,0.5984284281730652,0.9095122814178467,0.9095122814178467,attention,fulltext
+COG_026,Looks at Pictures,COG_032,Looks at Pictures,1.0,0.9730357527732849,1.0,attention,title_locked
+COG_041,Listens to Story,COG_059,Attends to Story,0.8391727805137634,0.8868600726127625,0.8391727805137634,attention,title_locked
+COG_034,Removes Pellet,COG_042,Removes Pellet,0.9999999403953552,0.9187809228897095,0.9999999403953552,flexibility_shift,title_locked
+COG_040,Pink Board Series: 2 Pieces,COG_049,Pink Board Series: 1 Piece,0.9585172533988953,0.9634877443313599,0.9585172533988953,flexibility_shift,title_locked
+COG_043,Blue Board Series: 1 Piece,COG_051,Blue Board Series: 1 Piece,1.0000001192092896,0.9765165448188782,1.0000001192092896,flexibility_shift,title_locked
+COG_049,Blue Board Series: 4 Pieces,COG_058,Blue Board Series: 4 Pieces,0.9999998807907104,0.9739497303962708,0.9999998807907104,flexibility_shift,title_locked
+COG_051,Rotated Pink Board,COG_060,Rotated Pink Board,0.9999997019767761,0.9575491547584534,0.9999997019767761,flexibility_shift,title_locked
+COG_052,Object Assembly: ball,COG_061,Object Assembly (Ball),0.9759277701377869,0.9337975382804871,0.9759277701377869,flexibility_shift,title_locked
+COG_053,Object Assembly: Ice Cream Cone,COG_063,Object Assembly (Ice Cream Cone),0.9903782606124878,0.9528473615646362,0.9903782606124878,flexibility_shift,title_locked
+COG_073,Object Assembly: Dog,COG_082,Object Assembly (Dog),0.972475528717041,0.9455749988555908,0.972475528717041,flexibility_shift,title_locked
+COG_074,Object Assembly: Cat,COG_066,Blue Board Series: Completes (75 Seconds),-0.025365309789776802,0.6250767111778259,0.6250767111778259,flexibility_shift,fulltext
+COG_014,Brings to Mouth,COG_017,Carries Object to Mouth,0.5564592480659485,0.866857647895813,0.866857647895813,goal_directed_problem_solving,fulltext
+COG_022,Obtains Ring,COG_041,Suspends Ring,0.5103722214698792,0.9020498991012573,0.9020498991012573,goal_directed_problem_solving,fulltext
+COG_035,Clear Box,COG_043,Clear Box: Front,0.7962067723274231,0.775113046169281,0.7962067723274231,goal_directed_problem_solving,title_locked
+COG_048,Uses Pencil to Obtain Object,COG_057,Uses Pencil to Obtain Object,1.0000001192092896,0.9597933888435364,1.0000001192092896,goal_directed_problem_solving,title_locked
+COG_057,Imitates 2-Step Action,COG_067,Imitates a Two-Step Action,0.9805977940559387,0.960182785987854,0.9805977940559387,goal_directed_problem_solving,title_locked
+COG_062,Grouping: Colour,COG_072,Concept Grouping: Color,0.8278236985206604,0.563571572303772,0.8278236985206604,higher_order_processing,title_locked
+COG_063,Grouping: Size,COG_073,Concept Grouping: Size,0.7759445309638977,0.5665769577026367,0.7759445309638977,higher_order_processing,title_locked
+COG_068,Simple Pattern,COG_077,Simple Pattern,1.0000001192092896,0.5319921374320984,1.0000001192092896,higher_order_processing,title_locked
+COG_081,Completes Patterns,COG_091,Completes Patterns,1.000000238418579,0.9576489925384521,1.000000238418579,higher_order_processing,title_locked
+COG_021,Searches for Object,COG_025,Searches for Fallen Object,0.7070040702819824,0.9644601345062256,0.9644601345062256,working_memory,fulltext
+COG_024,Anticipatory Gaze,COG_013,Prefers Novel Object,0.16977721452713013,0.7027847170829773,0.7027847170829773,working_memory,fulltext
+COG_028,Searches for Missing Objects,COG_034,Searches for Missing Objects,1.0,0.9749660491943359,1.0,working_memory,title_locked
+COG_032,Finds Hidden Object,COG_040,Finds Hidden Object,0.9999996423721313,0.7547153830528259,0.9999996423721313,working_memory,title_locked
+COG_037,Finds Hidden Object (Reversed),COG_045,Finds Hidden Object (Reversed),1.0000001192092896,0.7623369097709656,1.0000001192092896,working_memory,title_locked
+COG_042,Finds Hidden Object (Visible Displacement),COG_050,Finds Hidden Object (Visible Displacement),1.000000238418579,0.7751144766807556,1.000000238418579,working_memory,title_locked
+COG_056,Spatial Memory: 3 Cards,COG_068,Matches 3 Colors,0.13230104744434357,0.582269549369812,0.582269549369812,working_memory,fulltext
+COG_060,Recalls Names,COG_081,Identifies 3 Incomplete Pictures,0.16161713004112244,0.6603473424911499,0.6603473424911499,working_memory,fulltext
+COG_064,Repeats Words,COG_064,Matches Pictures,0.15530727803707123,0.5526575446128845,0.5526575446128845,working_memory,fulltext
+COG_067,Discriminates Pictures,COG_076,Discriminates Pictures,1.0000001192092896,0.8761687874794006,1.0000001192092896,working_memory,title_locked
+COG_076,Spatial Memory: 6 Cards,COG_084,Spatial Memory,0.5569781064987183,0.8969997763633728,0.8969997763633728,working_memory,fulltext
+COG_080,Repeats Number Sequences,COG_090,Repeats Number Sequences,0.9999997615814209,0.8903136849403381,0.9999997615814209,working_memory,title_locked

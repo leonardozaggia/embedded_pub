@@ -1,0 +1,17 @@
+item_id,item_title,theoretical_factors,detected_abbrev,detected_probability
+COG_034,Removes Pellet,FS,HOP,0.499
+COG_014,Brings to Mouth,GDPS,HOP,0.506
+COG_022,Obtains Ring,GDPS,HOP,0.522
+COG_057,Imitates 2-Step Action,GDPS,HOP,0.514
+COG_062,Grouping: Colour,HOP,WM,0.413
+COG_063,Grouping: Size,HOP,WM,0.518
+COG_068,Simple Pattern,HOP,WM,0.553
+COG_081,Completes Patterns,HOP,FS,0.517
+COG_021,Searches for Object,WM,GDPS,0.548
+COG_024,Anticipatory Gaze,WM,ATT,0.642
+COG_028,Searches for Missing Objects,WM,GDPS,0.741
+COG_032,Finds Hidden Object,WM,GDPS,0.808
+COG_037,Finds Hidden Object (Reversed),WM,GDPS,0.802
+COG_042,Finds Hidden Object (Visible Displacement),WM,GDPS,0.807
+COG_067,Discriminates Pictures,WM,ATT,0.387
+COG_047,Pink Board Series: 3 Pieces,—,FS,0.789

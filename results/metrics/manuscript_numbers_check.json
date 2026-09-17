@@ -1,0 +1,2866 @@
+[
+  {
+    "section": "Sample",
+    "label": "N infants",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "% female",
+    "expected": 46.8,
+    "observed": 46.8,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "GA mean",
+    "expected": 38.3,
+    "observed": 38.3,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "GA SD",
+    "expected": 3.8,
+    "observed": 3.8,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "GA min",
+    "expected": 23,
+    "observed": 23.0,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "GA max",
+    "expected": 43,
+    "observed": 43.0,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "preterm n",
+    "expected": 158,
+    "observed": 158,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "preterm %",
+    "expected": 21.4,
+    "observed": 21.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "<32 wk n",
+    "expected": 69,
+    "observed": 69,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "<32 wk %",
+    "expected": 9.3,
+    "observed": 9.3,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "<1500 g n",
+    "expected": 60,
+    "observed": 60,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "<1500 g denominator",
+    "expected": 694,
+    "observed": 694,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "<1500 g %",
+    "expected": 8.6,
+    "observed": 8.6,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "growth restriction n",
+    "expected": 81,
+    "observed": 81,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "growth restriction denominator",
+    "expected": 691,
+    "observed": 691,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "growth restriction %",
+    "expected": 11.7,
+    "observed": 11.7,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "growth-restricted and <1500 g",
+    "expected": 13,
+    "observed": 13,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "birth weight mean (kg)",
+    "expected": 3.01,
+    "observed": 3.01,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "birth weight SD (kg)",
+    "expected": 0.87,
+    "observed": 0.87,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "birth weight n with data",
+    "expected": 694,
+    "observed": 694,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "birth weight min",
+    "expected": 0.45,
+    "observed": 0.45,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "birth weight max",
+    "expected": 4.75,
+    "observed": 4.75,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "NICU admission n",
+    "expected": 166,
+    "observed": 166,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "NICU admission denominator (infants with data)",
+    "expected": 694,
+    "observed": 694,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "NICU admission % of all 739",
+    "expected": 22.5,
+    "observed": 22.5,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "NICU admission % of the 694 with data",
+    "expected": 23.9,
+    "observed": 23.9,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "singletons %",
+    "expected": 88.9,
+    "observed": 88.9,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "twins %",
+    "expected": 10.4,
+    "observed": 10.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "higher-order %",
+    "expected": 0.4,
+    "observed": 0.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "corrected age mean",
+    "expected": 19.4,
+    "observed": 19.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "corrected age SD",
+    "expected": 2.4,
+    "observed": 2.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "corrected age min",
+    "expected": 17.0,
+    "observed": 17.0,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "corrected age max",
+    "expected": 34.2,
+    "observed": 34.2,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "chronological age mean",
+    "expected": 19.8,
+    "observed": 19.8,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "chronological age SD",
+    "expected": 2.6,
+    "observed": 2.6,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "chronological age max",
+    "expected": 37,
+    "observed": 37.0,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "cognitive composite mean",
+    "expected": 100.8,
+    "observed": 100.8,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "cognitive composite SD",
+    "expected": 11.7,
+    "observed": 11.7,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "language composite mean",
+    "expected": 98.7,
+    "observed": 98.7,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "language composite SD",
+    "expected": 16.2,
+    "observed": 16.2,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "motor composite mean",
+    "expected": 101.6,
+    "observed": 101.6,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "motor composite SD",
+    "expected": 10.1,
+    "observed": 10.1,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "maternal age mean",
+    "expected": 34.2,
+    "observed": 34.2,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "maternal age SD",
+    "expected": 4.6,
+    "observed": 4.6,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "maternal age range",
+    "expected": "17-52",
+    "observed": "17-52",
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "left education mean",
+    "expected": 23.3,
+    "observed": 23.3,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "left education SD",
+    "expected": 4.4,
+    "observed": 4.4,
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Sample",
+    "label": "left education range",
+    "expected": "12-41",
+    "observed": "12-41",
+    "ok": true,
+    "source": "results/metrics/sample_descriptives.json (analysis/sample_descriptives.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "rows",
+    "expected": 33,
+    "observed": 33,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "N infants",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "% female",
+    "expected": 46.8,
+    "observed": 46.82,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "GA mean",
+    "expected": 38.3,
+    "observed": 38.306,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "GA SD",
+    "expected": 3.8,
+    "observed": 3.79,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "GA range",
+    "expected": "23-43",
+    "observed": "23-43",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "preterm n",
+    "expected": 158,
+    "observed": 158.0,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "preterm %",
+    "expected": 21.4,
+    "observed": 21.38,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "<32 wk n",
+    "expected": 69,
+    "observed": 69.0,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "<32 wk %",
+    "expected": 9.3,
+    "observed": 9.337,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "<1500 g n/denominator",
+    "expected": "60/694",
+    "observed": "60/694",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "<1500 g %",
+    "expected": 8.6,
+    "observed": 8.646,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "growth restriction n/denominator",
+    "expected": "81/691",
+    "observed": "81/691",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "growth restriction %",
+    "expected": 11.7,
+    "observed": 11.722,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "birth weight mean (kg)",
+    "expected": 3.01,
+    "observed": 3.0127,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "birth weight SD (kg)",
+    "expected": 0.87,
+    "observed": 0.8747,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "birth weight n with data",
+    "expected": 694,
+    "observed": "694",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "birth weight min",
+    "expected": 0.45,
+    "observed": 0.45,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "birth weight max",
+    "expected": 4.75,
+    "observed": 4.75,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "NICU admission n",
+    "expected": 166,
+    "observed": 166.0,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "NICU admission denominator (infants with data)",
+    "expected": 694,
+    "observed": "694",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "NICU admission % of all 739 (manuscript)",
+    "expected": 22.5,
+    "observed": 22.46278755074425,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "NICU admission % of the 694 with data (Table 1)",
+    "expected": 23.9,
+    "observed": 23.919,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "plurality denominator (infants with data)",
+    "expected": 737,
+    "observed": "737",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "singletons % of all 739 (manuscript)",
+    "expected": 88.9,
+    "observed": 88.90392422192151,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "singletons % of the 737 with data (Table 1)",
+    "expected": 89.1,
+    "observed": 89.145,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "twins %",
+    "expected": 10.4,
+    "observed": 10.448,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "higher-order %",
+    "expected": 0.4,
+    "observed": 0.407,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "corrected age mean",
+    "expected": 19.4,
+    "observed": 19.415,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "corrected age SD",
+    "expected": 2.4,
+    "observed": 2.437,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "corrected age min",
+    "expected": 17.0,
+    "observed": 17.0,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "corrected age max",
+    "expected": 34.2,
+    "observed": 34.208,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "chronological age mean",
+    "expected": 19.8,
+    "observed": 19.801,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "chronological age SD",
+    "expected": 2.6,
+    "observed": 2.568,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "chronological age range",
+    "expected": "17-37",
+    "observed": "17-37",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "cognitive composite mean",
+    "expected": 100.8,
+    "observed": 100.792,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "cognitive composite SD",
+    "expected": 11.7,
+    "observed": 11.667,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "language composite mean",
+    "expected": 98.7,
+    "observed": 98.729,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "language composite SD",
+    "expected": 16.2,
+    "observed": 16.19,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "motor composite mean",
+    "expected": 101.6,
+    "observed": 101.56,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "motor composite SD",
+    "expected": 10.1,
+    "observed": 10.079,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "maternal age mean",
+    "expected": 34.2,
+    "observed": 34.187,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "maternal age SD",
+    "expected": 4.6,
+    "observed": 4.571,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "maternal age range",
+    "expected": "17-52",
+    "observed": "17-52",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "left education mean",
+    "expected": 23.3,
+    "observed": 23.332,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "left education SD",
+    "expected": 4.4,
+    "observed": 4.365,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "left education range",
+    "expected": "12-41",
+    "observed": "12-41",
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC GA: Table 1 n = Mplus N",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/GA/model_mimic_ga.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC GA: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC BirthWt: Table 1 n = Mplus N",
+    "expected": 694,
+    "observed": 694,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/BirthWt/model_mimic_birthwt.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC BirthWt: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC Sex: Table 1 n = Mplus N",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/Sex/model_mimic_sex.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC Sex: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC HdCirc: Table 1 n = Mplus N",
+    "expected": 651,
+    "observed": 651,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/HdCirc/model_mimic_hdcirc.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC HdCirc: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC IUGR: Table 1 n = Mplus N",
+    "expected": 652,
+    "observed": 652,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/IUGR/model_mimic_iugr.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC IUGR: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC GDiab: Table 1 n = Mplus N",
+    "expected": 691,
+    "observed": 691,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/GDiab/model_mimic_gdiab.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC GDiab: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrEcl: Table 1 n = Mplus N",
+    "expected": 685,
+    "observed": 685,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/PrEcl/model_mimic_precl.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrEcl: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC AntCor: Table 1 n = Mplus N",
+    "expected": 680,
+    "observed": 680,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/AntCor/model_mimic_antcor.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomAge: Table 1 n = Mplus N",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/MomAge/model_mimic_momage.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomAge: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomEdu: Table 1 n = Mplus N",
+    "expected": 717,
+    "observed": 717,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/MomEdu/model_mimic_momedu.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomEdu: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC DadEdu: Table 1 n = Mplus N",
+    "expected": 650,
+    "observed": 650,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/DadEdu/model_mimic_dadedu.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC DadEdu: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomEng: Table 1 n = Mplus N",
+    "expected": 738,
+    "observed": 738,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/MomEng/model_mimic_momeng.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC MomEng: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC EPDSTot: Table 1 n = Mplus N",
+    "expected": 661,
+    "observed": 661,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/EPDSTot/model_mimic_epdstot.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC EPDSTot: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC StimEnv: Table 1 n = Mplus N",
+    "expected": 716,
+    "observed": 716,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/StimEnv/model_mimic_stimenv.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC StimEnv: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrLax: Table 1 n = Mplus N",
+    "expected": 646,
+    "observed": 646,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/PrLax/model_mimic_prlax.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrLax: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrOvr: Table 1 n = Mplus N",
+    "expected": 646,
+    "observed": 646,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/PrOvr/model_mimic_provr.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrOvr: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrVrb: Table 1 n = Mplus N",
+    "expected": 646,
+    "observed": 646,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/PrVrb/model_mimic_prvrb.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrVrb: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrSty: Table 1 n = Mplus N",
+    "expected": 646,
+    "observed": 646,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py); psychometrics/mimic/PrSty/model_mimic_prsty.out"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC PrSty: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC AntCor_P: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Table 1",
+    "label": "MIMIC AntCor_C: covariate row carries the MIMIC name",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table1_baseline.csv (analysis/table1_baseline.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "instruments in data/raw/dhcp_txt",
+    "expected": 12,
+    "observed": 12,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "distinct subject IDs across the instruments",
+    "expected": 984,
+    "observed": 984,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "subjects with a bsid_iii01 record (18-month Bayley-III)",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "infants with item-level cognition responses (N)",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "analysed infants with a bsid_iii01 record",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "recruitment period (cpenr01 enrolment dates, all subjects)",
+    "expected": "2014-03-06 to 2020-10-31",
+    "observed": "2014-03-06 to 2020-10-31",
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "recruitment period (analysed infants)",
+    "expected": "2014-03-06 to 2020-10-31",
+    "observed": "2014-03-06 to 2020-10-31",
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "18-month assessment dates (bsid_iii01, earliest to latest)",
+    "expected": "2015-10-02 to 2022-10-24",
+    "observed": "2015-10-02 to 2022-10-24",
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Cohort",
+    "label": "18-month assessments dated",
+    "expected": 739,
+    "observed": 739,
+    "ok": true,
+    "source": "results/metrics/cohort_counts.json (analysis/cohort_counts.py)"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "n pairs",
+    "expected": 39,
+    "observed": 39,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "mean full-text similarity",
+    "expected": 0.846,
+    "observed": 0.8462820512820514,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "median full-text similarity",
+    "expected": 0.902,
+    "observed": 0.902,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "min similarity",
+    "expected": 0.532,
+    "observed": 0.532,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "max similarity",
+    "expected": 0.983,
+    "observed": 0.983,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "title-locked pairs (Fig 2A)",
+    "expected": 27,
+    "observed": "27",
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "full-text fallback pairs (Fig 2A)",
+    "expected": 12,
+    "observed": "12",
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "ATT items (91-item taxonomy)",
+    "expected": 22,
+    "observed": 22,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "WM items (91-item taxonomy)",
+    "expected": 19,
+    "observed": 19,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "GDPS items (91-item taxonomy)",
+    "expected": 23,
+    "observed": 23,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "FS items (91-item taxonomy)",
+    "expected": 20,
+    "observed": 20,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "HOP items (91-item taxonomy)",
+    "expected": 7,
+    "observed": 7,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "unpaired items",
+    "expected": 52,
+    "observed": 52,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "items flagged for expert review",
+    "expected": 6,
+    "observed": 6,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "GDPS items without a Bayley-4 counterpart",
+    "expected": 18,
+    "observed": 18,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "ATT items without a Bayley-4 counterpart",
+    "expected": 13,
+    "observed": 13,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "WM items without a Bayley-4 counterpart",
+    "expected": 7,
+    "observed": 7,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "HOP items without a Bayley-4 counterpart",
+    "expected": 3,
+    "observed": 3,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "items in the dHCP window (34-68)",
+    "expected": 35,
+    "observed": 35,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "ATT items in window",
+    "expected": 1,
+    "observed": 1,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "HOP items in window",
+    "expected": 0,
+    "observed": 0,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "items retained in the CFA",
+    "expected": 23,
+    "observed": 23,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "within-domain cohesion FS",
+    "expected": 0.618,
+    "observed": 0.6179893016815186,
+    "ok": true,
+    "source": "results/tables/fig2_panelC_theoretical.csv (figures/fig2_embedding.py --export-panel-c)"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "within-domain cohesion HOP",
+    "expected": 0.61,
+    "observed": 0.6104799509048462,
+    "ok": true,
+    "source": "results/tables/fig2_panelC_theoretical.csv (figures/fig2_embedding.py --export-panel-c)"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "within-domain cohesion GDPS",
+    "expected": 0.519,
+    "observed": 0.5185802578926086,
+    "ok": true,
+    "source": "results/tables/fig2_panelC_theoretical.csv (figures/fig2_embedding.py --export-panel-c)"
+  },
+  {
+    "section": "Objective 1 - translation",
+    "label": "within > between for every domain",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/fig2_panelC_theoretical.csv (figures/fig2_embedding.py --export-panel-c)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor rmsea",
+    "expected": 0.06,
+    "observed": 0.06,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor cfi",
+    "expected": 0.929,
+    "observed": 0.929,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor tli",
+    "expected": 0.921,
+    "observed": 0.921,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor srmr",
+    "expected": 0.108,
+    "observed": 0.108,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor rmsea_ci_low",
+    "expected": 0.055,
+    "observed": 0.055,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "3-factor rmsea_ci_high",
+    "expected": 0.064,
+    "observed": 0.064,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "unidimensional rmsea",
+    "expected": 0.075,
+    "observed": 0.075,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "unidimensional cfi",
+    "expected": 0.885,
+    "observed": 0.885,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "unidimensional tli",
+    "expected": 0.874,
+    "observed": 0.874,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "unidimensional srmr",
+    "expected": 0.113,
+    "observed": 0.113,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "DIFFTEST unidimensional vs 3-factor chi2",
+    "expected": 246.1,
+    "observed": 246.109,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "DIFFTEST df",
+    "expected": 3,
+    "observed": 3.0,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "DIFFTEST p < .0001",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s3c_cfa_fit_statistics.csv (Mplus .out)"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "min standardised loading",
+    "expected": 0.41,
+    "observed": 0.41,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "max standardised loading",
+    "expected": 0.98,
+    "observed": 0.976,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "all loadings p < .001",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "WM indicators",
+    "expected": 4,
+    "observed": 4,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "GDPS indicators",
+    "expected": 8,
+    "observed": 8,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "FS indicators",
+    "expected": 11,
+    "observed": 11,
+    "ok": true,
+    "source": "results/tables/table_s3a_cfa_3factor_loadings.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "min factor correlation (Discussion: 0.54)",
+    "expected": 0.54,
+    "observed": 0.54,
+    "ok": true,
+    "source": "results/tables/table_s3b_cfa_3factor_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - psychometrics",
+    "label": "max factor correlation (Discussion: 0.70)",
+    "expected": 0.7,
+    "observed": 0.705,
+    "ok": true,
+    "source": "results/tables/table_s3b_cfa_3factor_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "GA -> FS beta",
+    "expected": 0.159,
+    "observed": 0.159,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "HDCIRC -> FS beta",
+    "expected": 0.179,
+    "observed": 0.179,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "BIRTHWT -> FS beta",
+    "expected": 0.139,
+    "observed": 0.139,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "ANTCOR_C -> FS beta",
+    "expected": -0.276,
+    "observed": -0.276,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "ANTCOR_C -> FS p",
+    "expected": 0.026,
+    "observed": 0.026,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> GDPS beta",
+    "expected": -0.365,
+    "observed": -0.365,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> WM beta",
+    "expected": -0.241,
+    "observed": -0.241,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> WM p",
+    "expected": 0.009,
+    "observed": 0.009,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> FS beta",
+    "expected": -0.094,
+    "observed": -0.094,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> FS p",
+    "expected": 0.228,
+    "observed": 0.228,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDSTOT -> GDPS beta",
+    "expected": -0.156,
+    "observed": -0.156,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDSTOT -> GDPS p",
+    "expected": 0.001,
+    "observed": 0.001,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "MOMAGE -> WM beta",
+    "expected": 0.125,
+    "observed": 0.125,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "MOMAGE -> WM p",
+    "expected": 0.009,
+    "observed": 0.009,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> composite beta",
+    "expected": -0.172,
+    "observed": -0.172,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "SEX -> composite p",
+    "expected": 0.024,
+    "observed": 0.024,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDS -> composite beta",
+    "expected": -0.107,
+    "observed": -0.107,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDS -> composite p",
+    "expected": 0.013,
+    "observed": 0.013,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDS -> WM p",
+    "expected": 0.052,
+    "observed": 0.052,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "EPDS -> FS p",
+    "expected": 0.063,
+    "observed": 0.063,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "maternal English min beta",
+    "expected": 0.198,
+    "observed": 0.198,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "maternal English max beta",
+    "expected": 0.309,
+    "observed": 0.309,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "maternal English all p <= .017",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "stimulating home min beta",
+    "expected": 0.185,
+    "observed": 0.185,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "stimulating home max beta",
+    "expected": 0.242,
+    "observed": 0.242,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "stimulating home all p <= .017",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "parenting/GDiab/IUGR/pre-eclampsia: no p < .05",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education: GDPS is the only significant factor",
+    "expected": "GDPS",
+    "observed": "GDPS",
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> WM beta",
+    "expected": -0.042,
+    "observed": -0.042,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> WM p",
+    "expected": 0.457,
+    "observed": 0.457,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> GDPS beta",
+    "expected": -0.135,
+    "observed": -0.135,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> GDPS p",
+    "expected": 0.012,
+    "observed": 0.012,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> FS beta",
+    "expected": -0.046,
+    "observed": -0.046,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> FS p",
+    "expected": 0.269,
+    "observed": 0.269,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> composite beta",
+    "expected": -0.065,
+    "observed": -0.065,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "paternal education -> composite p",
+    "expected": 0.119,
+    "observed": 0.119,
+    "ok": true,
+    "source": "results/tables/table_s4a_mimic_covariate_associations.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST GA: WM = FS chi2",
+    "expected": 8.81,
+    "observed": 8.813,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST GA: WM = FS p",
+    "expected": 0.003,
+    "observed": 0.003,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST HdCirc: WM = FS chi2",
+    "expected": 8.41,
+    "observed": 8.406,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST HdCirc: WM = FS p",
+    "expected": 0.004,
+    "observed": 0.0037,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST BirthWt: WM = FS chi2",
+    "expected": 7.61,
+    "observed": 7.606,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST BirthWt: WM = FS p",
+    "expected": 0.006,
+    "observed": 0.0058,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST AntCor_C: WM = FS chi2",
+    "expected": 6.8,
+    "observed": 6.798,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST AntCor_C: WM = FS p",
+    "expected": 0.009,
+    "observed": 0.0091,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST MomAge: WM = GDPS chi2",
+    "expected": 5.98,
+    "observed": 5.982,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST MomAge: WM = GDPS p",
+    "expected": 0.015,
+    "observed": 0.0145,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST DadEdu: WM = GDPS chi2",
+    "expected": 2.53,
+    "observed": 2.533,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST DadEdu: WM = GDPS p",
+    "expected": 0.112,
+    "observed": 0.1115,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - MIMIC",
+    "label": "DIFFTEST DadEdu WM = GDPS not significant",
+    "expected": false,
+    "observed": false,
+    "ok": true,
+    "source": "results/tables/table_s4b_mimic_difftest.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "language min r",
+    "expected": 0.45,
+    "observed": 0.45,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "language max r",
+    "expected": 0.64,
+    "observed": 0.639,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "motor min r",
+    "expected": 0.39,
+    "observed": 0.385,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "motor max r",
+    "expected": 0.44,
+    "observed": 0.444,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "Q-CHAT min r",
+    "expected": -0.39,
+    "observed": -0.39,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "Q-CHAT max r",
+    "expected": -0.28,
+    "observed": -0.276,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising GDPS r",
+    "expected": -0.153,
+    "observed": -0.153,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising GDPS p < .001",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising WM r",
+    "expected": -0.119,
+    "observed": -0.119,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising WM p",
+    "expected": 0.011,
+    "observed": 0.011,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising FS r",
+    "expected": -0.031,
+    "observed": -0.031,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising composite r",
+    "expected": -0.075,
+    "observed": -0.075,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL internalising composite p",
+    "expected": 0.066,
+    "observed": 0.066,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL total GDPS r",
+    "expected": -0.102,
+    "observed": -0.102,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL total GDPS p",
+    "expected": 0.021,
+    "observed": 0.021,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL total composite r",
+    "expected": -0.037,
+    "observed": -0.037,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL total composite p",
+    "expected": 0.366,
+    "observed": 0.366,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 1 - outcomes",
+    "label": "CBCL externalising: no p < .05",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s5_factor_outcome_correlations.csv"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ARI vs expert-derived",
+    "expected": 0.49,
+    "observed": 0.4936,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "NMI vs expert-derived",
+    "expected": 0.63,
+    "observed": 0.6293,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "item agreement fraction (39 expert-assigned items)",
+    "expected": "24/39",
+    "observed": "24/39",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "item agreement %",
+    "expected": 61.5,
+    "observed": 61.5,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "item agreement over all 40 clustered items (not in the text)",
+    "expected": "24/40",
+    "observed": "24/40",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "item agreement % over all 40 clustered items (not in the text)",
+    "expected": 60.0,
+    "observed": 60.0,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ARI vs empirical",
+    "expected": 0.42,
+    "observed": 0.4194,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "NMI vs empirical",
+    "expected": 0.56,
+    "observed": 0.5642,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ARI expert-derived vs empirical",
+    "expected": 0.19,
+    "observed": 0.1924,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "NMI expert-derived vs empirical",
+    "expected": 0.4,
+    "observed": 0.4031,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/*.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ATT recovered 9/9",
+    "expected": "9/9",
+    "observed": "9/9",
+    "ok": true,
+    "source": "figures/_validation.py confusion matrix (Figure 5A)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "FS recovered 9/10",
+    "expected": "9/10",
+    "observed": "9/10",
+    "ok": true,
+    "source": "figures/_validation.py confusion matrix (Figure 5A)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "Aylward facet memberships (ATT/WM/GDPS/FS/HOP)",
+    "expected": "9/12/5/10/6",
+    "observed": "9/12/5/10/6",
+    "ok": true,
+    "source": "config/reference_models_b4.yaml"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "Bayley-4 items with an expert domain",
+    "expected": 39,
+    "observed": 39,
+    "ok": true,
+    "source": "config/reference_models_b4.yaml"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "multi-factor items",
+    "expected": "COG_035,COG_048,COG_051",
+    "observed": "COG_035,COG_048,COG_051",
+    "ok": true,
+    "source": "config/reference_models_b4.yaml"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "Bayley-4 items clustered (Methods, Figure 1B legend: 40)",
+    "expected": 40,
+    "observed": 40,
+    "ok": true,
+    "source": "data/outputs/step2_b4_validation/.../03_clustering/cluster_assignments.csv"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "clustered item without an expert domain",
+    "expected": "COG_047",
+    "observed": "COG_047",
+    "ok": true,
+    "source": "data/outputs/step2_b4_validation/.../03_clustering/cluster_assignments.csv"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "items with expert domain (item-level analysis)",
+    "expected": 39,
+    "observed": 39,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "multi-factor items (item-level analysis)",
+    "expected": 3,
+    "observed": 3,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "concordance under the primary-domain rule (39 items)",
+    "expected": "22/39",
+    "observed": "22/39",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ATT recovered (any-factor rule)",
+    "expected": "9/9",
+    "observed": "9/9",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "WM recovered (any-factor rule)",
+    "expected": "5/12",
+    "observed": "5/12",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "GDPS recovered (any-factor rule)",
+    "expected": "0/5",
+    "observed": "0/5",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "FS recovered (any-factor rule)",
+    "expected": "9/10",
+    "observed": "9/10",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "HOP recovered (any-factor rule)",
+    "expected": "1/6",
+    "observed": "1/6",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "ATT recovered (single-domain items only)",
+    "expected": "9/9",
+    "observed": "9/9",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "WM recovered (single-domain items only)",
+    "expected": "5/12",
+    "observed": "5/12",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "GDPS recovered (single-domain items only)",
+    "expected": "0/3",
+    "observed": "0/3",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "FS recovered (single-domain items only)",
+    "expected": "7/8",
+    "observed": "7/8",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "HOP recovered (single-domain items only)",
+    "expected": "0/4",
+    "observed": "0/4",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_item_level_analysis.py)"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "paired Bayley-4 items = the 39 with an expert domain",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "discordant items (any-factor rule, 40 items)",
+    "expected": 16,
+    "observed": 16,
+    "ok": true,
+    "source": "results/tables/table_s1_cascade_pairs.csv"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "review workbook rows (17; the text reports the 16 discordant)",
+    "expected": 17,
+    "observed": 17,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "discordant items in the workbook (any-factor rule)",
+    "expected": 16,
+    "observed": 16,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "items rated by at least one expert",
+    "expected": 16,
+    "observed": 16,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "unrated workbook row",
+    "expected": "COG_048",
+    "observed": "COG_048",
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "reviewed set = item-level discordant set + COG_048",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "kappa expert 1 vs 2",
+    "expected": 0.32,
+    "observed": 0.3228,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "kappa expert 1 vs Aylward",
+    "expected": 0.34,
+    "observed": 0.3368,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "kappa expert 2 vs Aylward",
+    "expected": 0.42,
+    "observed": 0.4227,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "kappa consensus vs clusters",
+    "expected": -0.33,
+    "observed": -0.3333,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - Bayley-4",
+    "label": "items with expert consensus",
+    "expected": 8,
+    "observed": 8,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b4_kappa.json"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "items (single-domain, in both references)",
+    "expected": 31,
+    "observed": 31,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "consensus-together pairs kept together",
+    "expected": "30/39",
+    "observed": "30/39",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "consensus-apart pairs kept apart",
+    "expected": "287/299",
+    "observed": "287/299",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "consensus-apart kept apart % (Results: 96%)",
+    "expected": 96.0,
+    "observed": 96.0,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "disputed pairs resolved toward expert / empirical (Table S7 only)",
+    "expected": "67/60",
+    "observed": "67/60",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "detected merges fewer pairs than either reference (not a coarser partition)",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "together-pairs expert/empirical/detected",
+    "expected": "108/97/87",
+    "observed": "108/97/87",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "any-factor treatment: consensus-together kept",
+    "expected": "40/52",
+    "observed": "40/52",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "any-factor treatment: consensus-apart kept apart",
+    "expected": "345/358",
+    "observed": "345/358",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 2 - pair-level intermediacy",
+    "label": "any-factor treatment: disputed toward expert / empirical",
+    "expected": "81/70",
+    "observed": "81/70",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b4_pair_level_intermediacy.py)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "ARI vs translated",
+    "expected": 0.39,
+    "observed": 0.3917,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b3_*.py)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "NMI vs translated",
+    "expected": 0.48,
+    "observed": 0.4835,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b3_*.py)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "item agreement fraction",
+    "expected": "31/91",
+    "observed": "31/91",
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b3_*.py)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "item agreement %",
+    "expected": 34.1,
+    "observed": 34.1,
+    "ok": true,
+    "source": "results/metrics/manuscript_metrics.json (analysis/concordance/b3_*.py)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "ATT recovered 18/22",
+    "expected": "18/22",
+    "observed": "18/22",
+    "ok": true,
+    "source": "figures/_validation.py confusion matrix (Figure 5B)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "HOP items joining WM 5/7",
+    "expected": "5/7",
+    "observed": "5/7",
+    "ok": true,
+    "source": "figures/_validation.py confusion matrix (Figure 5B)"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "items reviewed (61; the text reports the 60 discordant)",
+    "expected": 61,
+    "observed": 61,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "discordant sheet rows",
+    "expected": 55,
+    "observed": 55,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "UC-flagged items in the review",
+    "expected": 6,
+    "observed": 6,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "kappa AD vs AH",
+    "expected": 0.33,
+    "observed": 0.3262,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "kappa AD vs translated",
+    "expected": 0.28,
+    "observed": 0.2816,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "kappa AH vs translated",
+    "expected": 0.2,
+    "observed": 0.1974,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "kappa AD vs bottom-up",
+    "expected": -0.11,
+    "observed": -0.1101,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "kappa AH vs bottom-up",
+    "expected": -0.2,
+    "observed": -0.2018,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "discordant under the final structure (ledger)",
+    "expected": 60,
+    "observed": 60,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "reviewed but concordant",
+    "expected": "COG_027",
+    "observed": "COG_027",
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "mismatches ledger rows",
+    "expected": 60,
+    "observed": 60,
+    "ok": true,
+    "source": "results/tables/mismatches_ledger_b3.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "ledger = reviewed set minus COG_027",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "expert overrides",
+    "expected": "COG_033,COG_065,COG_069",
+    "observed": "COG_033,COG_065,COG_069",
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "discordant before the overrides (algorithmic vs bottom-up)",
+    "expected": 59,
+    "observed": 59,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "discordant after the overrides (final vs bottom-up)",
+    "expected": 60,
+    "observed": 60,
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "item made discordant by its override",
+    "expected": "COG_033",
+    "observed": "COG_033",
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "items made concordant by the overrides",
+    "expected": "",
+    "observed": "",
+    "ok": true,
+    "source": "results/tables/bayley3_item_domain_assignments.csv"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AD vs AH (text)",
+    "expected": 0.32,
+    "observed": 0.3163,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AD vs translated, pre-override (text)",
+    "expected": 0.27,
+    "observed": 0.2723,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AH vs translated, pre-override (text)",
+    "expected": 0.19,
+    "observed": 0.1875,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AD vs final translated",
+    "expected": 0.35,
+    "observed": 0.3545,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AH vs final translated",
+    "expected": 0.25,
+    "observed": 0.2521,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AD vs bottom-up (text)",
+    "expected": -0.12,
+    "observed": -0.1224,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Objective 3 - Bayley-III",
+    "label": "60-item set: kappa AH vs bottom-up (text)",
+    "expected": -0.22,
+    "observed": -0.2155,
+    "ok": true,
+    "source": "expert_review/records/coauthor_review_b3_kappa.json"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 all items, any-factor rule",
+    "expected": "24/39",
+    "observed": "24/39",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 all items %",
+    "expected": 61.5,
+    "observed": 61.5,
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 ATT any-factor",
+    "expected": "9/9",
+    "observed": "9/9",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 WM any-factor",
+    "expected": "5/12",
+    "observed": "5/12",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 GDPS any-factor",
+    "expected": "0/5",
+    "observed": "0/5",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 FS any-factor",
+    "expected": "9/10",
+    "observed": "9/10",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 HOP any-factor",
+    "expected": "1/6",
+    "observed": "1/6",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 GDPS single-domain",
+    "expected": "0/3",
+    "observed": "0/3",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 FS single-domain",
+    "expected": "7/8",
+    "observed": "7/8",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S6 HOP single-domain",
+    "expected": "0/4",
+    "observed": "0/4",
+    "ok": true,
+    "source": "results/tables/table_s6_b4_domain_recovery.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S7 consensus-apart pairs (31 items)",
+    "expected": 299,
+    "observed": 299,
+    "ok": true,
+    "source": "results/tables/table_s7_b4_pair_level_intermediacy.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S7 consensus-apart kept apart (Results: 96%)",
+    "expected": "287 (96%)",
+    "observed": "287 (96%)",
+    "ok": true,
+    "source": "results/tables/table_s7_b4_pair_level_intermediacy.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S7 consensus-together kept together",
+    "expected": "30 (77%)",
+    "observed": "30 (77%)",
+    "ok": true,
+    "source": "results/tables/table_s7_b4_pair_level_intermediacy.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S7 disputed pairs expert / empirical",
+    "expected": "67/60",
+    "observed": "67/60",
+    "ok": true,
+    "source": "results/tables/table_s7_b4_pair_level_intermediacy.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8a discordant Bayley-4 items",
+    "expected": 16,
+    "observed": 16,
+    "ok": true,
+    "source": "results/tables/table_s8a_expert_review_b4.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8a items with a consensus",
+    "expected": 8,
+    "observed": 8,
+    "ok": true,
+    "source": "results/tables/table_s8a_expert_review_b4.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8a = mismatches ledger (Bayley-4)",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s8a_expert_review_b4.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8b discordant Bayley-III items",
+    "expected": 60,
+    "observed": 60,
+    "ok": true,
+    "source": "results/tables/table_s8b_expert_review_b3.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8b items with a consensus",
+    "expected": 24,
+    "observed": 24,
+    "ok": true,
+    "source": "results/tables/table_s8b_expert_review_b3.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8b expert overrides (algorithmic != final)",
+    "expected": "COG_033,COG_065,COG_069",
+    "observed": "COG_033,COG_065,COG_069",
+    "ok": true,
+    "source": "results/tables/table_s8b_expert_review_b3.csv"
+  },
+  {
+    "section": "Supplementary tables S6-S8",
+    "label": "S8b = mismatches ledger (Bayley-III)",
+    "expected": true,
+    "observed": true,
+    "ok": true,
+    "source": "results/tables/table_s8b_expert_review_b3.csv"
+  }
+]

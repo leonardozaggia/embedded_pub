@@ -1,0 +1,107 @@
+# Reference measurement models for Bayley-4 cognitive items
+# Used for validation and comparison with data-driven clustering results
+
+theoretical:
+  description: "Theoretical EF model from Aylward et al. (2022)"
+  source: "Aylward et al. (2022) - Table 1 Hypothesized Underlying Executive Functions"
+
+  attention:
+    - COG_002
+    - COG_003
+    - COG_008
+    - COG_009
+    - COG_010
+    - COG_011
+    - COG_012
+    - COG_026
+    - COG_041
+
+  working_memory:
+    - COG_021
+    - COG_024
+    - COG_028
+    - COG_032
+    - COG_037
+    - COG_042
+    - COG_056
+    - COG_076
+    - COG_060
+    - COG_064
+    - COG_067
+    - COG_080
+
+  goal_directed_problem_solving:
+    - COG_014
+    - COG_022
+    - COG_035
+    - COG_048
+    - COG_057
+
+  flexibility_shift:
+    - COG_034
+    - COG_035
+    - COG_052
+    - COG_053
+    - COG_073
+    - COG_074
+    - COG_040
+    - COG_043
+    - COG_049
+    - COG_051
+
+  higher_order_processing:
+    - COG_048
+    - COG_051
+    - COG_062
+    - COG_063
+    - COG_068
+    - COG_081
+
+empirical:
+  description: "Empirical factor structure from confirmatory analysis"
+  source: "Data-driven factor analysis on normative sample"
+  
+  factor_1:
+    - COG_056
+    - COG_076
+    - COG_060
+    - COG_064
+    - COG_067
+    - COG_080
+    - COG_073
+    - COG_074
+    - COG_062
+    - COG_063
+    - COG_068
+  
+  factor_2:
+    - COG_041
+    - COG_057
+    - COG_035
+    - COG_053
+    - COG_040
+    - COG_043
+    - COG_047
+    - COG_049
+    - COG_051
+    - COG_048
+  
+  factor_3:
+    - COG_026
+    - COG_024
+    - COG_028
+    - COG_032
+    - COG_037
+    - COG_042
+  
+  factor_4:
+    - COG_009
+    - COG_010
+    - COG_012
+    - COG_021
+  
+  factor_5:
+    - COG_011
+    - COG_014
+    - COG_034
+    - COG_022  # tie with factor_3

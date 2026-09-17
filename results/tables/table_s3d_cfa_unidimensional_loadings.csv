@@ -1,0 +1,24 @@
+item_id,item_title,std_loading,se,est_se,p_value
+COG040,Finds Hidden Object,0.328,0.058,5.683,0.0
+COG045,Finds Hidden Object (Reversed),0.401,0.042,9.616,0.0
+COG050,Finds Hidden Object (Visible Displacement),0.483,0.042,11.617,0.0
+COG064,Matches Pictures,0.749,0.029,25.455,0.0
+COG041,Suspends Ring,0.35,0.045,7.758,0.0
+COG043,Clear Box: Front,0.475,0.053,8.996,0.0
+COG044,Squeezes Object,0.436,0.058,7.559,0.0
+COG046,Removes Lid From Bottle,0.329,0.043,7.67,0.0
+COG048,Relational Play Series: Self,0.551,0.054,10.151,0.0
+COG052,Clear Box: Sides,0.447,0.041,10.943,0.0
+COG053,Relational Play Series: Others,0.465,0.039,11.983,0.0
+COG057,Uses Pencil to Obtain Object,0.387,0.05,7.784,0.0
+COG049,Pink Board Series: 1 Piece,0.81,0.03,26.869,0.0
+COG051,Blue Board Series: 1 Piece,0.776,0.041,19.08,0.0
+COG054,Block Series: 9 Blocks,0.429,0.042,10.184,0.0
+COG055,Pegboard Series: 6 Pegs,0.819,0.037,22.382,0.0
+COG056,Pink Board Series: Completes,0.92,0.015,61.657,0.0
+COG058,Blue Board Series: 4 Pieces,0.799,0.022,36.651,0.0
+COG060,Rotated Pink Board,0.902,0.015,59.782,0.0
+COG061,Object Assembly (Ball),0.803,0.025,32.158,0.0
+COG062,Completes Pegboard: 25 Seconds,0.638,0.041,15.509,0.0
+COG063,Object Assembly (Ice Cream Cone),0.822,0.031,26.688,0.0
+COG066,Blue Board Series: Completes (75 Seconds),0.933,0.019,49.816,0.0

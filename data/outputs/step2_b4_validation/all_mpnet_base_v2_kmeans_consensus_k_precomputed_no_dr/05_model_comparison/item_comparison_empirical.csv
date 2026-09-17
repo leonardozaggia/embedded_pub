@@ -1,0 +1,41 @@
+item_id,cluster,probability,reference_factor,detected_factor,agrees
+COG_002,1,0.5952,unassigned,attention,False
+COG_003,1,0.5998,unassigned,attention,False
+COG_008,1,0.6252,unassigned,attention,False
+COG_009,1,0.5914999999999999,factor_4,attention,False
+COG_010,1,0.6207,factor_4,attention,False
+COG_011,1,0.6406,factor_5,attention,False
+COG_012,1,0.6544000000000001,factor_4,attention,False
+COG_014,2,0.5062500000000001,factor_5,higher order processes,False
+COG_021,4,0.548,factor_4,goal directed problem solving,False
+COG_022,2,0.522,factor_5,higher order processes,False
+COG_024,1,0.6425,factor_3,attention,False
+COG_026,1,0.6470999999999999,factor_3,attention,False
+COG_028,4,0.74075,factor_3,goal directed problem solving,False
+COG_032,4,0.8079999999999999,factor_3,goal directed problem solving,False
+COG_034,2,0.499,factor_5,higher order processes,False
+COG_035,3,0.5983,factor_2,flexibility shift,False
+COG_037,4,0.80225,factor_3,goal directed problem solving,False
+COG_040,3,0.7880999999999999,factor_2,flexibility shift,False
+COG_041,1,0.6476999999999999,factor_2,attention,False
+COG_042,4,0.807,factor_3,goal directed problem solving,False
+COG_043,3,0.7814,factor_2,flexibility shift,False
+COG_047,3,0.7889,factor_2,flexibility shift,False
+COG_048,2,0.498,factor_2,higher order processes,False
+COG_049,3,0.7809,factor_2,flexibility shift,False
+COG_051,3,0.7831,factor_2,flexibility shift,False
+COG_052,3,0.7329,unassigned,flexibility shift,False
+COG_053,3,0.7251,factor_2,flexibility shift,False
+COG_056,0,0.5637142857142857,factor_1,working memory,False
+COG_057,2,0.51425,factor_2,higher order processes,False
+COG_060,0,0.497,factor_1,working memory,False
+COG_062,0,0.4127142857142857,factor_1,working memory,False
+COG_063,0,0.5175714285714286,factor_1,working memory,False
+COG_064,0,0.5064285714285715,factor_1,working memory,False
+COG_067,1,0.3869,factor_1,attention,False
+COG_068,0,0.5534285714285715,factor_1,working memory,False
+COG_073,3,0.7331,factor_1,flexibility shift,False
+COG_074,3,0.7377,factor_1,flexibility shift,False
+COG_076,0,0.5642857142857143,factor_1,working memory,False
+COG_080,0,0.5188571428571429,factor_1,working memory,False
+COG_081,3,0.5167,unassigned,flexibility shift,False

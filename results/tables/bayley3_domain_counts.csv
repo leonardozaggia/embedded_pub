@@ -1,0 +1,6 @@
+domain,cascade_pairing,centroid_nearest_domain,centroid_uc_redirected,expert_review_confirmed,expert_review_no_consensus,expert_review_override,total
+ATT,9,11,1,0,0,1,22
+WM,12,4,3,0,0,0,19
+GDPS,5,8,7,2,1,0,23
+FS,9,3,6,0,0,2,20
+HOP,4,3,0,0,0,0,7
